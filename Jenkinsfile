@@ -6,6 +6,8 @@ pipeline {
     stage('Build') {
       steps {
         sh 'make clean'
+        sh 'cd src/vm/'
+        sh 'make'
       }
     }
   }
