@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is AppleClang, found in "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdC/a.out"
+The C compiler identification is AppleClang, found in "/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /Library/Developer/CommandLineTools/usr/bin/c++ 
@@ -23,39 +23,39 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is AppleClang, found in "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdCXX/a.out"
+The CXX compiler identification is AppleClang, found in "/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles/3.9.6/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/bin/gmake" "cmTC_aa64b/fast"
-/usr/local/bin/gmake -f CMakeFiles/cmTC_aa64b.dir/build.make CMakeFiles/cmTC_aa64b.dir/build
-gmake[1]: Entering directory '/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_aa64b.dir/testCCompiler.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_aa64b.dir/testCCompiler.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c"
-Linking C executable cmTC_aa64b
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa64b.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_aa64b.dir/testCCompiler.c.o  -o cmTC_aa64b 
-gmake[1]: Leaving directory '/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/local/bin/gmake" "cmTC_c435b/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_c435b.dir/build.make CMakeFiles/cmTC_c435b.dir/build
+gmake[1]: Entering directory '/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c435b.dir/testCCompiler.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_c435b.dir/testCCompiler.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_c435b
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c435b.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c435b.dir/testCCompiler.c.o  -o cmTC_c435b 
+gmake[1]: Leaving directory '/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/bin/gmake" "cmTC_1333c/fast"
-/usr/local/bin/gmake -f CMakeFiles/cmTC_1333c.dir/build.make CMakeFiles/cmTC_1333c.dir/build
-gmake[1]: Entering directory '/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1333c.dir/CMakeCCompilerABI.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_1333c.dir/CMakeCCompilerABI.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_1333c
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1333c.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_1333c.dir/CMakeCCompilerABI.c.o  -o cmTC_1333c 
-Apple LLVM version 9.0.0 (clang-900.0.39.2)
+Run Build Command:"/usr/local/bin/gmake" "cmTC_19de8/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_19de8.dir/build.make CMakeFiles/cmTC_19de8.dir/build
+gmake[1]: Entering directory '/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_19de8.dir/CMakeCCompilerABI.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_19de8.dir/CMakeCCompilerABI.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_19de8
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19de8.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_19de8.dir/CMakeCCompilerABI.c.o  -o cmTC_19de8 
+Apple LLVM version 9.1.0 (clang-902.0.39.1)
 Target: x86_64-apple-darwin17.4.0
 Thread model: posix
 InstalledDir: /Library/Developer/CommandLineTools/usr/bin
- "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_1333c -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_1333c.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a
-@(#)PROGRAM:ld  PROJECT:ld64-305
+ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_19de8 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_19de8.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-351.8
 configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
 Library search paths:
 	/usr/lib
@@ -63,26 +63,26 @@ Library search paths:
 Framework search paths:
 	/Library/Frameworks/
 	/System/Library/Frameworks/
-gmake[1]: Leaving directory '/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/local/bin/gmake" "cmTC_1333c/fast"]
-  ignore line: [/usr/local/bin/gmake -f CMakeFiles/cmTC_1333c.dir/build.make CMakeFiles/cmTC_1333c.dir/build]
-  ignore line: [gmake[1]: Entering directory '/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_1333c.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_1333c.dir/CMakeCCompilerABI.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_1333c]
-  ignore line: [/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1333c.dir/link.txt --verbose=1]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_1333c.dir/CMakeCCompilerABI.c.o  -o cmTC_1333c ]
-  ignore line: [Apple LLVM version 9.0.0 (clang-900.0.39.2)]
+  ignore line: [Run Build Command:"/usr/local/bin/gmake" "cmTC_19de8/fast"]
+  ignore line: [/usr/local/bin/gmake -f CMakeFiles/cmTC_19de8.dir/build.make CMakeFiles/cmTC_19de8.dir/build]
+  ignore line: [gmake[1]: Entering directory '/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_19de8.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_19de8.dir/CMakeCCompilerABI.c.o   -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_19de8]
+  ignore line: [/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19de8.dir/link.txt --verbose=1]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_19de8.dir/CMakeCCompilerABI.c.o  -o cmTC_19de8 ]
+  ignore line: [Apple LLVM version 9.1.0 (clang-902.0.39.1)]
   ignore line: [Target: x86_64-apple-darwin17.4.0]
   ignore line: [Thread model: posix]
   ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_1333c -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_1333c.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
+  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_19de8 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_19de8.dir/CMakeCCompilerABI.c.o -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.osx.a]
     arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
     arg [-demangle] ==> ignore
     arg [-lto_library] ==> ignore, skip following value
@@ -93,17 +93,17 @@ Parsed C implicit link information from above output:
     arg [-macosx_version_min] ==> ignore
     arg [10.13.0] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_1333c] ==> ignore
+    arg [cmTC_19de8] ==> ignore
     arg [-search_paths_first] ==> ignore
     arg [-headerpad_max_install_names] ==> ignore
     arg [-v] ==> ignore
-    arg [CMakeFiles/cmTC_1333c.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_19de8.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lSystem] ==> lib [System]
-    arg [/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.osx.a]
   Library search paths: [;/usr/lib;/usr/local/lib]
   Framework search paths: [;/Library/Frameworks/;/System/Library/Frameworks/]
   remove lib [System]
-  remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
+  remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.osx.a]
   collapse library dir [/usr/lib] ==> [/usr/lib]
   collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
   collapse framework dir [/Library/Frameworks/] ==> [/Library/Frameworks]
@@ -116,17 +116,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/bin/gmake" "cmTC_020eb/fast"
-/usr/local/bin/gmake -f CMakeFiles/cmTC_020eb.dir/build.make CMakeFiles/cmTC_020eb.dir/build
-gmake[1]: Entering directory '/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_020eb.dir/feature_tests.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_020eb.dir/feature_tests.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles/feature_tests.c"
-Linking C executable cmTC_020eb
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_020eb.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_020eb.dir/feature_tests.c.o  -o cmTC_020eb 
-gmake[1]: Leaving directory '/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/local/bin/gmake" "cmTC_49033/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_49033.dir/build.make CMakeFiles/cmTC_49033.dir/build
+gmake[1]: Entering directory '/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_49033.dir/feature_tests.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_49033.dir/feature_tests.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_49033
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49033.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_49033.dir/feature_tests.c.o  -o cmTC_49033 
+gmake[1]: Leaving directory '/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -136,17 +136,17 @@ gmake[1]: Leaving directory '/Users/shashwatdalal/Documents/Sophmore Year Projec
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/bin/gmake" "cmTC_1d3a1/fast"
-/usr/local/bin/gmake -f CMakeFiles/cmTC_1d3a1.dir/build.make CMakeFiles/cmTC_1d3a1.dir/build
-gmake[1]: Entering directory '/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1d3a1.dir/feature_tests.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_1d3a1.dir/feature_tests.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles/feature_tests.c"
-Linking C executable cmTC_1d3a1
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d3a1.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_1d3a1.dir/feature_tests.c.o  -o cmTC_1d3a1 
-gmake[1]: Leaving directory '/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/local/bin/gmake" "cmTC_76943/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_76943.dir/build.make CMakeFiles/cmTC_76943.dir/build
+gmake[1]: Entering directory '/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_76943.dir/feature_tests.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_76943.dir/feature_tests.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_76943
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76943.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_76943.dir/feature_tests.c.o  -o cmTC_76943 
+gmake[1]: Leaving directory '/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -156,17 +156,17 @@ gmake[1]: Leaving directory '/Users/shashwatdalal/Documents/Sophmore Year Projec
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/bin/gmake" "cmTC_31886/fast"
-/usr/local/bin/gmake -f CMakeFiles/cmTC_31886.dir/build.make CMakeFiles/cmTC_31886.dir/build
-gmake[1]: Entering directory '/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_31886.dir/feature_tests.c.o
-/Library/Developer/CommandLineTools/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_31886.dir/feature_tests.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles/feature_tests.c"
-Linking C executable cmTC_31886
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31886.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_31886.dir/feature_tests.c.o  -o cmTC_31886 
-gmake[1]: Leaving directory '/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/local/bin/gmake" "cmTC_e2ec1/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_e2ec1.dir/build.make CMakeFiles/cmTC_e2ec1.dir/build
+gmake[1]: Entering directory '/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e2ec1.dir/feature_tests.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_e2ec1.dir/feature_tests.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_e2ec1
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2ec1.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e2ec1.dir/feature_tests.c.o  -o cmTC_e2ec1 
+gmake[1]: Leaving directory '/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -174,36 +174,36 @@ gmake[1]: Leaving directory '/Users/shashwatdalal/Documents/Sophmore Year Projec
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/bin/gmake" "cmTC_f90a1/fast"
-/usr/local/bin/gmake -f CMakeFiles/cmTC_f90a1.dir/build.make CMakeFiles/cmTC_f90a1.dir/build
-gmake[1]: Entering directory '/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_f90a1.dir/testCXXCompiler.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++     -o CMakeFiles/cmTC_f90a1.dir/testCXXCompiler.cxx.o -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx"
-Linking CXX executable cmTC_f90a1
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f90a1.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f90a1.dir/testCXXCompiler.cxx.o  -o cmTC_f90a1 
-gmake[1]: Leaving directory '/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/local/bin/gmake" "cmTC_178e3/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_178e3.dir/build.make CMakeFiles/cmTC_178e3.dir/build
+gmake[1]: Entering directory '/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_178e3.dir/testCXXCompiler.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++     -o CMakeFiles/cmTC_178e3.dir/testCXXCompiler.cxx.o -c /Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_178e3
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_178e3.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_178e3.dir/testCXXCompiler.cxx.o  -o cmTC_178e3 
+gmake[1]: Leaving directory '/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/bin/gmake" "cmTC_0f798/fast"
-/usr/local/bin/gmake -f CMakeFiles/cmTC_0f798.dir/build.make CMakeFiles/cmTC_0f798.dir/build
-gmake[1]: Entering directory '/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_0f798.dir/CMakeCXXCompilerABI.cpp.o
-/Library/Developer/CommandLineTools/usr/bin/c++     -o CMakeFiles/cmTC_0f798.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_0f798
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f798.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_0f798.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_0f798 
-Apple LLVM version 9.0.0 (clang-900.0.39.2)
+Run Build Command:"/usr/local/bin/gmake" "cmTC_0786a/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_0786a.dir/build.make CMakeFiles/cmTC_0786a.dir/build
+gmake[1]: Entering directory '/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0786a.dir/CMakeCXXCompilerABI.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/c++     -o CMakeFiles/cmTC_0786a.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_0786a
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0786a.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_0786a.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_0786a 
+Apple LLVM version 9.1.0 (clang-902.0.39.1)
 Target: x86_64-apple-darwin17.4.0
 Thread model: posix
 InstalledDir: /Library/Developer/CommandLineTools/usr/bin
- "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_0f798 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_0f798.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a
-@(#)PROGRAM:ld  PROJECT:ld64-305
+ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_0786a -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_0786a.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-351.8
 configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
 Library search paths:
 	/usr/lib
@@ -211,26 +211,26 @@ Library search paths:
 Framework search paths:
 	/Library/Frameworks/
 	/System/Library/Frameworks/
-gmake[1]: Leaving directory '/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles/CMakeTmp'
+gmake[1]: Leaving directory '/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/local/bin/gmake" "cmTC_0f798/fast"]
-  ignore line: [/usr/local/bin/gmake -f CMakeFiles/cmTC_0f798.dir/build.make CMakeFiles/cmTC_0f798.dir/build]
-  ignore line: [gmake[1]: Entering directory '/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_0f798.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++     -o CMakeFiles/cmTC_0f798.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_0f798]
-  ignore line: [/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f798.dir/link.txt --verbose=1]
-  ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_0f798.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_0f798 ]
-  ignore line: [Apple LLVM version 9.0.0 (clang-900.0.39.2)]
+  ignore line: [Run Build Command:"/usr/local/bin/gmake" "cmTC_0786a/fast"]
+  ignore line: [/usr/local/bin/gmake -f CMakeFiles/cmTC_0786a.dir/build.make CMakeFiles/cmTC_0786a.dir/build]
+  ignore line: [gmake[1]: Entering directory '/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_0786a.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++     -o CMakeFiles/cmTC_0786a.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CLion.app/Contents/bin/cmake/share/cmake-3.9/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_0786a]
+  ignore line: [/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0786a.dir/link.txt --verbose=1]
+  ignore line: [/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_0786a.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_0786a ]
+  ignore line: [Apple LLVM version 9.1.0 (clang-902.0.39.1)]
   ignore line: [Target: x86_64-apple-darwin17.4.0]
   ignore line: [Thread model: posix]
   ignore line: [InstalledDir: /Library/Developer/CommandLineTools/usr/bin]
-  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_0f798 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_0f798.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
+  link line: [ "/Library/Developer/CommandLineTools/usr/bin/ld" -demangle -lto_library /Library/Developer/CommandLineTools/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -o cmTC_0786a -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_0786a.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.osx.a]
     arg [/Library/Developer/CommandLineTools/usr/bin/ld] ==> ignore
     arg [-demangle] ==> ignore
     arg [-lto_library] ==> ignore, skip following value
@@ -241,18 +241,18 @@ Parsed CXX implicit link information from above output:
     arg [-macosx_version_min] ==> ignore
     arg [10.13.0] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_0f798] ==> ignore
+    arg [cmTC_0786a] ==> ignore
     arg [-search_paths_first] ==> ignore
     arg [-headerpad_max_install_names] ==> ignore
     arg [-v] ==> ignore
-    arg [CMakeFiles/cmTC_0f798.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_0786a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lc++] ==> lib [c++]
     arg [-lSystem] ==> lib [System]
-    arg [/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.osx.a]
   Library search paths: [;/usr/lib;/usr/local/lib]
   Framework search paths: [;/Library/Frameworks/;/System/Library/Frameworks/]
   remove lib [System]
-  remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/9.0.0/lib/darwin/libclang_rt.osx.a]
+  remove lib [/Library/Developer/CommandLineTools/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.osx.a]
   collapse library dir [/usr/lib] ==> [/usr/lib]
   collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
   collapse framework dir [/Library/Frameworks/] ==> [/Library/Frameworks]
@@ -265,17 +265,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/bin/gmake" "cmTC_35e17/fast"
-/usr/local/bin/gmake -f CMakeFiles/cmTC_35e17.dir/build.make CMakeFiles/cmTC_35e17.dir/build
-gmake[1]: Entering directory '/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_35e17.dir/feature_tests.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_35e17.dir/feature_tests.cxx.o -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles/feature_tests.cxx"
-Linking CXX executable cmTC_35e17
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_35e17.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_35e17.dir/feature_tests.cxx.o  -o cmTC_35e17 
-gmake[1]: Leaving directory '/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/local/bin/gmake" "cmTC_8ae18/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_8ae18.dir/build.make CMakeFiles/cmTC_8ae18.dir/build
+gmake[1]: Entering directory '/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8ae18.dir/feature_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++1z -o CMakeFiles/cmTC_8ae18.dir/feature_tests.cxx.o -c /Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_8ae18
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ae18.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8ae18.dir/feature_tests.cxx.o  -o cmTC_8ae18 
+gmake[1]: Leaving directory '/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -338,17 +338,17 @@ gmake[1]: Leaving directory '/Users/shashwatdalal/Documents/Sophmore Year Projec
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/bin/gmake" "cmTC_0a9c9/fast"
-/usr/local/bin/gmake -f CMakeFiles/cmTC_0a9c9.dir/build.make CMakeFiles/cmTC_0a9c9.dir/build
-gmake[1]: Entering directory '/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_0a9c9.dir/feature_tests.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_0a9c9.dir/feature_tests.cxx.o -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles/feature_tests.cxx"
-Linking CXX executable cmTC_0a9c9
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a9c9.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0a9c9.dir/feature_tests.cxx.o  -o cmTC_0a9c9 
-gmake[1]: Leaving directory '/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/local/bin/gmake" "cmTC_62c93/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_62c93.dir/build.make CMakeFiles/cmTC_62c93.dir/build
+gmake[1]: Entering directory '/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_62c93.dir/feature_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_62c93.dir/feature_tests.cxx.o -c /Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_62c93
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62c93.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_62c93.dir/feature_tests.cxx.o  -o cmTC_62c93 
+gmake[1]: Leaving directory '/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -411,17 +411,17 @@ gmake[1]: Leaving directory '/Users/shashwatdalal/Documents/Sophmore Year Projec
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/bin/gmake" "cmTC_3c4fe/fast"
-/usr/local/bin/gmake -f CMakeFiles/cmTC_3c4fe.dir/build.make CMakeFiles/cmTC_3c4fe.dir/build
-gmake[1]: Entering directory '/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_3c4fe.dir/feature_tests.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_3c4fe.dir/feature_tests.cxx.o -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles/feature_tests.cxx"
-Linking CXX executable cmTC_3c4fe
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c4fe.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_3c4fe.dir/feature_tests.cxx.o  -o cmTC_3c4fe 
-gmake[1]: Leaving directory '/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/local/bin/gmake" "cmTC_bdb34/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_bdb34.dir/build.make CMakeFiles/cmTC_bdb34.dir/build
+gmake[1]: Entering directory '/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bdb34.dir/feature_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_bdb34.dir/feature_tests.cxx.o -c /Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_bdb34
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bdb34.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_bdb34.dir/feature_tests.cxx.o  -o cmTC_bdb34 
+gmake[1]: Leaving directory '/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -484,17 +484,17 @@ gmake[1]: Leaving directory '/Users/shashwatdalal/Documents/Sophmore Year Projec
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/local/bin/gmake" "cmTC_b72fb/fast"
-/usr/local/bin/gmake -f CMakeFiles/cmTC_b72fb.dir/build.make CMakeFiles/cmTC_b72fb.dir/build
-gmake[1]: Entering directory '/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b72fb.dir/feature_tests.cxx.o
-/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_b72fb.dir/feature_tests.cxx.o -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles/feature_tests.cxx"
-Linking CXX executable cmTC_b72fb
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b72fb.dir/link.txt --verbose=1
-/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_b72fb.dir/feature_tests.cxx.o  -o cmTC_b72fb 
-gmake[1]: Leaving directory '/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/local/bin/gmake" "cmTC_ebdf6/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_ebdf6.dir/build.make CMakeFiles/cmTC_ebdf6.dir/build
+gmake[1]: Entering directory '/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ebdf6.dir/feature_tests.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_ebdf6.dir/feature_tests.cxx.o -c /Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_ebdf6
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ebdf6.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/c++    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_ebdf6.dir/feature_tests.cxx.o  -o cmTC_ebdf6 
+gmake[1]: Leaving directory '/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

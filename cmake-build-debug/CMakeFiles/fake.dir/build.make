@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39"
+CMAKE_SOURCE_DIR = /Users/shashwatdalal/Documents/ci-testing/pintos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug"
+CMAKE_BINARY_DIR = /Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/fake.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/fake.dir/flags.make
 
 CMakeFiles/fake.dir/src/devices/block.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/devices/block.c.o: ../src/devices/block.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/fake.dir/src/devices/block.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/devices/block.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/devices/block.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/fake.dir/src/devices/block.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/devices/block.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/devices/block.c
 
 CMakeFiles/fake.dir/src/devices/block.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/devices/block.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/devices/block.c" > CMakeFiles/fake.dir/src/devices/block.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/devices/block.c > CMakeFiles/fake.dir/src/devices/block.c.i
 
 CMakeFiles/fake.dir/src/devices/block.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/devices/block.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/devices/block.c" -o CMakeFiles/fake.dir/src/devices/block.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/devices/block.c -o CMakeFiles/fake.dir/src/devices/block.c.s
 
 CMakeFiles/fake.dir/src/devices/block.c.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/fake.dir/src/devices/block.c.o.provides.build: CMakeFiles/fake.dir/sr
 
 CMakeFiles/fake.dir/src/devices/ide.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/devices/ide.c.o: ../src/devices/ide.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/fake.dir/src/devices/ide.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/devices/ide.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/devices/ide.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/fake.dir/src/devices/ide.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/devices/ide.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/devices/ide.c
 
 CMakeFiles/fake.dir/src/devices/ide.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/devices/ide.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/devices/ide.c" > CMakeFiles/fake.dir/src/devices/ide.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/devices/ide.c > CMakeFiles/fake.dir/src/devices/ide.c.i
 
 CMakeFiles/fake.dir/src/devices/ide.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/devices/ide.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/devices/ide.c" -o CMakeFiles/fake.dir/src/devices/ide.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/devices/ide.c -o CMakeFiles/fake.dir/src/devices/ide.c.s
 
 CMakeFiles/fake.dir/src/devices/ide.c.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/fake.dir/src/devices/ide.c.o.provides.build: CMakeFiles/fake.dir/src/
 
 CMakeFiles/fake.dir/src/devices/input.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/devices/input.c.o: ../src/devices/input.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/fake.dir/src/devices/input.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/devices/input.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/devices/input.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/fake.dir/src/devices/input.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/devices/input.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/devices/input.c
 
 CMakeFiles/fake.dir/src/devices/input.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/devices/input.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/devices/input.c" > CMakeFiles/fake.dir/src/devices/input.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/devices/input.c > CMakeFiles/fake.dir/src/devices/input.c.i
 
 CMakeFiles/fake.dir/src/devices/input.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/devices/input.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/devices/input.c" -o CMakeFiles/fake.dir/src/devices/input.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/devices/input.c -o CMakeFiles/fake.dir/src/devices/input.c.s
 
 CMakeFiles/fake.dir/src/devices/input.c.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/fake.dir/src/devices/input.c.o.provides.build: CMakeFiles/fake.dir/sr
 
 CMakeFiles/fake.dir/src/devices/intq.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/devices/intq.c.o: ../src/devices/intq.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/fake.dir/src/devices/intq.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/devices/intq.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/devices/intq.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/fake.dir/src/devices/intq.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/devices/intq.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/devices/intq.c
 
 CMakeFiles/fake.dir/src/devices/intq.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/devices/intq.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/devices/intq.c" > CMakeFiles/fake.dir/src/devices/intq.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/devices/intq.c > CMakeFiles/fake.dir/src/devices/intq.c.i
 
 CMakeFiles/fake.dir/src/devices/intq.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/devices/intq.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/devices/intq.c" -o CMakeFiles/fake.dir/src/devices/intq.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/devices/intq.c -o CMakeFiles/fake.dir/src/devices/intq.c.s
 
 CMakeFiles/fake.dir/src/devices/intq.c.o.requires:
 
@@ -155,16 +155,16 @@ CMakeFiles/fake.dir/src/devices/intq.c.o.provides.build: CMakeFiles/fake.dir/src
 
 CMakeFiles/fake.dir/src/devices/kbd.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/devices/kbd.c.o: ../src/devices/kbd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/fake.dir/src/devices/kbd.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/devices/kbd.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/devices/kbd.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/fake.dir/src/devices/kbd.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/devices/kbd.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/devices/kbd.c
 
 CMakeFiles/fake.dir/src/devices/kbd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/devices/kbd.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/devices/kbd.c" > CMakeFiles/fake.dir/src/devices/kbd.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/devices/kbd.c > CMakeFiles/fake.dir/src/devices/kbd.c.i
 
 CMakeFiles/fake.dir/src/devices/kbd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/devices/kbd.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/devices/kbd.c" -o CMakeFiles/fake.dir/src/devices/kbd.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/devices/kbd.c -o CMakeFiles/fake.dir/src/devices/kbd.c.s
 
 CMakeFiles/fake.dir/src/devices/kbd.c.o.requires:
 
@@ -179,16 +179,16 @@ CMakeFiles/fake.dir/src/devices/kbd.c.o.provides.build: CMakeFiles/fake.dir/src/
 
 CMakeFiles/fake.dir/src/devices/partition.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/devices/partition.c.o: ../src/devices/partition.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/fake.dir/src/devices/partition.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/devices/partition.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/devices/partition.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/fake.dir/src/devices/partition.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/devices/partition.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/devices/partition.c
 
 CMakeFiles/fake.dir/src/devices/partition.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/devices/partition.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/devices/partition.c" > CMakeFiles/fake.dir/src/devices/partition.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/devices/partition.c > CMakeFiles/fake.dir/src/devices/partition.c.i
 
 CMakeFiles/fake.dir/src/devices/partition.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/devices/partition.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/devices/partition.c" -o CMakeFiles/fake.dir/src/devices/partition.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/devices/partition.c -o CMakeFiles/fake.dir/src/devices/partition.c.s
 
 CMakeFiles/fake.dir/src/devices/partition.c.o.requires:
 
@@ -203,16 +203,16 @@ CMakeFiles/fake.dir/src/devices/partition.c.o.provides.build: CMakeFiles/fake.di
 
 CMakeFiles/fake.dir/src/devices/pit.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/devices/pit.c.o: ../src/devices/pit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/fake.dir/src/devices/pit.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/devices/pit.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/devices/pit.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/fake.dir/src/devices/pit.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/devices/pit.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/devices/pit.c
 
 CMakeFiles/fake.dir/src/devices/pit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/devices/pit.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/devices/pit.c" > CMakeFiles/fake.dir/src/devices/pit.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/devices/pit.c > CMakeFiles/fake.dir/src/devices/pit.c.i
 
 CMakeFiles/fake.dir/src/devices/pit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/devices/pit.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/devices/pit.c" -o CMakeFiles/fake.dir/src/devices/pit.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/devices/pit.c -o CMakeFiles/fake.dir/src/devices/pit.c.s
 
 CMakeFiles/fake.dir/src/devices/pit.c.o.requires:
 
@@ -227,16 +227,16 @@ CMakeFiles/fake.dir/src/devices/pit.c.o.provides.build: CMakeFiles/fake.dir/src/
 
 CMakeFiles/fake.dir/src/devices/rtc.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/devices/rtc.c.o: ../src/devices/rtc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/fake.dir/src/devices/rtc.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/devices/rtc.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/devices/rtc.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/fake.dir/src/devices/rtc.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/devices/rtc.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/devices/rtc.c
 
 CMakeFiles/fake.dir/src/devices/rtc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/devices/rtc.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/devices/rtc.c" > CMakeFiles/fake.dir/src/devices/rtc.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/devices/rtc.c > CMakeFiles/fake.dir/src/devices/rtc.c.i
 
 CMakeFiles/fake.dir/src/devices/rtc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/devices/rtc.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/devices/rtc.c" -o CMakeFiles/fake.dir/src/devices/rtc.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/devices/rtc.c -o CMakeFiles/fake.dir/src/devices/rtc.c.s
 
 CMakeFiles/fake.dir/src/devices/rtc.c.o.requires:
 
@@ -251,16 +251,16 @@ CMakeFiles/fake.dir/src/devices/rtc.c.o.provides.build: CMakeFiles/fake.dir/src/
 
 CMakeFiles/fake.dir/src/devices/serial.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/devices/serial.c.o: ../src/devices/serial.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/fake.dir/src/devices/serial.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/devices/serial.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/devices/serial.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/fake.dir/src/devices/serial.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/devices/serial.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/devices/serial.c
 
 CMakeFiles/fake.dir/src/devices/serial.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/devices/serial.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/devices/serial.c" > CMakeFiles/fake.dir/src/devices/serial.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/devices/serial.c > CMakeFiles/fake.dir/src/devices/serial.c.i
 
 CMakeFiles/fake.dir/src/devices/serial.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/devices/serial.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/devices/serial.c" -o CMakeFiles/fake.dir/src/devices/serial.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/devices/serial.c -o CMakeFiles/fake.dir/src/devices/serial.c.s
 
 CMakeFiles/fake.dir/src/devices/serial.c.o.requires:
 
@@ -275,16 +275,16 @@ CMakeFiles/fake.dir/src/devices/serial.c.o.provides.build: CMakeFiles/fake.dir/s
 
 CMakeFiles/fake.dir/src/devices/shutdown.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/devices/shutdown.c.o: ../src/devices/shutdown.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/fake.dir/src/devices/shutdown.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/devices/shutdown.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/devices/shutdown.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/fake.dir/src/devices/shutdown.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/devices/shutdown.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/devices/shutdown.c
 
 CMakeFiles/fake.dir/src/devices/shutdown.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/devices/shutdown.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/devices/shutdown.c" > CMakeFiles/fake.dir/src/devices/shutdown.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/devices/shutdown.c > CMakeFiles/fake.dir/src/devices/shutdown.c.i
 
 CMakeFiles/fake.dir/src/devices/shutdown.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/devices/shutdown.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/devices/shutdown.c" -o CMakeFiles/fake.dir/src/devices/shutdown.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/devices/shutdown.c -o CMakeFiles/fake.dir/src/devices/shutdown.c.s
 
 CMakeFiles/fake.dir/src/devices/shutdown.c.o.requires:
 
@@ -299,16 +299,16 @@ CMakeFiles/fake.dir/src/devices/shutdown.c.o.provides.build: CMakeFiles/fake.dir
 
 CMakeFiles/fake.dir/src/devices/speaker.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/devices/speaker.c.o: ../src/devices/speaker.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/fake.dir/src/devices/speaker.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/devices/speaker.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/devices/speaker.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/fake.dir/src/devices/speaker.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/devices/speaker.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/devices/speaker.c
 
 CMakeFiles/fake.dir/src/devices/speaker.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/devices/speaker.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/devices/speaker.c" > CMakeFiles/fake.dir/src/devices/speaker.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/devices/speaker.c > CMakeFiles/fake.dir/src/devices/speaker.c.i
 
 CMakeFiles/fake.dir/src/devices/speaker.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/devices/speaker.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/devices/speaker.c" -o CMakeFiles/fake.dir/src/devices/speaker.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/devices/speaker.c -o CMakeFiles/fake.dir/src/devices/speaker.c.s
 
 CMakeFiles/fake.dir/src/devices/speaker.c.o.requires:
 
@@ -323,16 +323,16 @@ CMakeFiles/fake.dir/src/devices/speaker.c.o.provides.build: CMakeFiles/fake.dir/
 
 CMakeFiles/fake.dir/src/devices/timer.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/devices/timer.c.o: ../src/devices/timer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/fake.dir/src/devices/timer.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/devices/timer.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/devices/timer.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/fake.dir/src/devices/timer.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/devices/timer.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/devices/timer.c
 
 CMakeFiles/fake.dir/src/devices/timer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/devices/timer.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/devices/timer.c" > CMakeFiles/fake.dir/src/devices/timer.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/devices/timer.c > CMakeFiles/fake.dir/src/devices/timer.c.i
 
 CMakeFiles/fake.dir/src/devices/timer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/devices/timer.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/devices/timer.c" -o CMakeFiles/fake.dir/src/devices/timer.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/devices/timer.c -o CMakeFiles/fake.dir/src/devices/timer.c.s
 
 CMakeFiles/fake.dir/src/devices/timer.c.o.requires:
 
@@ -347,16 +347,16 @@ CMakeFiles/fake.dir/src/devices/timer.c.o.provides.build: CMakeFiles/fake.dir/sr
 
 CMakeFiles/fake.dir/src/devices/vga.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/devices/vga.c.o: ../src/devices/vga.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/fake.dir/src/devices/vga.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/devices/vga.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/devices/vga.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/fake.dir/src/devices/vga.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/devices/vga.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/devices/vga.c
 
 CMakeFiles/fake.dir/src/devices/vga.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/devices/vga.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/devices/vga.c" > CMakeFiles/fake.dir/src/devices/vga.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/devices/vga.c > CMakeFiles/fake.dir/src/devices/vga.c.i
 
 CMakeFiles/fake.dir/src/devices/vga.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/devices/vga.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/devices/vga.c" -o CMakeFiles/fake.dir/src/devices/vga.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/devices/vga.c -o CMakeFiles/fake.dir/src/devices/vga.c.s
 
 CMakeFiles/fake.dir/src/devices/vga.c.o.requires:
 
@@ -371,16 +371,16 @@ CMakeFiles/fake.dir/src/devices/vga.c.o.provides.build: CMakeFiles/fake.dir/src/
 
 CMakeFiles/fake.dir/src/examples/bubsort.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/examples/bubsort.c.o: ../src/examples/bubsort.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/fake.dir/src/examples/bubsort.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/examples/bubsort.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/examples/bubsort.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/fake.dir/src/examples/bubsort.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/examples/bubsort.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/examples/bubsort.c
 
 CMakeFiles/fake.dir/src/examples/bubsort.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/examples/bubsort.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/examples/bubsort.c" > CMakeFiles/fake.dir/src/examples/bubsort.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/examples/bubsort.c > CMakeFiles/fake.dir/src/examples/bubsort.c.i
 
 CMakeFiles/fake.dir/src/examples/bubsort.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/examples/bubsort.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/examples/bubsort.c" -o CMakeFiles/fake.dir/src/examples/bubsort.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/examples/bubsort.c -o CMakeFiles/fake.dir/src/examples/bubsort.c.s
 
 CMakeFiles/fake.dir/src/examples/bubsort.c.o.requires:
 
@@ -395,16 +395,16 @@ CMakeFiles/fake.dir/src/examples/bubsort.c.o.provides.build: CMakeFiles/fake.dir
 
 CMakeFiles/fake.dir/src/examples/cat.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/examples/cat.c.o: ../src/examples/cat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/fake.dir/src/examples/cat.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/examples/cat.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/examples/cat.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/fake.dir/src/examples/cat.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/examples/cat.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/examples/cat.c
 
 CMakeFiles/fake.dir/src/examples/cat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/examples/cat.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/examples/cat.c" > CMakeFiles/fake.dir/src/examples/cat.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/examples/cat.c > CMakeFiles/fake.dir/src/examples/cat.c.i
 
 CMakeFiles/fake.dir/src/examples/cat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/examples/cat.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/examples/cat.c" -o CMakeFiles/fake.dir/src/examples/cat.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/examples/cat.c -o CMakeFiles/fake.dir/src/examples/cat.c.s
 
 CMakeFiles/fake.dir/src/examples/cat.c.o.requires:
 
@@ -419,16 +419,16 @@ CMakeFiles/fake.dir/src/examples/cat.c.o.provides.build: CMakeFiles/fake.dir/src
 
 CMakeFiles/fake.dir/src/examples/cmp.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/examples/cmp.c.o: ../src/examples/cmp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/fake.dir/src/examples/cmp.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/examples/cmp.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/examples/cmp.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/fake.dir/src/examples/cmp.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/examples/cmp.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/examples/cmp.c
 
 CMakeFiles/fake.dir/src/examples/cmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/examples/cmp.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/examples/cmp.c" > CMakeFiles/fake.dir/src/examples/cmp.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/examples/cmp.c > CMakeFiles/fake.dir/src/examples/cmp.c.i
 
 CMakeFiles/fake.dir/src/examples/cmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/examples/cmp.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/examples/cmp.c" -o CMakeFiles/fake.dir/src/examples/cmp.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/examples/cmp.c -o CMakeFiles/fake.dir/src/examples/cmp.c.s
 
 CMakeFiles/fake.dir/src/examples/cmp.c.o.requires:
 
@@ -443,16 +443,16 @@ CMakeFiles/fake.dir/src/examples/cmp.c.o.provides.build: CMakeFiles/fake.dir/src
 
 CMakeFiles/fake.dir/src/examples/cp.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/examples/cp.c.o: ../src/examples/cp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/fake.dir/src/examples/cp.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/examples/cp.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/examples/cp.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/fake.dir/src/examples/cp.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/examples/cp.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/examples/cp.c
 
 CMakeFiles/fake.dir/src/examples/cp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/examples/cp.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/examples/cp.c" > CMakeFiles/fake.dir/src/examples/cp.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/examples/cp.c > CMakeFiles/fake.dir/src/examples/cp.c.i
 
 CMakeFiles/fake.dir/src/examples/cp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/examples/cp.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/examples/cp.c" -o CMakeFiles/fake.dir/src/examples/cp.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/examples/cp.c -o CMakeFiles/fake.dir/src/examples/cp.c.s
 
 CMakeFiles/fake.dir/src/examples/cp.c.o.requires:
 
@@ -467,16 +467,16 @@ CMakeFiles/fake.dir/src/examples/cp.c.o.provides.build: CMakeFiles/fake.dir/src/
 
 CMakeFiles/fake.dir/src/examples/echo.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/examples/echo.c.o: ../src/examples/echo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/fake.dir/src/examples/echo.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/examples/echo.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/examples/echo.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/fake.dir/src/examples/echo.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/examples/echo.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/examples/echo.c
 
 CMakeFiles/fake.dir/src/examples/echo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/examples/echo.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/examples/echo.c" > CMakeFiles/fake.dir/src/examples/echo.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/examples/echo.c > CMakeFiles/fake.dir/src/examples/echo.c.i
 
 CMakeFiles/fake.dir/src/examples/echo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/examples/echo.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/examples/echo.c" -o CMakeFiles/fake.dir/src/examples/echo.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/examples/echo.c -o CMakeFiles/fake.dir/src/examples/echo.c.s
 
 CMakeFiles/fake.dir/src/examples/echo.c.o.requires:
 
@@ -491,16 +491,16 @@ CMakeFiles/fake.dir/src/examples/echo.c.o.provides.build: CMakeFiles/fake.dir/sr
 
 CMakeFiles/fake.dir/src/examples/halt.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/examples/halt.c.o: ../src/examples/halt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/fake.dir/src/examples/halt.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/examples/halt.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/examples/halt.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/fake.dir/src/examples/halt.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/examples/halt.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/examples/halt.c
 
 CMakeFiles/fake.dir/src/examples/halt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/examples/halt.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/examples/halt.c" > CMakeFiles/fake.dir/src/examples/halt.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/examples/halt.c > CMakeFiles/fake.dir/src/examples/halt.c.i
 
 CMakeFiles/fake.dir/src/examples/halt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/examples/halt.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/examples/halt.c" -o CMakeFiles/fake.dir/src/examples/halt.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/examples/halt.c -o CMakeFiles/fake.dir/src/examples/halt.c.s
 
 CMakeFiles/fake.dir/src/examples/halt.c.o.requires:
 
@@ -515,16 +515,16 @@ CMakeFiles/fake.dir/src/examples/halt.c.o.provides.build: CMakeFiles/fake.dir/sr
 
 CMakeFiles/fake.dir/src/examples/hex-dump.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/examples/hex-dump.c.o: ../src/examples/hex-dump.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/fake.dir/src/examples/hex-dump.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/examples/hex-dump.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/examples/hex-dump.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/fake.dir/src/examples/hex-dump.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/examples/hex-dump.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/examples/hex-dump.c
 
 CMakeFiles/fake.dir/src/examples/hex-dump.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/examples/hex-dump.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/examples/hex-dump.c" > CMakeFiles/fake.dir/src/examples/hex-dump.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/examples/hex-dump.c > CMakeFiles/fake.dir/src/examples/hex-dump.c.i
 
 CMakeFiles/fake.dir/src/examples/hex-dump.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/examples/hex-dump.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/examples/hex-dump.c" -o CMakeFiles/fake.dir/src/examples/hex-dump.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/examples/hex-dump.c -o CMakeFiles/fake.dir/src/examples/hex-dump.c.s
 
 CMakeFiles/fake.dir/src/examples/hex-dump.c.o.requires:
 
@@ -539,16 +539,16 @@ CMakeFiles/fake.dir/src/examples/hex-dump.c.o.provides.build: CMakeFiles/fake.di
 
 CMakeFiles/fake.dir/src/examples/insult.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/examples/insult.c.o: ../src/examples/insult.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/fake.dir/src/examples/insult.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/examples/insult.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/examples/insult.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/fake.dir/src/examples/insult.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/examples/insult.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/examples/insult.c
 
 CMakeFiles/fake.dir/src/examples/insult.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/examples/insult.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/examples/insult.c" > CMakeFiles/fake.dir/src/examples/insult.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/examples/insult.c > CMakeFiles/fake.dir/src/examples/insult.c.i
 
 CMakeFiles/fake.dir/src/examples/insult.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/examples/insult.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/examples/insult.c" -o CMakeFiles/fake.dir/src/examples/insult.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/examples/insult.c -o CMakeFiles/fake.dir/src/examples/insult.c.s
 
 CMakeFiles/fake.dir/src/examples/insult.c.o.requires:
 
@@ -563,16 +563,16 @@ CMakeFiles/fake.dir/src/examples/insult.c.o.provides.build: CMakeFiles/fake.dir/
 
 CMakeFiles/fake.dir/src/examples/lineup.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/examples/lineup.c.o: ../src/examples/lineup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/fake.dir/src/examples/lineup.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/examples/lineup.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/examples/lineup.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/fake.dir/src/examples/lineup.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/examples/lineup.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/examples/lineup.c
 
 CMakeFiles/fake.dir/src/examples/lineup.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/examples/lineup.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/examples/lineup.c" > CMakeFiles/fake.dir/src/examples/lineup.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/examples/lineup.c > CMakeFiles/fake.dir/src/examples/lineup.c.i
 
 CMakeFiles/fake.dir/src/examples/lineup.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/examples/lineup.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/examples/lineup.c" -o CMakeFiles/fake.dir/src/examples/lineup.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/examples/lineup.c -o CMakeFiles/fake.dir/src/examples/lineup.c.s
 
 CMakeFiles/fake.dir/src/examples/lineup.c.o.requires:
 
@@ -587,16 +587,16 @@ CMakeFiles/fake.dir/src/examples/lineup.c.o.provides.build: CMakeFiles/fake.dir/
 
 CMakeFiles/fake.dir/src/examples/matmult.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/examples/matmult.c.o: ../src/examples/matmult.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/fake.dir/src/examples/matmult.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/examples/matmult.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/examples/matmult.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/fake.dir/src/examples/matmult.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/examples/matmult.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/examples/matmult.c
 
 CMakeFiles/fake.dir/src/examples/matmult.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/examples/matmult.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/examples/matmult.c" > CMakeFiles/fake.dir/src/examples/matmult.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/examples/matmult.c > CMakeFiles/fake.dir/src/examples/matmult.c.i
 
 CMakeFiles/fake.dir/src/examples/matmult.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/examples/matmult.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/examples/matmult.c" -o CMakeFiles/fake.dir/src/examples/matmult.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/examples/matmult.c -o CMakeFiles/fake.dir/src/examples/matmult.c.s
 
 CMakeFiles/fake.dir/src/examples/matmult.c.o.requires:
 
@@ -611,16 +611,16 @@ CMakeFiles/fake.dir/src/examples/matmult.c.o.provides.build: CMakeFiles/fake.dir
 
 CMakeFiles/fake.dir/src/examples/mcat.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/examples/mcat.c.o: ../src/examples/mcat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/fake.dir/src/examples/mcat.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/examples/mcat.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/examples/mcat.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/fake.dir/src/examples/mcat.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/examples/mcat.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/examples/mcat.c
 
 CMakeFiles/fake.dir/src/examples/mcat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/examples/mcat.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/examples/mcat.c" > CMakeFiles/fake.dir/src/examples/mcat.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/examples/mcat.c > CMakeFiles/fake.dir/src/examples/mcat.c.i
 
 CMakeFiles/fake.dir/src/examples/mcat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/examples/mcat.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/examples/mcat.c" -o CMakeFiles/fake.dir/src/examples/mcat.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/examples/mcat.c -o CMakeFiles/fake.dir/src/examples/mcat.c.s
 
 CMakeFiles/fake.dir/src/examples/mcat.c.o.requires:
 
@@ -635,16 +635,16 @@ CMakeFiles/fake.dir/src/examples/mcat.c.o.provides.build: CMakeFiles/fake.dir/sr
 
 CMakeFiles/fake.dir/src/examples/mcp.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/examples/mcp.c.o: ../src/examples/mcp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/fake.dir/src/examples/mcp.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/examples/mcp.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/examples/mcp.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/fake.dir/src/examples/mcp.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/examples/mcp.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/examples/mcp.c
 
 CMakeFiles/fake.dir/src/examples/mcp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/examples/mcp.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/examples/mcp.c" > CMakeFiles/fake.dir/src/examples/mcp.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/examples/mcp.c > CMakeFiles/fake.dir/src/examples/mcp.c.i
 
 CMakeFiles/fake.dir/src/examples/mcp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/examples/mcp.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/examples/mcp.c" -o CMakeFiles/fake.dir/src/examples/mcp.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/examples/mcp.c -o CMakeFiles/fake.dir/src/examples/mcp.c.s
 
 CMakeFiles/fake.dir/src/examples/mcp.c.o.requires:
 
@@ -659,16 +659,16 @@ CMakeFiles/fake.dir/src/examples/mcp.c.o.provides.build: CMakeFiles/fake.dir/src
 
 CMakeFiles/fake.dir/src/examples/recursor.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/examples/recursor.c.o: ../src/examples/recursor.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/fake.dir/src/examples/recursor.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/examples/recursor.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/examples/recursor.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/fake.dir/src/examples/recursor.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/examples/recursor.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/examples/recursor.c
 
 CMakeFiles/fake.dir/src/examples/recursor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/examples/recursor.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/examples/recursor.c" > CMakeFiles/fake.dir/src/examples/recursor.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/examples/recursor.c > CMakeFiles/fake.dir/src/examples/recursor.c.i
 
 CMakeFiles/fake.dir/src/examples/recursor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/examples/recursor.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/examples/recursor.c" -o CMakeFiles/fake.dir/src/examples/recursor.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/examples/recursor.c -o CMakeFiles/fake.dir/src/examples/recursor.c.s
 
 CMakeFiles/fake.dir/src/examples/recursor.c.o.requires:
 
@@ -683,16 +683,16 @@ CMakeFiles/fake.dir/src/examples/recursor.c.o.provides.build: CMakeFiles/fake.di
 
 CMakeFiles/fake.dir/src/examples/rm.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/examples/rm.c.o: ../src/examples/rm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/fake.dir/src/examples/rm.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/examples/rm.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/examples/rm.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/fake.dir/src/examples/rm.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/examples/rm.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/examples/rm.c
 
 CMakeFiles/fake.dir/src/examples/rm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/examples/rm.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/examples/rm.c" > CMakeFiles/fake.dir/src/examples/rm.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/examples/rm.c > CMakeFiles/fake.dir/src/examples/rm.c.i
 
 CMakeFiles/fake.dir/src/examples/rm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/examples/rm.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/examples/rm.c" -o CMakeFiles/fake.dir/src/examples/rm.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/examples/rm.c -o CMakeFiles/fake.dir/src/examples/rm.c.s
 
 CMakeFiles/fake.dir/src/examples/rm.c.o.requires:
 
@@ -707,16 +707,16 @@ CMakeFiles/fake.dir/src/examples/rm.c.o.provides.build: CMakeFiles/fake.dir/src/
 
 CMakeFiles/fake.dir/src/filesys/directory.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/filesys/directory.c.o: ../src/filesys/directory.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/fake.dir/src/filesys/directory.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/filesys/directory.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/filesys/directory.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/fake.dir/src/filesys/directory.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/filesys/directory.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/filesys/directory.c
 
 CMakeFiles/fake.dir/src/filesys/directory.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/filesys/directory.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/filesys/directory.c" > CMakeFiles/fake.dir/src/filesys/directory.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/filesys/directory.c > CMakeFiles/fake.dir/src/filesys/directory.c.i
 
 CMakeFiles/fake.dir/src/filesys/directory.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/filesys/directory.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/filesys/directory.c" -o CMakeFiles/fake.dir/src/filesys/directory.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/filesys/directory.c -o CMakeFiles/fake.dir/src/filesys/directory.c.s
 
 CMakeFiles/fake.dir/src/filesys/directory.c.o.requires:
 
@@ -731,16 +731,16 @@ CMakeFiles/fake.dir/src/filesys/directory.c.o.provides.build: CMakeFiles/fake.di
 
 CMakeFiles/fake.dir/src/filesys/file.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/filesys/file.c.o: ../src/filesys/file.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/fake.dir/src/filesys/file.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/filesys/file.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/filesys/file.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/fake.dir/src/filesys/file.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/filesys/file.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/filesys/file.c
 
 CMakeFiles/fake.dir/src/filesys/file.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/filesys/file.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/filesys/file.c" > CMakeFiles/fake.dir/src/filesys/file.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/filesys/file.c > CMakeFiles/fake.dir/src/filesys/file.c.i
 
 CMakeFiles/fake.dir/src/filesys/file.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/filesys/file.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/filesys/file.c" -o CMakeFiles/fake.dir/src/filesys/file.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/filesys/file.c -o CMakeFiles/fake.dir/src/filesys/file.c.s
 
 CMakeFiles/fake.dir/src/filesys/file.c.o.requires:
 
@@ -755,16 +755,16 @@ CMakeFiles/fake.dir/src/filesys/file.c.o.provides.build: CMakeFiles/fake.dir/src
 
 CMakeFiles/fake.dir/src/filesys/filesys.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/filesys/filesys.c.o: ../src/filesys/filesys.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/fake.dir/src/filesys/filesys.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/filesys/filesys.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/filesys/filesys.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/fake.dir/src/filesys/filesys.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/filesys/filesys.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/filesys/filesys.c
 
 CMakeFiles/fake.dir/src/filesys/filesys.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/filesys/filesys.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/filesys/filesys.c" > CMakeFiles/fake.dir/src/filesys/filesys.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/filesys/filesys.c > CMakeFiles/fake.dir/src/filesys/filesys.c.i
 
 CMakeFiles/fake.dir/src/filesys/filesys.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/filesys/filesys.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/filesys/filesys.c" -o CMakeFiles/fake.dir/src/filesys/filesys.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/filesys/filesys.c -o CMakeFiles/fake.dir/src/filesys/filesys.c.s
 
 CMakeFiles/fake.dir/src/filesys/filesys.c.o.requires:
 
@@ -779,16 +779,16 @@ CMakeFiles/fake.dir/src/filesys/filesys.c.o.provides.build: CMakeFiles/fake.dir/
 
 CMakeFiles/fake.dir/src/filesys/free-map.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/filesys/free-map.c.o: ../src/filesys/free-map.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/fake.dir/src/filesys/free-map.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/filesys/free-map.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/filesys/free-map.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/fake.dir/src/filesys/free-map.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/filesys/free-map.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/filesys/free-map.c
 
 CMakeFiles/fake.dir/src/filesys/free-map.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/filesys/free-map.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/filesys/free-map.c" > CMakeFiles/fake.dir/src/filesys/free-map.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/filesys/free-map.c > CMakeFiles/fake.dir/src/filesys/free-map.c.i
 
 CMakeFiles/fake.dir/src/filesys/free-map.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/filesys/free-map.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/filesys/free-map.c" -o CMakeFiles/fake.dir/src/filesys/free-map.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/filesys/free-map.c -o CMakeFiles/fake.dir/src/filesys/free-map.c.s
 
 CMakeFiles/fake.dir/src/filesys/free-map.c.o.requires:
 
@@ -803,16 +803,16 @@ CMakeFiles/fake.dir/src/filesys/free-map.c.o.provides.build: CMakeFiles/fake.dir
 
 CMakeFiles/fake.dir/src/filesys/fsutil.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/filesys/fsutil.c.o: ../src/filesys/fsutil.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/fake.dir/src/filesys/fsutil.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/filesys/fsutil.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/filesys/fsutil.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/fake.dir/src/filesys/fsutil.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/filesys/fsutil.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/filesys/fsutil.c
 
 CMakeFiles/fake.dir/src/filesys/fsutil.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/filesys/fsutil.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/filesys/fsutil.c" > CMakeFiles/fake.dir/src/filesys/fsutil.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/filesys/fsutil.c > CMakeFiles/fake.dir/src/filesys/fsutil.c.i
 
 CMakeFiles/fake.dir/src/filesys/fsutil.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/filesys/fsutil.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/filesys/fsutil.c" -o CMakeFiles/fake.dir/src/filesys/fsutil.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/filesys/fsutil.c -o CMakeFiles/fake.dir/src/filesys/fsutil.c.s
 
 CMakeFiles/fake.dir/src/filesys/fsutil.c.o.requires:
 
@@ -827,16 +827,16 @@ CMakeFiles/fake.dir/src/filesys/fsutil.c.o.provides.build: CMakeFiles/fake.dir/s
 
 CMakeFiles/fake.dir/src/filesys/inode.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/filesys/inode.c.o: ../src/filesys/inode.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/fake.dir/src/filesys/inode.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/filesys/inode.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/filesys/inode.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/fake.dir/src/filesys/inode.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/filesys/inode.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/filesys/inode.c
 
 CMakeFiles/fake.dir/src/filesys/inode.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/filesys/inode.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/filesys/inode.c" > CMakeFiles/fake.dir/src/filesys/inode.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/filesys/inode.c > CMakeFiles/fake.dir/src/filesys/inode.c.i
 
 CMakeFiles/fake.dir/src/filesys/inode.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/filesys/inode.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/filesys/inode.c" -o CMakeFiles/fake.dir/src/filesys/inode.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/filesys/inode.c -o CMakeFiles/fake.dir/src/filesys/inode.c.s
 
 CMakeFiles/fake.dir/src/filesys/inode.c.o.requires:
 
@@ -851,16 +851,16 @@ CMakeFiles/fake.dir/src/filesys/inode.c.o.provides.build: CMakeFiles/fake.dir/sr
 
 CMakeFiles/fake.dir/src/lib/arithmetic.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/lib/arithmetic.c.o: ../src/lib/arithmetic.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/fake.dir/src/lib/arithmetic.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/lib/arithmetic.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/lib/arithmetic.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/fake.dir/src/lib/arithmetic.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/lib/arithmetic.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/lib/arithmetic.c
 
 CMakeFiles/fake.dir/src/lib/arithmetic.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/lib/arithmetic.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/lib/arithmetic.c" > CMakeFiles/fake.dir/src/lib/arithmetic.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/lib/arithmetic.c > CMakeFiles/fake.dir/src/lib/arithmetic.c.i
 
 CMakeFiles/fake.dir/src/lib/arithmetic.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/lib/arithmetic.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/lib/arithmetic.c" -o CMakeFiles/fake.dir/src/lib/arithmetic.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/lib/arithmetic.c -o CMakeFiles/fake.dir/src/lib/arithmetic.c.s
 
 CMakeFiles/fake.dir/src/lib/arithmetic.c.o.requires:
 
@@ -875,16 +875,16 @@ CMakeFiles/fake.dir/src/lib/arithmetic.c.o.provides.build: CMakeFiles/fake.dir/s
 
 CMakeFiles/fake.dir/src/lib/debug.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/lib/debug.c.o: ../src/lib/debug.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/fake.dir/src/lib/debug.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/lib/debug.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/lib/debug.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/fake.dir/src/lib/debug.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/lib/debug.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/lib/debug.c
 
 CMakeFiles/fake.dir/src/lib/debug.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/lib/debug.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/lib/debug.c" > CMakeFiles/fake.dir/src/lib/debug.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/lib/debug.c > CMakeFiles/fake.dir/src/lib/debug.c.i
 
 CMakeFiles/fake.dir/src/lib/debug.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/lib/debug.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/lib/debug.c" -o CMakeFiles/fake.dir/src/lib/debug.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/lib/debug.c -o CMakeFiles/fake.dir/src/lib/debug.c.s
 
 CMakeFiles/fake.dir/src/lib/debug.c.o.requires:
 
@@ -899,16 +899,16 @@ CMakeFiles/fake.dir/src/lib/debug.c.o.provides.build: CMakeFiles/fake.dir/src/li
 
 CMakeFiles/fake.dir/src/lib/kernel/bitmap.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/lib/kernel/bitmap.c.o: ../src/lib/kernel/bitmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/fake.dir/src/lib/kernel/bitmap.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/lib/kernel/bitmap.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/lib/kernel/bitmap.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/fake.dir/src/lib/kernel/bitmap.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/lib/kernel/bitmap.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/lib/kernel/bitmap.c
 
 CMakeFiles/fake.dir/src/lib/kernel/bitmap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/lib/kernel/bitmap.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/lib/kernel/bitmap.c" > CMakeFiles/fake.dir/src/lib/kernel/bitmap.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/lib/kernel/bitmap.c > CMakeFiles/fake.dir/src/lib/kernel/bitmap.c.i
 
 CMakeFiles/fake.dir/src/lib/kernel/bitmap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/lib/kernel/bitmap.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/lib/kernel/bitmap.c" -o CMakeFiles/fake.dir/src/lib/kernel/bitmap.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/lib/kernel/bitmap.c -o CMakeFiles/fake.dir/src/lib/kernel/bitmap.c.s
 
 CMakeFiles/fake.dir/src/lib/kernel/bitmap.c.o.requires:
 
@@ -923,16 +923,16 @@ CMakeFiles/fake.dir/src/lib/kernel/bitmap.c.o.provides.build: CMakeFiles/fake.di
 
 CMakeFiles/fake.dir/src/lib/kernel/console.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/lib/kernel/console.c.o: ../src/lib/kernel/console.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/fake.dir/src/lib/kernel/console.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/lib/kernel/console.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/lib/kernel/console.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/fake.dir/src/lib/kernel/console.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/lib/kernel/console.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/lib/kernel/console.c
 
 CMakeFiles/fake.dir/src/lib/kernel/console.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/lib/kernel/console.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/lib/kernel/console.c" > CMakeFiles/fake.dir/src/lib/kernel/console.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/lib/kernel/console.c > CMakeFiles/fake.dir/src/lib/kernel/console.c.i
 
 CMakeFiles/fake.dir/src/lib/kernel/console.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/lib/kernel/console.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/lib/kernel/console.c" -o CMakeFiles/fake.dir/src/lib/kernel/console.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/lib/kernel/console.c -o CMakeFiles/fake.dir/src/lib/kernel/console.c.s
 
 CMakeFiles/fake.dir/src/lib/kernel/console.c.o.requires:
 
@@ -947,16 +947,16 @@ CMakeFiles/fake.dir/src/lib/kernel/console.c.o.provides.build: CMakeFiles/fake.d
 
 CMakeFiles/fake.dir/src/lib/kernel/debug.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/lib/kernel/debug.c.o: ../src/lib/kernel/debug.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/fake.dir/src/lib/kernel/debug.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/lib/kernel/debug.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/lib/kernel/debug.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/fake.dir/src/lib/kernel/debug.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/lib/kernel/debug.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/lib/kernel/debug.c
 
 CMakeFiles/fake.dir/src/lib/kernel/debug.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/lib/kernel/debug.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/lib/kernel/debug.c" > CMakeFiles/fake.dir/src/lib/kernel/debug.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/lib/kernel/debug.c > CMakeFiles/fake.dir/src/lib/kernel/debug.c.i
 
 CMakeFiles/fake.dir/src/lib/kernel/debug.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/lib/kernel/debug.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/lib/kernel/debug.c" -o CMakeFiles/fake.dir/src/lib/kernel/debug.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/lib/kernel/debug.c -o CMakeFiles/fake.dir/src/lib/kernel/debug.c.s
 
 CMakeFiles/fake.dir/src/lib/kernel/debug.c.o.requires:
 
@@ -971,16 +971,16 @@ CMakeFiles/fake.dir/src/lib/kernel/debug.c.o.provides.build: CMakeFiles/fake.dir
 
 CMakeFiles/fake.dir/src/lib/kernel/hash.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/lib/kernel/hash.c.o: ../src/lib/kernel/hash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/fake.dir/src/lib/kernel/hash.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/lib/kernel/hash.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/lib/kernel/hash.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/fake.dir/src/lib/kernel/hash.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/lib/kernel/hash.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/lib/kernel/hash.c
 
 CMakeFiles/fake.dir/src/lib/kernel/hash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/lib/kernel/hash.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/lib/kernel/hash.c" > CMakeFiles/fake.dir/src/lib/kernel/hash.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/lib/kernel/hash.c > CMakeFiles/fake.dir/src/lib/kernel/hash.c.i
 
 CMakeFiles/fake.dir/src/lib/kernel/hash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/lib/kernel/hash.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/lib/kernel/hash.c" -o CMakeFiles/fake.dir/src/lib/kernel/hash.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/lib/kernel/hash.c -o CMakeFiles/fake.dir/src/lib/kernel/hash.c.s
 
 CMakeFiles/fake.dir/src/lib/kernel/hash.c.o.requires:
 
@@ -995,16 +995,16 @@ CMakeFiles/fake.dir/src/lib/kernel/hash.c.o.provides.build: CMakeFiles/fake.dir/
 
 CMakeFiles/fake.dir/src/lib/kernel/list.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/lib/kernel/list.c.o: ../src/lib/kernel/list.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/fake.dir/src/lib/kernel/list.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/lib/kernel/list.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/lib/kernel/list.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/fake.dir/src/lib/kernel/list.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/lib/kernel/list.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/lib/kernel/list.c
 
 CMakeFiles/fake.dir/src/lib/kernel/list.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/lib/kernel/list.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/lib/kernel/list.c" > CMakeFiles/fake.dir/src/lib/kernel/list.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/lib/kernel/list.c > CMakeFiles/fake.dir/src/lib/kernel/list.c.i
 
 CMakeFiles/fake.dir/src/lib/kernel/list.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/lib/kernel/list.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/lib/kernel/list.c" -o CMakeFiles/fake.dir/src/lib/kernel/list.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/lib/kernel/list.c -o CMakeFiles/fake.dir/src/lib/kernel/list.c.s
 
 CMakeFiles/fake.dir/src/lib/kernel/list.c.o.requires:
 
@@ -1019,16 +1019,16 @@ CMakeFiles/fake.dir/src/lib/kernel/list.c.o.provides.build: CMakeFiles/fake.dir/
 
 CMakeFiles/fake.dir/src/lib/random.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/lib/random.c.o: ../src/lib/random.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/fake.dir/src/lib/random.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/lib/random.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/lib/random.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/fake.dir/src/lib/random.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/lib/random.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/lib/random.c
 
 CMakeFiles/fake.dir/src/lib/random.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/lib/random.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/lib/random.c" > CMakeFiles/fake.dir/src/lib/random.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/lib/random.c > CMakeFiles/fake.dir/src/lib/random.c.i
 
 CMakeFiles/fake.dir/src/lib/random.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/lib/random.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/lib/random.c" -o CMakeFiles/fake.dir/src/lib/random.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/lib/random.c -o CMakeFiles/fake.dir/src/lib/random.c.s
 
 CMakeFiles/fake.dir/src/lib/random.c.o.requires:
 
@@ -1043,16 +1043,16 @@ CMakeFiles/fake.dir/src/lib/random.c.o.provides.build: CMakeFiles/fake.dir/src/l
 
 CMakeFiles/fake.dir/src/lib/stdio.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/lib/stdio.c.o: ../src/lib/stdio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/fake.dir/src/lib/stdio.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/lib/stdio.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/lib/stdio.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/fake.dir/src/lib/stdio.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/lib/stdio.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/lib/stdio.c
 
 CMakeFiles/fake.dir/src/lib/stdio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/lib/stdio.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/lib/stdio.c" > CMakeFiles/fake.dir/src/lib/stdio.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/lib/stdio.c > CMakeFiles/fake.dir/src/lib/stdio.c.i
 
 CMakeFiles/fake.dir/src/lib/stdio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/lib/stdio.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/lib/stdio.c" -o CMakeFiles/fake.dir/src/lib/stdio.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/lib/stdio.c -o CMakeFiles/fake.dir/src/lib/stdio.c.s
 
 CMakeFiles/fake.dir/src/lib/stdio.c.o.requires:
 
@@ -1067,16 +1067,16 @@ CMakeFiles/fake.dir/src/lib/stdio.c.o.provides.build: CMakeFiles/fake.dir/src/li
 
 CMakeFiles/fake.dir/src/lib/stdlib.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/lib/stdlib.c.o: ../src/lib/stdlib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/fake.dir/src/lib/stdlib.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/lib/stdlib.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/lib/stdlib.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/fake.dir/src/lib/stdlib.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/lib/stdlib.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/lib/stdlib.c
 
 CMakeFiles/fake.dir/src/lib/stdlib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/lib/stdlib.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/lib/stdlib.c" > CMakeFiles/fake.dir/src/lib/stdlib.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/lib/stdlib.c > CMakeFiles/fake.dir/src/lib/stdlib.c.i
 
 CMakeFiles/fake.dir/src/lib/stdlib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/lib/stdlib.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/lib/stdlib.c" -o CMakeFiles/fake.dir/src/lib/stdlib.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/lib/stdlib.c -o CMakeFiles/fake.dir/src/lib/stdlib.c.s
 
 CMakeFiles/fake.dir/src/lib/stdlib.c.o.requires:
 
@@ -1091,16 +1091,16 @@ CMakeFiles/fake.dir/src/lib/stdlib.c.o.provides.build: CMakeFiles/fake.dir/src/l
 
 CMakeFiles/fake.dir/src/lib/string.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/lib/string.c.o: ../src/lib/string.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/fake.dir/src/lib/string.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/lib/string.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/lib/string.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/fake.dir/src/lib/string.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/lib/string.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/lib/string.c
 
 CMakeFiles/fake.dir/src/lib/string.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/lib/string.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/lib/string.c" > CMakeFiles/fake.dir/src/lib/string.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/lib/string.c > CMakeFiles/fake.dir/src/lib/string.c.i
 
 CMakeFiles/fake.dir/src/lib/string.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/lib/string.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/lib/string.c" -o CMakeFiles/fake.dir/src/lib/string.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/lib/string.c -o CMakeFiles/fake.dir/src/lib/string.c.s
 
 CMakeFiles/fake.dir/src/lib/string.c.o.requires:
 
@@ -1115,16 +1115,16 @@ CMakeFiles/fake.dir/src/lib/string.c.o.provides.build: CMakeFiles/fake.dir/src/l
 
 CMakeFiles/fake.dir/src/lib/user/console.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/lib/user/console.c.o: ../src/lib/user/console.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/fake.dir/src/lib/user/console.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/lib/user/console.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/lib/user/console.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/fake.dir/src/lib/user/console.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/lib/user/console.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/lib/user/console.c
 
 CMakeFiles/fake.dir/src/lib/user/console.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/lib/user/console.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/lib/user/console.c" > CMakeFiles/fake.dir/src/lib/user/console.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/lib/user/console.c > CMakeFiles/fake.dir/src/lib/user/console.c.i
 
 CMakeFiles/fake.dir/src/lib/user/console.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/lib/user/console.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/lib/user/console.c" -o CMakeFiles/fake.dir/src/lib/user/console.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/lib/user/console.c -o CMakeFiles/fake.dir/src/lib/user/console.c.s
 
 CMakeFiles/fake.dir/src/lib/user/console.c.o.requires:
 
@@ -1139,16 +1139,16 @@ CMakeFiles/fake.dir/src/lib/user/console.c.o.provides.build: CMakeFiles/fake.dir
 
 CMakeFiles/fake.dir/src/lib/user/debug.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/lib/user/debug.c.o: ../src/lib/user/debug.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/fake.dir/src/lib/user/debug.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/lib/user/debug.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/lib/user/debug.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/fake.dir/src/lib/user/debug.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/lib/user/debug.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/lib/user/debug.c
 
 CMakeFiles/fake.dir/src/lib/user/debug.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/lib/user/debug.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/lib/user/debug.c" > CMakeFiles/fake.dir/src/lib/user/debug.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/lib/user/debug.c > CMakeFiles/fake.dir/src/lib/user/debug.c.i
 
 CMakeFiles/fake.dir/src/lib/user/debug.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/lib/user/debug.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/lib/user/debug.c" -o CMakeFiles/fake.dir/src/lib/user/debug.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/lib/user/debug.c -o CMakeFiles/fake.dir/src/lib/user/debug.c.s
 
 CMakeFiles/fake.dir/src/lib/user/debug.c.o.requires:
 
@@ -1163,16 +1163,16 @@ CMakeFiles/fake.dir/src/lib/user/debug.c.o.provides.build: CMakeFiles/fake.dir/s
 
 CMakeFiles/fake.dir/src/lib/user/entry.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/lib/user/entry.c.o: ../src/lib/user/entry.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/fake.dir/src/lib/user/entry.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/lib/user/entry.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/lib/user/entry.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/fake.dir/src/lib/user/entry.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/lib/user/entry.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/lib/user/entry.c
 
 CMakeFiles/fake.dir/src/lib/user/entry.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/lib/user/entry.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/lib/user/entry.c" > CMakeFiles/fake.dir/src/lib/user/entry.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/lib/user/entry.c > CMakeFiles/fake.dir/src/lib/user/entry.c.i
 
 CMakeFiles/fake.dir/src/lib/user/entry.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/lib/user/entry.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/lib/user/entry.c" -o CMakeFiles/fake.dir/src/lib/user/entry.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/lib/user/entry.c -o CMakeFiles/fake.dir/src/lib/user/entry.c.s
 
 CMakeFiles/fake.dir/src/lib/user/entry.c.o.requires:
 
@@ -1187,16 +1187,16 @@ CMakeFiles/fake.dir/src/lib/user/entry.c.o.provides.build: CMakeFiles/fake.dir/s
 
 CMakeFiles/fake.dir/src/lib/user/syscall.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/lib/user/syscall.c.o: ../src/lib/user/syscall.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/fake.dir/src/lib/user/syscall.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/lib/user/syscall.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/lib/user/syscall.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/fake.dir/src/lib/user/syscall.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/lib/user/syscall.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/lib/user/syscall.c
 
 CMakeFiles/fake.dir/src/lib/user/syscall.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/lib/user/syscall.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/lib/user/syscall.c" > CMakeFiles/fake.dir/src/lib/user/syscall.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/lib/user/syscall.c > CMakeFiles/fake.dir/src/lib/user/syscall.c.i
 
 CMakeFiles/fake.dir/src/lib/user/syscall.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/lib/user/syscall.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/lib/user/syscall.c" -o CMakeFiles/fake.dir/src/lib/user/syscall.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/lib/user/syscall.c -o CMakeFiles/fake.dir/src/lib/user/syscall.c.s
 
 CMakeFiles/fake.dir/src/lib/user/syscall.c.o.requires:
 
@@ -1211,16 +1211,16 @@ CMakeFiles/fake.dir/src/lib/user/syscall.c.o.provides.build: CMakeFiles/fake.dir
 
 CMakeFiles/fake.dir/src/lib/ustar.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/lib/ustar.c.o: ../src/lib/ustar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/fake.dir/src/lib/ustar.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/lib/ustar.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/lib/ustar.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/fake.dir/src/lib/ustar.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/lib/ustar.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/lib/ustar.c
 
 CMakeFiles/fake.dir/src/lib/ustar.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/lib/ustar.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/lib/ustar.c" > CMakeFiles/fake.dir/src/lib/ustar.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/lib/ustar.c > CMakeFiles/fake.dir/src/lib/ustar.c.i
 
 CMakeFiles/fake.dir/src/lib/ustar.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/lib/ustar.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/lib/ustar.c" -o CMakeFiles/fake.dir/src/lib/ustar.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/lib/ustar.c -o CMakeFiles/fake.dir/src/lib/ustar.c.s
 
 CMakeFiles/fake.dir/src/lib/ustar.c.o.requires:
 
@@ -1235,16 +1235,16 @@ CMakeFiles/fake.dir/src/lib/ustar.c.o.provides.build: CMakeFiles/fake.dir/src/li
 
 CMakeFiles/fake.dir/src/tests/arc4.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/arc4.c.o: ../src/tests/arc4.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/fake.dir/src/tests/arc4.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/arc4.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/arc4.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/fake.dir/src/tests/arc4.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/arc4.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/arc4.c
 
 CMakeFiles/fake.dir/src/tests/arc4.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/arc4.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/arc4.c" > CMakeFiles/fake.dir/src/tests/arc4.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/arc4.c > CMakeFiles/fake.dir/src/tests/arc4.c.i
 
 CMakeFiles/fake.dir/src/tests/arc4.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/arc4.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/arc4.c" -o CMakeFiles/fake.dir/src/tests/arc4.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/arc4.c -o CMakeFiles/fake.dir/src/tests/arc4.c.s
 
 CMakeFiles/fake.dir/src/tests/arc4.c.o.requires:
 
@@ -1259,16 +1259,16 @@ CMakeFiles/fake.dir/src/tests/arc4.c.o.provides.build: CMakeFiles/fake.dir/src/t
 
 CMakeFiles/fake.dir/src/tests/cksum.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/cksum.c.o: ../src/tests/cksum.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/fake.dir/src/tests/cksum.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/cksum.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/cksum.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/fake.dir/src/tests/cksum.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/cksum.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/cksum.c
 
 CMakeFiles/fake.dir/src/tests/cksum.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/cksum.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/cksum.c" > CMakeFiles/fake.dir/src/tests/cksum.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/cksum.c > CMakeFiles/fake.dir/src/tests/cksum.c.i
 
 CMakeFiles/fake.dir/src/tests/cksum.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/cksum.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/cksum.c" -o CMakeFiles/fake.dir/src/tests/cksum.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/cksum.c -o CMakeFiles/fake.dir/src/tests/cksum.c.s
 
 CMakeFiles/fake.dir/src/tests/cksum.c.o.requires:
 
@@ -1283,16 +1283,16 @@ CMakeFiles/fake.dir/src/tests/cksum.c.o.provides.build: CMakeFiles/fake.dir/src/
 
 CMakeFiles/fake.dir/src/tests/devices/alarm-negative.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/devices/alarm-negative.c.o: ../src/tests/devices/alarm-negative.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/fake.dir/src/tests/devices/alarm-negative.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/devices/alarm-negative.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/devices/alarm-negative.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/fake.dir/src/tests/devices/alarm-negative.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/devices/alarm-negative.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/devices/alarm-negative.c
 
 CMakeFiles/fake.dir/src/tests/devices/alarm-negative.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/devices/alarm-negative.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/devices/alarm-negative.c" > CMakeFiles/fake.dir/src/tests/devices/alarm-negative.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/devices/alarm-negative.c > CMakeFiles/fake.dir/src/tests/devices/alarm-negative.c.i
 
 CMakeFiles/fake.dir/src/tests/devices/alarm-negative.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/devices/alarm-negative.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/devices/alarm-negative.c" -o CMakeFiles/fake.dir/src/tests/devices/alarm-negative.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/devices/alarm-negative.c -o CMakeFiles/fake.dir/src/tests/devices/alarm-negative.c.s
 
 CMakeFiles/fake.dir/src/tests/devices/alarm-negative.c.o.requires:
 
@@ -1307,16 +1307,16 @@ CMakeFiles/fake.dir/src/tests/devices/alarm-negative.c.o.provides.build: CMakeFi
 
 CMakeFiles/fake.dir/src/tests/devices/alarm-priority.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/devices/alarm-priority.c.o: ../src/tests/devices/alarm-priority.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/fake.dir/src/tests/devices/alarm-priority.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/devices/alarm-priority.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/devices/alarm-priority.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/fake.dir/src/tests/devices/alarm-priority.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/devices/alarm-priority.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/devices/alarm-priority.c
 
 CMakeFiles/fake.dir/src/tests/devices/alarm-priority.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/devices/alarm-priority.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/devices/alarm-priority.c" > CMakeFiles/fake.dir/src/tests/devices/alarm-priority.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/devices/alarm-priority.c > CMakeFiles/fake.dir/src/tests/devices/alarm-priority.c.i
 
 CMakeFiles/fake.dir/src/tests/devices/alarm-priority.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/devices/alarm-priority.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/devices/alarm-priority.c" -o CMakeFiles/fake.dir/src/tests/devices/alarm-priority.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/devices/alarm-priority.c -o CMakeFiles/fake.dir/src/tests/devices/alarm-priority.c.s
 
 CMakeFiles/fake.dir/src/tests/devices/alarm-priority.c.o.requires:
 
@@ -1331,16 +1331,16 @@ CMakeFiles/fake.dir/src/tests/devices/alarm-priority.c.o.provides.build: CMakeFi
 
 CMakeFiles/fake.dir/src/tests/devices/alarm-simultaneous.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/devices/alarm-simultaneous.c.o: ../src/tests/devices/alarm-simultaneous.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/fake.dir/src/tests/devices/alarm-simultaneous.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/devices/alarm-simultaneous.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/devices/alarm-simultaneous.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/fake.dir/src/tests/devices/alarm-simultaneous.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/devices/alarm-simultaneous.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/devices/alarm-simultaneous.c
 
 CMakeFiles/fake.dir/src/tests/devices/alarm-simultaneous.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/devices/alarm-simultaneous.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/devices/alarm-simultaneous.c" > CMakeFiles/fake.dir/src/tests/devices/alarm-simultaneous.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/devices/alarm-simultaneous.c > CMakeFiles/fake.dir/src/tests/devices/alarm-simultaneous.c.i
 
 CMakeFiles/fake.dir/src/tests/devices/alarm-simultaneous.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/devices/alarm-simultaneous.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/devices/alarm-simultaneous.c" -o CMakeFiles/fake.dir/src/tests/devices/alarm-simultaneous.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/devices/alarm-simultaneous.c -o CMakeFiles/fake.dir/src/tests/devices/alarm-simultaneous.c.s
 
 CMakeFiles/fake.dir/src/tests/devices/alarm-simultaneous.c.o.requires:
 
@@ -1355,16 +1355,16 @@ CMakeFiles/fake.dir/src/tests/devices/alarm-simultaneous.c.o.provides.build: CMa
 
 CMakeFiles/fake.dir/src/tests/devices/alarm-wait.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/devices/alarm-wait.c.o: ../src/tests/devices/alarm-wait.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/fake.dir/src/tests/devices/alarm-wait.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/devices/alarm-wait.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/devices/alarm-wait.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/fake.dir/src/tests/devices/alarm-wait.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/devices/alarm-wait.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/devices/alarm-wait.c
 
 CMakeFiles/fake.dir/src/tests/devices/alarm-wait.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/devices/alarm-wait.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/devices/alarm-wait.c" > CMakeFiles/fake.dir/src/tests/devices/alarm-wait.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/devices/alarm-wait.c > CMakeFiles/fake.dir/src/tests/devices/alarm-wait.c.i
 
 CMakeFiles/fake.dir/src/tests/devices/alarm-wait.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/devices/alarm-wait.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/devices/alarm-wait.c" -o CMakeFiles/fake.dir/src/tests/devices/alarm-wait.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/devices/alarm-wait.c -o CMakeFiles/fake.dir/src/tests/devices/alarm-wait.c.s
 
 CMakeFiles/fake.dir/src/tests/devices/alarm-wait.c.o.requires:
 
@@ -1379,16 +1379,16 @@ CMakeFiles/fake.dir/src/tests/devices/alarm-wait.c.o.provides.build: CMakeFiles/
 
 CMakeFiles/fake.dir/src/tests/devices/alarm-zero.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/devices/alarm-zero.c.o: ../src/tests/devices/alarm-zero.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/fake.dir/src/tests/devices/alarm-zero.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/devices/alarm-zero.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/devices/alarm-zero.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/fake.dir/src/tests/devices/alarm-zero.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/devices/alarm-zero.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/devices/alarm-zero.c
 
 CMakeFiles/fake.dir/src/tests/devices/alarm-zero.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/devices/alarm-zero.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/devices/alarm-zero.c" > CMakeFiles/fake.dir/src/tests/devices/alarm-zero.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/devices/alarm-zero.c > CMakeFiles/fake.dir/src/tests/devices/alarm-zero.c.i
 
 CMakeFiles/fake.dir/src/tests/devices/alarm-zero.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/devices/alarm-zero.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/devices/alarm-zero.c" -o CMakeFiles/fake.dir/src/tests/devices/alarm-zero.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/devices/alarm-zero.c -o CMakeFiles/fake.dir/src/tests/devices/alarm-zero.c.s
 
 CMakeFiles/fake.dir/src/tests/devices/alarm-zero.c.o.requires:
 
@@ -1403,16 +1403,16 @@ CMakeFiles/fake.dir/src/tests/devices/alarm-zero.c.o.provides.build: CMakeFiles/
 
 CMakeFiles/fake.dir/src/tests/devices/tests.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/devices/tests.c.o: ../src/tests/devices/tests.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/fake.dir/src/tests/devices/tests.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/devices/tests.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/devices/tests.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/fake.dir/src/tests/devices/tests.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/devices/tests.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/devices/tests.c
 
 CMakeFiles/fake.dir/src/tests/devices/tests.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/devices/tests.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/devices/tests.c" > CMakeFiles/fake.dir/src/tests/devices/tests.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/devices/tests.c > CMakeFiles/fake.dir/src/tests/devices/tests.c.i
 
 CMakeFiles/fake.dir/src/tests/devices/tests.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/devices/tests.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/devices/tests.c" -o CMakeFiles/fake.dir/src/tests/devices/tests.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/devices/tests.c -o CMakeFiles/fake.dir/src/tests/devices/tests.c.s
 
 CMakeFiles/fake.dir/src/tests/devices/tests.c.o.requires:
 
@@ -1427,16 +1427,16 @@ CMakeFiles/fake.dir/src/tests/devices/tests.c.o.provides.build: CMakeFiles/fake.
 
 CMakeFiles/fake.dir/src/tests/filesys/base/child-syn-read.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/filesys/base/child-syn-read.c.o: ../src/tests/filesys/base/child-syn-read.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/fake.dir/src/tests/filesys/base/child-syn-read.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/filesys/base/child-syn-read.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/filesys/base/child-syn-read.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/fake.dir/src/tests/filesys/base/child-syn-read.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/filesys/base/child-syn-read.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/filesys/base/child-syn-read.c
 
 CMakeFiles/fake.dir/src/tests/filesys/base/child-syn-read.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/filesys/base/child-syn-read.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/filesys/base/child-syn-read.c" > CMakeFiles/fake.dir/src/tests/filesys/base/child-syn-read.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/filesys/base/child-syn-read.c > CMakeFiles/fake.dir/src/tests/filesys/base/child-syn-read.c.i
 
 CMakeFiles/fake.dir/src/tests/filesys/base/child-syn-read.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/filesys/base/child-syn-read.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/filesys/base/child-syn-read.c" -o CMakeFiles/fake.dir/src/tests/filesys/base/child-syn-read.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/filesys/base/child-syn-read.c -o CMakeFiles/fake.dir/src/tests/filesys/base/child-syn-read.c.s
 
 CMakeFiles/fake.dir/src/tests/filesys/base/child-syn-read.c.o.requires:
 
@@ -1451,16 +1451,16 @@ CMakeFiles/fake.dir/src/tests/filesys/base/child-syn-read.c.o.provides.build: CM
 
 CMakeFiles/fake.dir/src/tests/filesys/base/child-syn-wrt.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/filesys/base/child-syn-wrt.c.o: ../src/tests/filesys/base/child-syn-wrt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/fake.dir/src/tests/filesys/base/child-syn-wrt.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/filesys/base/child-syn-wrt.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/filesys/base/child-syn-wrt.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/fake.dir/src/tests/filesys/base/child-syn-wrt.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/filesys/base/child-syn-wrt.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/filesys/base/child-syn-wrt.c
 
 CMakeFiles/fake.dir/src/tests/filesys/base/child-syn-wrt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/filesys/base/child-syn-wrt.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/filesys/base/child-syn-wrt.c" > CMakeFiles/fake.dir/src/tests/filesys/base/child-syn-wrt.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/filesys/base/child-syn-wrt.c > CMakeFiles/fake.dir/src/tests/filesys/base/child-syn-wrt.c.i
 
 CMakeFiles/fake.dir/src/tests/filesys/base/child-syn-wrt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/filesys/base/child-syn-wrt.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/filesys/base/child-syn-wrt.c" -o CMakeFiles/fake.dir/src/tests/filesys/base/child-syn-wrt.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/filesys/base/child-syn-wrt.c -o CMakeFiles/fake.dir/src/tests/filesys/base/child-syn-wrt.c.s
 
 CMakeFiles/fake.dir/src/tests/filesys/base/child-syn-wrt.c.o.requires:
 
@@ -1475,16 +1475,16 @@ CMakeFiles/fake.dir/src/tests/filesys/base/child-syn-wrt.c.o.provides.build: CMa
 
 CMakeFiles/fake.dir/src/tests/filesys/base/lg-create.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/filesys/base/lg-create.c.o: ../src/tests/filesys/base/lg-create.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/fake.dir/src/tests/filesys/base/lg-create.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/filesys/base/lg-create.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/filesys/base/lg-create.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/fake.dir/src/tests/filesys/base/lg-create.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/filesys/base/lg-create.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/filesys/base/lg-create.c
 
 CMakeFiles/fake.dir/src/tests/filesys/base/lg-create.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/filesys/base/lg-create.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/filesys/base/lg-create.c" > CMakeFiles/fake.dir/src/tests/filesys/base/lg-create.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/filesys/base/lg-create.c > CMakeFiles/fake.dir/src/tests/filesys/base/lg-create.c.i
 
 CMakeFiles/fake.dir/src/tests/filesys/base/lg-create.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/filesys/base/lg-create.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/filesys/base/lg-create.c" -o CMakeFiles/fake.dir/src/tests/filesys/base/lg-create.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/filesys/base/lg-create.c -o CMakeFiles/fake.dir/src/tests/filesys/base/lg-create.c.s
 
 CMakeFiles/fake.dir/src/tests/filesys/base/lg-create.c.o.requires:
 
@@ -1499,16 +1499,16 @@ CMakeFiles/fake.dir/src/tests/filesys/base/lg-create.c.o.provides.build: CMakeFi
 
 CMakeFiles/fake.dir/src/tests/filesys/base/lg-full.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/filesys/base/lg-full.c.o: ../src/tests/filesys/base/lg-full.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/fake.dir/src/tests/filesys/base/lg-full.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/filesys/base/lg-full.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/filesys/base/lg-full.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/fake.dir/src/tests/filesys/base/lg-full.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/filesys/base/lg-full.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/filesys/base/lg-full.c
 
 CMakeFiles/fake.dir/src/tests/filesys/base/lg-full.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/filesys/base/lg-full.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/filesys/base/lg-full.c" > CMakeFiles/fake.dir/src/tests/filesys/base/lg-full.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/filesys/base/lg-full.c > CMakeFiles/fake.dir/src/tests/filesys/base/lg-full.c.i
 
 CMakeFiles/fake.dir/src/tests/filesys/base/lg-full.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/filesys/base/lg-full.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/filesys/base/lg-full.c" -o CMakeFiles/fake.dir/src/tests/filesys/base/lg-full.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/filesys/base/lg-full.c -o CMakeFiles/fake.dir/src/tests/filesys/base/lg-full.c.s
 
 CMakeFiles/fake.dir/src/tests/filesys/base/lg-full.c.o.requires:
 
@@ -1523,16 +1523,16 @@ CMakeFiles/fake.dir/src/tests/filesys/base/lg-full.c.o.provides.build: CMakeFile
 
 CMakeFiles/fake.dir/src/tests/filesys/base/lg-random.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/filesys/base/lg-random.c.o: ../src/tests/filesys/base/lg-random.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/fake.dir/src/tests/filesys/base/lg-random.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/filesys/base/lg-random.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/filesys/base/lg-random.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/fake.dir/src/tests/filesys/base/lg-random.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/filesys/base/lg-random.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/filesys/base/lg-random.c
 
 CMakeFiles/fake.dir/src/tests/filesys/base/lg-random.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/filesys/base/lg-random.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/filesys/base/lg-random.c" > CMakeFiles/fake.dir/src/tests/filesys/base/lg-random.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/filesys/base/lg-random.c > CMakeFiles/fake.dir/src/tests/filesys/base/lg-random.c.i
 
 CMakeFiles/fake.dir/src/tests/filesys/base/lg-random.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/filesys/base/lg-random.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/filesys/base/lg-random.c" -o CMakeFiles/fake.dir/src/tests/filesys/base/lg-random.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/filesys/base/lg-random.c -o CMakeFiles/fake.dir/src/tests/filesys/base/lg-random.c.s
 
 CMakeFiles/fake.dir/src/tests/filesys/base/lg-random.c.o.requires:
 
@@ -1547,16 +1547,16 @@ CMakeFiles/fake.dir/src/tests/filesys/base/lg-random.c.o.provides.build: CMakeFi
 
 CMakeFiles/fake.dir/src/tests/filesys/base/lg-seq-block.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/filesys/base/lg-seq-block.c.o: ../src/tests/filesys/base/lg-seq-block.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/fake.dir/src/tests/filesys/base/lg-seq-block.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/filesys/base/lg-seq-block.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/filesys/base/lg-seq-block.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/fake.dir/src/tests/filesys/base/lg-seq-block.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/filesys/base/lg-seq-block.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/filesys/base/lg-seq-block.c
 
 CMakeFiles/fake.dir/src/tests/filesys/base/lg-seq-block.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/filesys/base/lg-seq-block.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/filesys/base/lg-seq-block.c" > CMakeFiles/fake.dir/src/tests/filesys/base/lg-seq-block.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/filesys/base/lg-seq-block.c > CMakeFiles/fake.dir/src/tests/filesys/base/lg-seq-block.c.i
 
 CMakeFiles/fake.dir/src/tests/filesys/base/lg-seq-block.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/filesys/base/lg-seq-block.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/filesys/base/lg-seq-block.c" -o CMakeFiles/fake.dir/src/tests/filesys/base/lg-seq-block.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/filesys/base/lg-seq-block.c -o CMakeFiles/fake.dir/src/tests/filesys/base/lg-seq-block.c.s
 
 CMakeFiles/fake.dir/src/tests/filesys/base/lg-seq-block.c.o.requires:
 
@@ -1571,16 +1571,16 @@ CMakeFiles/fake.dir/src/tests/filesys/base/lg-seq-block.c.o.provides.build: CMak
 
 CMakeFiles/fake.dir/src/tests/filesys/base/lg-seq-random.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/filesys/base/lg-seq-random.c.o: ../src/tests/filesys/base/lg-seq-random.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/fake.dir/src/tests/filesys/base/lg-seq-random.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/filesys/base/lg-seq-random.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/filesys/base/lg-seq-random.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/fake.dir/src/tests/filesys/base/lg-seq-random.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/filesys/base/lg-seq-random.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/filesys/base/lg-seq-random.c
 
 CMakeFiles/fake.dir/src/tests/filesys/base/lg-seq-random.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/filesys/base/lg-seq-random.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/filesys/base/lg-seq-random.c" > CMakeFiles/fake.dir/src/tests/filesys/base/lg-seq-random.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/filesys/base/lg-seq-random.c > CMakeFiles/fake.dir/src/tests/filesys/base/lg-seq-random.c.i
 
 CMakeFiles/fake.dir/src/tests/filesys/base/lg-seq-random.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/filesys/base/lg-seq-random.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/filesys/base/lg-seq-random.c" -o CMakeFiles/fake.dir/src/tests/filesys/base/lg-seq-random.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/filesys/base/lg-seq-random.c -o CMakeFiles/fake.dir/src/tests/filesys/base/lg-seq-random.c.s
 
 CMakeFiles/fake.dir/src/tests/filesys/base/lg-seq-random.c.o.requires:
 
@@ -1595,16 +1595,16 @@ CMakeFiles/fake.dir/src/tests/filesys/base/lg-seq-random.c.o.provides.build: CMa
 
 CMakeFiles/fake.dir/src/tests/filesys/base/sm-create.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/filesys/base/sm-create.c.o: ../src/tests/filesys/base/sm-create.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/fake.dir/src/tests/filesys/base/sm-create.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/filesys/base/sm-create.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/filesys/base/sm-create.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/fake.dir/src/tests/filesys/base/sm-create.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/filesys/base/sm-create.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/filesys/base/sm-create.c
 
 CMakeFiles/fake.dir/src/tests/filesys/base/sm-create.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/filesys/base/sm-create.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/filesys/base/sm-create.c" > CMakeFiles/fake.dir/src/tests/filesys/base/sm-create.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/filesys/base/sm-create.c > CMakeFiles/fake.dir/src/tests/filesys/base/sm-create.c.i
 
 CMakeFiles/fake.dir/src/tests/filesys/base/sm-create.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/filesys/base/sm-create.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/filesys/base/sm-create.c" -o CMakeFiles/fake.dir/src/tests/filesys/base/sm-create.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/filesys/base/sm-create.c -o CMakeFiles/fake.dir/src/tests/filesys/base/sm-create.c.s
 
 CMakeFiles/fake.dir/src/tests/filesys/base/sm-create.c.o.requires:
 
@@ -1619,16 +1619,16 @@ CMakeFiles/fake.dir/src/tests/filesys/base/sm-create.c.o.provides.build: CMakeFi
 
 CMakeFiles/fake.dir/src/tests/filesys/base/sm-full.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/filesys/base/sm-full.c.o: ../src/tests/filesys/base/sm-full.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/fake.dir/src/tests/filesys/base/sm-full.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/filesys/base/sm-full.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/filesys/base/sm-full.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/fake.dir/src/tests/filesys/base/sm-full.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/filesys/base/sm-full.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/filesys/base/sm-full.c
 
 CMakeFiles/fake.dir/src/tests/filesys/base/sm-full.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/filesys/base/sm-full.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/filesys/base/sm-full.c" > CMakeFiles/fake.dir/src/tests/filesys/base/sm-full.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/filesys/base/sm-full.c > CMakeFiles/fake.dir/src/tests/filesys/base/sm-full.c.i
 
 CMakeFiles/fake.dir/src/tests/filesys/base/sm-full.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/filesys/base/sm-full.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/filesys/base/sm-full.c" -o CMakeFiles/fake.dir/src/tests/filesys/base/sm-full.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/filesys/base/sm-full.c -o CMakeFiles/fake.dir/src/tests/filesys/base/sm-full.c.s
 
 CMakeFiles/fake.dir/src/tests/filesys/base/sm-full.c.o.requires:
 
@@ -1643,16 +1643,16 @@ CMakeFiles/fake.dir/src/tests/filesys/base/sm-full.c.o.provides.build: CMakeFile
 
 CMakeFiles/fake.dir/src/tests/filesys/base/sm-random.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/filesys/base/sm-random.c.o: ../src/tests/filesys/base/sm-random.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/fake.dir/src/tests/filesys/base/sm-random.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/filesys/base/sm-random.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/filesys/base/sm-random.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/fake.dir/src/tests/filesys/base/sm-random.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/filesys/base/sm-random.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/filesys/base/sm-random.c
 
 CMakeFiles/fake.dir/src/tests/filesys/base/sm-random.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/filesys/base/sm-random.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/filesys/base/sm-random.c" > CMakeFiles/fake.dir/src/tests/filesys/base/sm-random.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/filesys/base/sm-random.c > CMakeFiles/fake.dir/src/tests/filesys/base/sm-random.c.i
 
 CMakeFiles/fake.dir/src/tests/filesys/base/sm-random.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/filesys/base/sm-random.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/filesys/base/sm-random.c" -o CMakeFiles/fake.dir/src/tests/filesys/base/sm-random.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/filesys/base/sm-random.c -o CMakeFiles/fake.dir/src/tests/filesys/base/sm-random.c.s
 
 CMakeFiles/fake.dir/src/tests/filesys/base/sm-random.c.o.requires:
 
@@ -1667,16 +1667,16 @@ CMakeFiles/fake.dir/src/tests/filesys/base/sm-random.c.o.provides.build: CMakeFi
 
 CMakeFiles/fake.dir/src/tests/filesys/base/sm-seq-block.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/filesys/base/sm-seq-block.c.o: ../src/tests/filesys/base/sm-seq-block.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/fake.dir/src/tests/filesys/base/sm-seq-block.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/filesys/base/sm-seq-block.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/filesys/base/sm-seq-block.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/fake.dir/src/tests/filesys/base/sm-seq-block.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/filesys/base/sm-seq-block.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/filesys/base/sm-seq-block.c
 
 CMakeFiles/fake.dir/src/tests/filesys/base/sm-seq-block.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/filesys/base/sm-seq-block.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/filesys/base/sm-seq-block.c" > CMakeFiles/fake.dir/src/tests/filesys/base/sm-seq-block.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/filesys/base/sm-seq-block.c > CMakeFiles/fake.dir/src/tests/filesys/base/sm-seq-block.c.i
 
 CMakeFiles/fake.dir/src/tests/filesys/base/sm-seq-block.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/filesys/base/sm-seq-block.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/filesys/base/sm-seq-block.c" -o CMakeFiles/fake.dir/src/tests/filesys/base/sm-seq-block.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/filesys/base/sm-seq-block.c -o CMakeFiles/fake.dir/src/tests/filesys/base/sm-seq-block.c.s
 
 CMakeFiles/fake.dir/src/tests/filesys/base/sm-seq-block.c.o.requires:
 
@@ -1691,16 +1691,16 @@ CMakeFiles/fake.dir/src/tests/filesys/base/sm-seq-block.c.o.provides.build: CMak
 
 CMakeFiles/fake.dir/src/tests/filesys/base/sm-seq-random.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/filesys/base/sm-seq-random.c.o: ../src/tests/filesys/base/sm-seq-random.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/fake.dir/src/tests/filesys/base/sm-seq-random.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/filesys/base/sm-seq-random.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/filesys/base/sm-seq-random.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/fake.dir/src/tests/filesys/base/sm-seq-random.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/filesys/base/sm-seq-random.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/filesys/base/sm-seq-random.c
 
 CMakeFiles/fake.dir/src/tests/filesys/base/sm-seq-random.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/filesys/base/sm-seq-random.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/filesys/base/sm-seq-random.c" > CMakeFiles/fake.dir/src/tests/filesys/base/sm-seq-random.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/filesys/base/sm-seq-random.c > CMakeFiles/fake.dir/src/tests/filesys/base/sm-seq-random.c.i
 
 CMakeFiles/fake.dir/src/tests/filesys/base/sm-seq-random.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/filesys/base/sm-seq-random.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/filesys/base/sm-seq-random.c" -o CMakeFiles/fake.dir/src/tests/filesys/base/sm-seq-random.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/filesys/base/sm-seq-random.c -o CMakeFiles/fake.dir/src/tests/filesys/base/sm-seq-random.c.s
 
 CMakeFiles/fake.dir/src/tests/filesys/base/sm-seq-random.c.o.requires:
 
@@ -1715,16 +1715,16 @@ CMakeFiles/fake.dir/src/tests/filesys/base/sm-seq-random.c.o.provides.build: CMa
 
 CMakeFiles/fake.dir/src/tests/filesys/base/syn-read.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/filesys/base/syn-read.c.o: ../src/tests/filesys/base/syn-read.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/fake.dir/src/tests/filesys/base/syn-read.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/filesys/base/syn-read.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/filesys/base/syn-read.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/fake.dir/src/tests/filesys/base/syn-read.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/filesys/base/syn-read.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/filesys/base/syn-read.c
 
 CMakeFiles/fake.dir/src/tests/filesys/base/syn-read.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/filesys/base/syn-read.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/filesys/base/syn-read.c" > CMakeFiles/fake.dir/src/tests/filesys/base/syn-read.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/filesys/base/syn-read.c > CMakeFiles/fake.dir/src/tests/filesys/base/syn-read.c.i
 
 CMakeFiles/fake.dir/src/tests/filesys/base/syn-read.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/filesys/base/syn-read.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/filesys/base/syn-read.c" -o CMakeFiles/fake.dir/src/tests/filesys/base/syn-read.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/filesys/base/syn-read.c -o CMakeFiles/fake.dir/src/tests/filesys/base/syn-read.c.s
 
 CMakeFiles/fake.dir/src/tests/filesys/base/syn-read.c.o.requires:
 
@@ -1739,16 +1739,16 @@ CMakeFiles/fake.dir/src/tests/filesys/base/syn-read.c.o.provides.build: CMakeFil
 
 CMakeFiles/fake.dir/src/tests/filesys/base/syn-remove.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/filesys/base/syn-remove.c.o: ../src/tests/filesys/base/syn-remove.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/fake.dir/src/tests/filesys/base/syn-remove.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/filesys/base/syn-remove.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/filesys/base/syn-remove.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/fake.dir/src/tests/filesys/base/syn-remove.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/filesys/base/syn-remove.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/filesys/base/syn-remove.c
 
 CMakeFiles/fake.dir/src/tests/filesys/base/syn-remove.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/filesys/base/syn-remove.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/filesys/base/syn-remove.c" > CMakeFiles/fake.dir/src/tests/filesys/base/syn-remove.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/filesys/base/syn-remove.c > CMakeFiles/fake.dir/src/tests/filesys/base/syn-remove.c.i
 
 CMakeFiles/fake.dir/src/tests/filesys/base/syn-remove.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/filesys/base/syn-remove.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/filesys/base/syn-remove.c" -o CMakeFiles/fake.dir/src/tests/filesys/base/syn-remove.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/filesys/base/syn-remove.c -o CMakeFiles/fake.dir/src/tests/filesys/base/syn-remove.c.s
 
 CMakeFiles/fake.dir/src/tests/filesys/base/syn-remove.c.o.requires:
 
@@ -1763,16 +1763,16 @@ CMakeFiles/fake.dir/src/tests/filesys/base/syn-remove.c.o.provides.build: CMakeF
 
 CMakeFiles/fake.dir/src/tests/filesys/base/syn-write.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/filesys/base/syn-write.c.o: ../src/tests/filesys/base/syn-write.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/fake.dir/src/tests/filesys/base/syn-write.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/filesys/base/syn-write.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/filesys/base/syn-write.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/fake.dir/src/tests/filesys/base/syn-write.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/filesys/base/syn-write.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/filesys/base/syn-write.c
 
 CMakeFiles/fake.dir/src/tests/filesys/base/syn-write.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/filesys/base/syn-write.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/filesys/base/syn-write.c" > CMakeFiles/fake.dir/src/tests/filesys/base/syn-write.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/filesys/base/syn-write.c > CMakeFiles/fake.dir/src/tests/filesys/base/syn-write.c.i
 
 CMakeFiles/fake.dir/src/tests/filesys/base/syn-write.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/filesys/base/syn-write.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/filesys/base/syn-write.c" -o CMakeFiles/fake.dir/src/tests/filesys/base/syn-write.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/filesys/base/syn-write.c -o CMakeFiles/fake.dir/src/tests/filesys/base/syn-write.c.s
 
 CMakeFiles/fake.dir/src/tests/filesys/base/syn-write.c.o.requires:
 
@@ -1787,16 +1787,16 @@ CMakeFiles/fake.dir/src/tests/filesys/base/syn-write.c.o.provides.build: CMakeFi
 
 CMakeFiles/fake.dir/src/tests/filesys/seq-test.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/filesys/seq-test.c.o: ../src/tests/filesys/seq-test.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/fake.dir/src/tests/filesys/seq-test.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/filesys/seq-test.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/filesys/seq-test.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/fake.dir/src/tests/filesys/seq-test.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/filesys/seq-test.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/filesys/seq-test.c
 
 CMakeFiles/fake.dir/src/tests/filesys/seq-test.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/filesys/seq-test.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/filesys/seq-test.c" > CMakeFiles/fake.dir/src/tests/filesys/seq-test.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/filesys/seq-test.c > CMakeFiles/fake.dir/src/tests/filesys/seq-test.c.i
 
 CMakeFiles/fake.dir/src/tests/filesys/seq-test.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/filesys/seq-test.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/filesys/seq-test.c" -o CMakeFiles/fake.dir/src/tests/filesys/seq-test.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/filesys/seq-test.c -o CMakeFiles/fake.dir/src/tests/filesys/seq-test.c.s
 
 CMakeFiles/fake.dir/src/tests/filesys/seq-test.c.o.requires:
 
@@ -1811,16 +1811,16 @@ CMakeFiles/fake.dir/src/tests/filesys/seq-test.c.o.provides.build: CMakeFiles/fa
 
 CMakeFiles/fake.dir/src/tests/internal/list.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/internal/list.c.o: ../src/tests/internal/list.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/fake.dir/src/tests/internal/list.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/internal/list.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/internal/list.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/fake.dir/src/tests/internal/list.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/internal/list.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/internal/list.c
 
 CMakeFiles/fake.dir/src/tests/internal/list.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/internal/list.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/internal/list.c" > CMakeFiles/fake.dir/src/tests/internal/list.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/internal/list.c > CMakeFiles/fake.dir/src/tests/internal/list.c.i
 
 CMakeFiles/fake.dir/src/tests/internal/list.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/internal/list.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/internal/list.c" -o CMakeFiles/fake.dir/src/tests/internal/list.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/internal/list.c -o CMakeFiles/fake.dir/src/tests/internal/list.c.s
 
 CMakeFiles/fake.dir/src/tests/internal/list.c.o.requires:
 
@@ -1835,16 +1835,16 @@ CMakeFiles/fake.dir/src/tests/internal/list.c.o.provides.build: CMakeFiles/fake.
 
 CMakeFiles/fake.dir/src/tests/internal/stdio.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/internal/stdio.c.o: ../src/tests/internal/stdio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/fake.dir/src/tests/internal/stdio.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/internal/stdio.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/internal/stdio.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/fake.dir/src/tests/internal/stdio.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/internal/stdio.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/internal/stdio.c
 
 CMakeFiles/fake.dir/src/tests/internal/stdio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/internal/stdio.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/internal/stdio.c" > CMakeFiles/fake.dir/src/tests/internal/stdio.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/internal/stdio.c > CMakeFiles/fake.dir/src/tests/internal/stdio.c.i
 
 CMakeFiles/fake.dir/src/tests/internal/stdio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/internal/stdio.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/internal/stdio.c" -o CMakeFiles/fake.dir/src/tests/internal/stdio.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/internal/stdio.c -o CMakeFiles/fake.dir/src/tests/internal/stdio.c.s
 
 CMakeFiles/fake.dir/src/tests/internal/stdio.c.o.requires:
 
@@ -1859,16 +1859,16 @@ CMakeFiles/fake.dir/src/tests/internal/stdio.c.o.provides.build: CMakeFiles/fake
 
 CMakeFiles/fake.dir/src/tests/internal/stdlib.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/internal/stdlib.c.o: ../src/tests/internal/stdlib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/fake.dir/src/tests/internal/stdlib.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/internal/stdlib.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/internal/stdlib.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/fake.dir/src/tests/internal/stdlib.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/internal/stdlib.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/internal/stdlib.c
 
 CMakeFiles/fake.dir/src/tests/internal/stdlib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/internal/stdlib.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/internal/stdlib.c" > CMakeFiles/fake.dir/src/tests/internal/stdlib.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/internal/stdlib.c > CMakeFiles/fake.dir/src/tests/internal/stdlib.c.i
 
 CMakeFiles/fake.dir/src/tests/internal/stdlib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/internal/stdlib.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/internal/stdlib.c" -o CMakeFiles/fake.dir/src/tests/internal/stdlib.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/internal/stdlib.c -o CMakeFiles/fake.dir/src/tests/internal/stdlib.c.s
 
 CMakeFiles/fake.dir/src/tests/internal/stdlib.c.o.requires:
 
@@ -1883,16 +1883,16 @@ CMakeFiles/fake.dir/src/tests/internal/stdlib.c.o.provides.build: CMakeFiles/fak
 
 CMakeFiles/fake.dir/src/tests/lib.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/lib.c.o: ../src/tests/lib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/fake.dir/src/tests/lib.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/lib.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/lib.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/fake.dir/src/tests/lib.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/lib.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/lib.c
 
 CMakeFiles/fake.dir/src/tests/lib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/lib.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/lib.c" > CMakeFiles/fake.dir/src/tests/lib.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/lib.c > CMakeFiles/fake.dir/src/tests/lib.c.i
 
 CMakeFiles/fake.dir/src/tests/lib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/lib.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/lib.c" -o CMakeFiles/fake.dir/src/tests/lib.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/lib.c -o CMakeFiles/fake.dir/src/tests/lib.c.s
 
 CMakeFiles/fake.dir/src/tests/lib.c.o.requires:
 
@@ -1907,16 +1907,16 @@ CMakeFiles/fake.dir/src/tests/lib.c.o.provides.build: CMakeFiles/fake.dir/src/te
 
 CMakeFiles/fake.dir/src/tests/main.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/main.c.o: ../src/tests/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/fake.dir/src/tests/main.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/main.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/main.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/fake.dir/src/tests/main.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/main.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/main.c
 
 CMakeFiles/fake.dir/src/tests/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/main.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/main.c" > CMakeFiles/fake.dir/src/tests/main.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/main.c > CMakeFiles/fake.dir/src/tests/main.c.i
 
 CMakeFiles/fake.dir/src/tests/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/main.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/main.c" -o CMakeFiles/fake.dir/src/tests/main.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/main.c -o CMakeFiles/fake.dir/src/tests/main.c.s
 
 CMakeFiles/fake.dir/src/tests/main.c.o.requires:
 
@@ -1931,16 +1931,16 @@ CMakeFiles/fake.dir/src/tests/main.c.o.provides.build: CMakeFiles/fake.dir/src/t
 
 CMakeFiles/fake.dir/src/tests/threads/mlfqs-block.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/threads/mlfqs-block.c.o: ../src/tests/threads/mlfqs-block.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/fake.dir/src/tests/threads/mlfqs-block.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/threads/mlfqs-block.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/threads/mlfqs-block.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/fake.dir/src/tests/threads/mlfqs-block.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/threads/mlfqs-block.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/threads/mlfqs-block.c
 
 CMakeFiles/fake.dir/src/tests/threads/mlfqs-block.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/threads/mlfqs-block.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/threads/mlfqs-block.c" > CMakeFiles/fake.dir/src/tests/threads/mlfqs-block.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/threads/mlfqs-block.c > CMakeFiles/fake.dir/src/tests/threads/mlfqs-block.c.i
 
 CMakeFiles/fake.dir/src/tests/threads/mlfqs-block.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/threads/mlfqs-block.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/threads/mlfqs-block.c" -o CMakeFiles/fake.dir/src/tests/threads/mlfqs-block.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/threads/mlfqs-block.c -o CMakeFiles/fake.dir/src/tests/threads/mlfqs-block.c.s
 
 CMakeFiles/fake.dir/src/tests/threads/mlfqs-block.c.o.requires:
 
@@ -1955,16 +1955,16 @@ CMakeFiles/fake.dir/src/tests/threads/mlfqs-block.c.o.provides.build: CMakeFiles
 
 CMakeFiles/fake.dir/src/tests/threads/mlfqs-fair.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/threads/mlfqs-fair.c.o: ../src/tests/threads/mlfqs-fair.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/fake.dir/src/tests/threads/mlfqs-fair.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/threads/mlfqs-fair.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/threads/mlfqs-fair.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/fake.dir/src/tests/threads/mlfqs-fair.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/threads/mlfqs-fair.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/threads/mlfqs-fair.c
 
 CMakeFiles/fake.dir/src/tests/threads/mlfqs-fair.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/threads/mlfqs-fair.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/threads/mlfqs-fair.c" > CMakeFiles/fake.dir/src/tests/threads/mlfqs-fair.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/threads/mlfqs-fair.c > CMakeFiles/fake.dir/src/tests/threads/mlfqs-fair.c.i
 
 CMakeFiles/fake.dir/src/tests/threads/mlfqs-fair.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/threads/mlfqs-fair.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/threads/mlfqs-fair.c" -o CMakeFiles/fake.dir/src/tests/threads/mlfqs-fair.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/threads/mlfqs-fair.c -o CMakeFiles/fake.dir/src/tests/threads/mlfqs-fair.c.s
 
 CMakeFiles/fake.dir/src/tests/threads/mlfqs-fair.c.o.requires:
 
@@ -1979,16 +1979,16 @@ CMakeFiles/fake.dir/src/tests/threads/mlfqs-fair.c.o.provides.build: CMakeFiles/
 
 CMakeFiles/fake.dir/src/tests/threads/mlfqs-load-1.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/threads/mlfqs-load-1.c.o: ../src/tests/threads/mlfqs-load-1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/fake.dir/src/tests/threads/mlfqs-load-1.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/threads/mlfqs-load-1.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/threads/mlfqs-load-1.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/fake.dir/src/tests/threads/mlfqs-load-1.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/threads/mlfqs-load-1.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/threads/mlfqs-load-1.c
 
 CMakeFiles/fake.dir/src/tests/threads/mlfqs-load-1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/threads/mlfqs-load-1.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/threads/mlfqs-load-1.c" > CMakeFiles/fake.dir/src/tests/threads/mlfqs-load-1.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/threads/mlfqs-load-1.c > CMakeFiles/fake.dir/src/tests/threads/mlfqs-load-1.c.i
 
 CMakeFiles/fake.dir/src/tests/threads/mlfqs-load-1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/threads/mlfqs-load-1.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/threads/mlfqs-load-1.c" -o CMakeFiles/fake.dir/src/tests/threads/mlfqs-load-1.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/threads/mlfqs-load-1.c -o CMakeFiles/fake.dir/src/tests/threads/mlfqs-load-1.c.s
 
 CMakeFiles/fake.dir/src/tests/threads/mlfqs-load-1.c.o.requires:
 
@@ -2003,16 +2003,16 @@ CMakeFiles/fake.dir/src/tests/threads/mlfqs-load-1.c.o.provides.build: CMakeFile
 
 CMakeFiles/fake.dir/src/tests/threads/mlfqs-load-60.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/threads/mlfqs-load-60.c.o: ../src/tests/threads/mlfqs-load-60.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/fake.dir/src/tests/threads/mlfqs-load-60.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/threads/mlfqs-load-60.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/threads/mlfqs-load-60.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/fake.dir/src/tests/threads/mlfqs-load-60.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/threads/mlfqs-load-60.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/threads/mlfqs-load-60.c
 
 CMakeFiles/fake.dir/src/tests/threads/mlfqs-load-60.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/threads/mlfqs-load-60.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/threads/mlfqs-load-60.c" > CMakeFiles/fake.dir/src/tests/threads/mlfqs-load-60.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/threads/mlfqs-load-60.c > CMakeFiles/fake.dir/src/tests/threads/mlfqs-load-60.c.i
 
 CMakeFiles/fake.dir/src/tests/threads/mlfqs-load-60.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/threads/mlfqs-load-60.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/threads/mlfqs-load-60.c" -o CMakeFiles/fake.dir/src/tests/threads/mlfqs-load-60.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/threads/mlfqs-load-60.c -o CMakeFiles/fake.dir/src/tests/threads/mlfqs-load-60.c.s
 
 CMakeFiles/fake.dir/src/tests/threads/mlfqs-load-60.c.o.requires:
 
@@ -2027,16 +2027,16 @@ CMakeFiles/fake.dir/src/tests/threads/mlfqs-load-60.c.o.provides.build: CMakeFil
 
 CMakeFiles/fake.dir/src/tests/threads/mlfqs-load-avg.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/threads/mlfqs-load-avg.c.o: ../src/tests/threads/mlfqs-load-avg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/fake.dir/src/tests/threads/mlfqs-load-avg.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/threads/mlfqs-load-avg.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/threads/mlfqs-load-avg.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/fake.dir/src/tests/threads/mlfqs-load-avg.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/threads/mlfqs-load-avg.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/threads/mlfqs-load-avg.c
 
 CMakeFiles/fake.dir/src/tests/threads/mlfqs-load-avg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/threads/mlfqs-load-avg.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/threads/mlfqs-load-avg.c" > CMakeFiles/fake.dir/src/tests/threads/mlfqs-load-avg.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/threads/mlfqs-load-avg.c > CMakeFiles/fake.dir/src/tests/threads/mlfqs-load-avg.c.i
 
 CMakeFiles/fake.dir/src/tests/threads/mlfqs-load-avg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/threads/mlfqs-load-avg.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/threads/mlfqs-load-avg.c" -o CMakeFiles/fake.dir/src/tests/threads/mlfqs-load-avg.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/threads/mlfqs-load-avg.c -o CMakeFiles/fake.dir/src/tests/threads/mlfqs-load-avg.c.s
 
 CMakeFiles/fake.dir/src/tests/threads/mlfqs-load-avg.c.o.requires:
 
@@ -2051,16 +2051,16 @@ CMakeFiles/fake.dir/src/tests/threads/mlfqs-load-avg.c.o.provides.build: CMakeFi
 
 CMakeFiles/fake.dir/src/tests/threads/mlfqs-recent-1.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/threads/mlfqs-recent-1.c.o: ../src/tests/threads/mlfqs-recent-1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/fake.dir/src/tests/threads/mlfqs-recent-1.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/threads/mlfqs-recent-1.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/threads/mlfqs-recent-1.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/fake.dir/src/tests/threads/mlfqs-recent-1.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/threads/mlfqs-recent-1.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/threads/mlfqs-recent-1.c
 
 CMakeFiles/fake.dir/src/tests/threads/mlfqs-recent-1.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/threads/mlfqs-recent-1.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/threads/mlfqs-recent-1.c" > CMakeFiles/fake.dir/src/tests/threads/mlfqs-recent-1.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/threads/mlfqs-recent-1.c > CMakeFiles/fake.dir/src/tests/threads/mlfqs-recent-1.c.i
 
 CMakeFiles/fake.dir/src/tests/threads/mlfqs-recent-1.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/threads/mlfqs-recent-1.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/threads/mlfqs-recent-1.c" -o CMakeFiles/fake.dir/src/tests/threads/mlfqs-recent-1.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/threads/mlfqs-recent-1.c -o CMakeFiles/fake.dir/src/tests/threads/mlfqs-recent-1.c.s
 
 CMakeFiles/fake.dir/src/tests/threads/mlfqs-recent-1.c.o.requires:
 
@@ -2075,16 +2075,16 @@ CMakeFiles/fake.dir/src/tests/threads/mlfqs-recent-1.c.o.provides.build: CMakeFi
 
 CMakeFiles/fake.dir/src/tests/threads/priority-change.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/threads/priority-change.c.o: ../src/tests/threads/priority-change.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/fake.dir/src/tests/threads/priority-change.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/threads/priority-change.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/threads/priority-change.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/fake.dir/src/tests/threads/priority-change.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/threads/priority-change.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/threads/priority-change.c
 
 CMakeFiles/fake.dir/src/tests/threads/priority-change.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/threads/priority-change.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/threads/priority-change.c" > CMakeFiles/fake.dir/src/tests/threads/priority-change.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/threads/priority-change.c > CMakeFiles/fake.dir/src/tests/threads/priority-change.c.i
 
 CMakeFiles/fake.dir/src/tests/threads/priority-change.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/threads/priority-change.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/threads/priority-change.c" -o CMakeFiles/fake.dir/src/tests/threads/priority-change.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/threads/priority-change.c -o CMakeFiles/fake.dir/src/tests/threads/priority-change.c.s
 
 CMakeFiles/fake.dir/src/tests/threads/priority-change.c.o.requires:
 
@@ -2099,16 +2099,16 @@ CMakeFiles/fake.dir/src/tests/threads/priority-change.c.o.provides.build: CMakeF
 
 CMakeFiles/fake.dir/src/tests/threads/priority-condvar.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/threads/priority-condvar.c.o: ../src/tests/threads/priority-condvar.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/fake.dir/src/tests/threads/priority-condvar.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/threads/priority-condvar.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/threads/priority-condvar.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/fake.dir/src/tests/threads/priority-condvar.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/threads/priority-condvar.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/threads/priority-condvar.c
 
 CMakeFiles/fake.dir/src/tests/threads/priority-condvar.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/threads/priority-condvar.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/threads/priority-condvar.c" > CMakeFiles/fake.dir/src/tests/threads/priority-condvar.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/threads/priority-condvar.c > CMakeFiles/fake.dir/src/tests/threads/priority-condvar.c.i
 
 CMakeFiles/fake.dir/src/tests/threads/priority-condvar.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/threads/priority-condvar.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/threads/priority-condvar.c" -o CMakeFiles/fake.dir/src/tests/threads/priority-condvar.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/threads/priority-condvar.c -o CMakeFiles/fake.dir/src/tests/threads/priority-condvar.c.s
 
 CMakeFiles/fake.dir/src/tests/threads/priority-condvar.c.o.requires:
 
@@ -2123,16 +2123,16 @@ CMakeFiles/fake.dir/src/tests/threads/priority-condvar.c.o.provides.build: CMake
 
 CMakeFiles/fake.dir/src/tests/threads/priority-donate-chain.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/threads/priority-donate-chain.c.o: ../src/tests/threads/priority-donate-chain.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/fake.dir/src/tests/threads/priority-donate-chain.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/threads/priority-donate-chain.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/threads/priority-donate-chain.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/fake.dir/src/tests/threads/priority-donate-chain.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/threads/priority-donate-chain.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/threads/priority-donate-chain.c
 
 CMakeFiles/fake.dir/src/tests/threads/priority-donate-chain.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/threads/priority-donate-chain.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/threads/priority-donate-chain.c" > CMakeFiles/fake.dir/src/tests/threads/priority-donate-chain.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/threads/priority-donate-chain.c > CMakeFiles/fake.dir/src/tests/threads/priority-donate-chain.c.i
 
 CMakeFiles/fake.dir/src/tests/threads/priority-donate-chain.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/threads/priority-donate-chain.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/threads/priority-donate-chain.c" -o CMakeFiles/fake.dir/src/tests/threads/priority-donate-chain.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/threads/priority-donate-chain.c -o CMakeFiles/fake.dir/src/tests/threads/priority-donate-chain.c.s
 
 CMakeFiles/fake.dir/src/tests/threads/priority-donate-chain.c.o.requires:
 
@@ -2147,16 +2147,16 @@ CMakeFiles/fake.dir/src/tests/threads/priority-donate-chain.c.o.provides.build: 
 
 CMakeFiles/fake.dir/src/tests/threads/priority-donate-lower.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/threads/priority-donate-lower.c.o: ../src/tests/threads/priority-donate-lower.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/fake.dir/src/tests/threads/priority-donate-lower.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/threads/priority-donate-lower.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/threads/priority-donate-lower.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/fake.dir/src/tests/threads/priority-donate-lower.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/threads/priority-donate-lower.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/threads/priority-donate-lower.c
 
 CMakeFiles/fake.dir/src/tests/threads/priority-donate-lower.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/threads/priority-donate-lower.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/threads/priority-donate-lower.c" > CMakeFiles/fake.dir/src/tests/threads/priority-donate-lower.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/threads/priority-donate-lower.c > CMakeFiles/fake.dir/src/tests/threads/priority-donate-lower.c.i
 
 CMakeFiles/fake.dir/src/tests/threads/priority-donate-lower.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/threads/priority-donate-lower.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/threads/priority-donate-lower.c" -o CMakeFiles/fake.dir/src/tests/threads/priority-donate-lower.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/threads/priority-donate-lower.c -o CMakeFiles/fake.dir/src/tests/threads/priority-donate-lower.c.s
 
 CMakeFiles/fake.dir/src/tests/threads/priority-donate-lower.c.o.requires:
 
@@ -2171,16 +2171,16 @@ CMakeFiles/fake.dir/src/tests/threads/priority-donate-lower.c.o.provides.build: 
 
 CMakeFiles/fake.dir/src/tests/threads/priority-donate-multiple.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/threads/priority-donate-multiple.c.o: ../src/tests/threads/priority-donate-multiple.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/fake.dir/src/tests/threads/priority-donate-multiple.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/threads/priority-donate-multiple.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/threads/priority-donate-multiple.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/fake.dir/src/tests/threads/priority-donate-multiple.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/threads/priority-donate-multiple.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/threads/priority-donate-multiple.c
 
 CMakeFiles/fake.dir/src/tests/threads/priority-donate-multiple.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/threads/priority-donate-multiple.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/threads/priority-donate-multiple.c" > CMakeFiles/fake.dir/src/tests/threads/priority-donate-multiple.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/threads/priority-donate-multiple.c > CMakeFiles/fake.dir/src/tests/threads/priority-donate-multiple.c.i
 
 CMakeFiles/fake.dir/src/tests/threads/priority-donate-multiple.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/threads/priority-donate-multiple.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/threads/priority-donate-multiple.c" -o CMakeFiles/fake.dir/src/tests/threads/priority-donate-multiple.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/threads/priority-donate-multiple.c -o CMakeFiles/fake.dir/src/tests/threads/priority-donate-multiple.c.s
 
 CMakeFiles/fake.dir/src/tests/threads/priority-donate-multiple.c.o.requires:
 
@@ -2195,16 +2195,16 @@ CMakeFiles/fake.dir/src/tests/threads/priority-donate-multiple.c.o.provides.buil
 
 CMakeFiles/fake.dir/src/tests/threads/priority-donate-multiple2.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/threads/priority-donate-multiple2.c.o: ../src/tests/threads/priority-donate-multiple2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/fake.dir/src/tests/threads/priority-donate-multiple2.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/threads/priority-donate-multiple2.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/threads/priority-donate-multiple2.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/fake.dir/src/tests/threads/priority-donate-multiple2.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/threads/priority-donate-multiple2.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/threads/priority-donate-multiple2.c
 
 CMakeFiles/fake.dir/src/tests/threads/priority-donate-multiple2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/threads/priority-donate-multiple2.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/threads/priority-donate-multiple2.c" > CMakeFiles/fake.dir/src/tests/threads/priority-donate-multiple2.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/threads/priority-donate-multiple2.c > CMakeFiles/fake.dir/src/tests/threads/priority-donate-multiple2.c.i
 
 CMakeFiles/fake.dir/src/tests/threads/priority-donate-multiple2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/threads/priority-donate-multiple2.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/threads/priority-donate-multiple2.c" -o CMakeFiles/fake.dir/src/tests/threads/priority-donate-multiple2.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/threads/priority-donate-multiple2.c -o CMakeFiles/fake.dir/src/tests/threads/priority-donate-multiple2.c.s
 
 CMakeFiles/fake.dir/src/tests/threads/priority-donate-multiple2.c.o.requires:
 
@@ -2219,16 +2219,16 @@ CMakeFiles/fake.dir/src/tests/threads/priority-donate-multiple2.c.o.provides.bui
 
 CMakeFiles/fake.dir/src/tests/threads/priority-donate-nest.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/threads/priority-donate-nest.c.o: ../src/tests/threads/priority-donate-nest.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/fake.dir/src/tests/threads/priority-donate-nest.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/threads/priority-donate-nest.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/threads/priority-donate-nest.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/fake.dir/src/tests/threads/priority-donate-nest.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/threads/priority-donate-nest.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/threads/priority-donate-nest.c
 
 CMakeFiles/fake.dir/src/tests/threads/priority-donate-nest.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/threads/priority-donate-nest.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/threads/priority-donate-nest.c" > CMakeFiles/fake.dir/src/tests/threads/priority-donate-nest.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/threads/priority-donate-nest.c > CMakeFiles/fake.dir/src/tests/threads/priority-donate-nest.c.i
 
 CMakeFiles/fake.dir/src/tests/threads/priority-donate-nest.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/threads/priority-donate-nest.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/threads/priority-donate-nest.c" -o CMakeFiles/fake.dir/src/tests/threads/priority-donate-nest.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/threads/priority-donate-nest.c -o CMakeFiles/fake.dir/src/tests/threads/priority-donate-nest.c.s
 
 CMakeFiles/fake.dir/src/tests/threads/priority-donate-nest.c.o.requires:
 
@@ -2243,16 +2243,16 @@ CMakeFiles/fake.dir/src/tests/threads/priority-donate-nest.c.o.provides.build: C
 
 CMakeFiles/fake.dir/src/tests/threads/priority-donate-one.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/threads/priority-donate-one.c.o: ../src/tests/threads/priority-donate-one.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/fake.dir/src/tests/threads/priority-donate-one.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/threads/priority-donate-one.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/threads/priority-donate-one.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/fake.dir/src/tests/threads/priority-donate-one.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/threads/priority-donate-one.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/threads/priority-donate-one.c
 
 CMakeFiles/fake.dir/src/tests/threads/priority-donate-one.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/threads/priority-donate-one.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/threads/priority-donate-one.c" > CMakeFiles/fake.dir/src/tests/threads/priority-donate-one.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/threads/priority-donate-one.c > CMakeFiles/fake.dir/src/tests/threads/priority-donate-one.c.i
 
 CMakeFiles/fake.dir/src/tests/threads/priority-donate-one.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/threads/priority-donate-one.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/threads/priority-donate-one.c" -o CMakeFiles/fake.dir/src/tests/threads/priority-donate-one.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/threads/priority-donate-one.c -o CMakeFiles/fake.dir/src/tests/threads/priority-donate-one.c.s
 
 CMakeFiles/fake.dir/src/tests/threads/priority-donate-one.c.o.requires:
 
@@ -2267,16 +2267,16 @@ CMakeFiles/fake.dir/src/tests/threads/priority-donate-one.c.o.provides.build: CM
 
 CMakeFiles/fake.dir/src/tests/threads/priority-donate-sema.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/threads/priority-donate-sema.c.o: ../src/tests/threads/priority-donate-sema.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/fake.dir/src/tests/threads/priority-donate-sema.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/threads/priority-donate-sema.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/threads/priority-donate-sema.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/fake.dir/src/tests/threads/priority-donate-sema.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/threads/priority-donate-sema.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/threads/priority-donate-sema.c
 
 CMakeFiles/fake.dir/src/tests/threads/priority-donate-sema.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/threads/priority-donate-sema.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/threads/priority-donate-sema.c" > CMakeFiles/fake.dir/src/tests/threads/priority-donate-sema.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/threads/priority-donate-sema.c > CMakeFiles/fake.dir/src/tests/threads/priority-donate-sema.c.i
 
 CMakeFiles/fake.dir/src/tests/threads/priority-donate-sema.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/threads/priority-donate-sema.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/threads/priority-donate-sema.c" -o CMakeFiles/fake.dir/src/tests/threads/priority-donate-sema.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/threads/priority-donate-sema.c -o CMakeFiles/fake.dir/src/tests/threads/priority-donate-sema.c.s
 
 CMakeFiles/fake.dir/src/tests/threads/priority-donate-sema.c.o.requires:
 
@@ -2291,16 +2291,16 @@ CMakeFiles/fake.dir/src/tests/threads/priority-donate-sema.c.o.provides.build: C
 
 CMakeFiles/fake.dir/src/tests/threads/priority-fifo.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/threads/priority-fifo.c.o: ../src/tests/threads/priority-fifo.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/fake.dir/src/tests/threads/priority-fifo.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/threads/priority-fifo.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/threads/priority-fifo.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/fake.dir/src/tests/threads/priority-fifo.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/threads/priority-fifo.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/threads/priority-fifo.c
 
 CMakeFiles/fake.dir/src/tests/threads/priority-fifo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/threads/priority-fifo.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/threads/priority-fifo.c" > CMakeFiles/fake.dir/src/tests/threads/priority-fifo.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/threads/priority-fifo.c > CMakeFiles/fake.dir/src/tests/threads/priority-fifo.c.i
 
 CMakeFiles/fake.dir/src/tests/threads/priority-fifo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/threads/priority-fifo.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/threads/priority-fifo.c" -o CMakeFiles/fake.dir/src/tests/threads/priority-fifo.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/threads/priority-fifo.c -o CMakeFiles/fake.dir/src/tests/threads/priority-fifo.c.s
 
 CMakeFiles/fake.dir/src/tests/threads/priority-fifo.c.o.requires:
 
@@ -2315,16 +2315,16 @@ CMakeFiles/fake.dir/src/tests/threads/priority-fifo.c.o.provides.build: CMakeFil
 
 CMakeFiles/fake.dir/src/tests/threads/priority-preempt.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/threads/priority-preempt.c.o: ../src/tests/threads/priority-preempt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/fake.dir/src/tests/threads/priority-preempt.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/threads/priority-preempt.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/threads/priority-preempt.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/fake.dir/src/tests/threads/priority-preempt.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/threads/priority-preempt.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/threads/priority-preempt.c
 
 CMakeFiles/fake.dir/src/tests/threads/priority-preempt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/threads/priority-preempt.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/threads/priority-preempt.c" > CMakeFiles/fake.dir/src/tests/threads/priority-preempt.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/threads/priority-preempt.c > CMakeFiles/fake.dir/src/tests/threads/priority-preempt.c.i
 
 CMakeFiles/fake.dir/src/tests/threads/priority-preempt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/threads/priority-preempt.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/threads/priority-preempt.c" -o CMakeFiles/fake.dir/src/tests/threads/priority-preempt.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/threads/priority-preempt.c -o CMakeFiles/fake.dir/src/tests/threads/priority-preempt.c.s
 
 CMakeFiles/fake.dir/src/tests/threads/priority-preempt.c.o.requires:
 
@@ -2339,16 +2339,16 @@ CMakeFiles/fake.dir/src/tests/threads/priority-preempt.c.o.provides.build: CMake
 
 CMakeFiles/fake.dir/src/tests/threads/priority-sema.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/threads/priority-sema.c.o: ../src/tests/threads/priority-sema.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/fake.dir/src/tests/threads/priority-sema.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/threads/priority-sema.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/threads/priority-sema.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/fake.dir/src/tests/threads/priority-sema.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/threads/priority-sema.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/threads/priority-sema.c
 
 CMakeFiles/fake.dir/src/tests/threads/priority-sema.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/threads/priority-sema.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/threads/priority-sema.c" > CMakeFiles/fake.dir/src/tests/threads/priority-sema.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/threads/priority-sema.c > CMakeFiles/fake.dir/src/tests/threads/priority-sema.c.i
 
 CMakeFiles/fake.dir/src/tests/threads/priority-sema.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/threads/priority-sema.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/threads/priority-sema.c" -o CMakeFiles/fake.dir/src/tests/threads/priority-sema.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/threads/priority-sema.c -o CMakeFiles/fake.dir/src/tests/threads/priority-sema.c.s
 
 CMakeFiles/fake.dir/src/tests/threads/priority-sema.c.o.requires:
 
@@ -2363,16 +2363,16 @@ CMakeFiles/fake.dir/src/tests/threads/priority-sema.c.o.provides.build: CMakeFil
 
 CMakeFiles/fake.dir/src/tests/threads/tests.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/threads/tests.c.o: ../src/tests/threads/tests.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/fake.dir/src/tests/threads/tests.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/threads/tests.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/threads/tests.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/fake.dir/src/tests/threads/tests.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/threads/tests.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/threads/tests.c
 
 CMakeFiles/fake.dir/src/tests/threads/tests.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/threads/tests.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/threads/tests.c" > CMakeFiles/fake.dir/src/tests/threads/tests.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/threads/tests.c > CMakeFiles/fake.dir/src/tests/threads/tests.c.i
 
 CMakeFiles/fake.dir/src/tests/threads/tests.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/threads/tests.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/threads/tests.c" -o CMakeFiles/fake.dir/src/tests/threads/tests.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/threads/tests.c -o CMakeFiles/fake.dir/src/tests/threads/tests.c.s
 
 CMakeFiles/fake.dir/src/tests/threads/tests.c.o.requires:
 
@@ -2387,16 +2387,16 @@ CMakeFiles/fake.dir/src/tests/threads/tests.c.o.provides.build: CMakeFiles/fake.
 
 CMakeFiles/fake.dir/src/tests/userprog/args.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/args.c.o: ../src/tests/userprog/args.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/fake.dir/src/tests/userprog/args.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/args.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/args.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/fake.dir/src/tests/userprog/args.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/args.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/args.c
 
 CMakeFiles/fake.dir/src/tests/userprog/args.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/args.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/args.c" > CMakeFiles/fake.dir/src/tests/userprog/args.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/args.c > CMakeFiles/fake.dir/src/tests/userprog/args.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/args.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/args.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/args.c" -o CMakeFiles/fake.dir/src/tests/userprog/args.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/args.c -o CMakeFiles/fake.dir/src/tests/userprog/args.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/args.c.o.requires:
 
@@ -2411,16 +2411,16 @@ CMakeFiles/fake.dir/src/tests/userprog/args.c.o.provides.build: CMakeFiles/fake.
 
 CMakeFiles/fake.dir/src/tests/userprog/bad-jump.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/bad-jump.c.o: ../src/tests/userprog/bad-jump.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/fake.dir/src/tests/userprog/bad-jump.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/bad-jump.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/bad-jump.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/fake.dir/src/tests/userprog/bad-jump.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/bad-jump.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/bad-jump.c
 
 CMakeFiles/fake.dir/src/tests/userprog/bad-jump.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/bad-jump.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/bad-jump.c" > CMakeFiles/fake.dir/src/tests/userprog/bad-jump.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/bad-jump.c > CMakeFiles/fake.dir/src/tests/userprog/bad-jump.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/bad-jump.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/bad-jump.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/bad-jump.c" -o CMakeFiles/fake.dir/src/tests/userprog/bad-jump.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/bad-jump.c -o CMakeFiles/fake.dir/src/tests/userprog/bad-jump.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/bad-jump.c.o.requires:
 
@@ -2435,16 +2435,16 @@ CMakeFiles/fake.dir/src/tests/userprog/bad-jump.c.o.provides.build: CMakeFiles/f
 
 CMakeFiles/fake.dir/src/tests/userprog/bad-jump2.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/bad-jump2.c.o: ../src/tests/userprog/bad-jump2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/fake.dir/src/tests/userprog/bad-jump2.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/bad-jump2.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/bad-jump2.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/fake.dir/src/tests/userprog/bad-jump2.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/bad-jump2.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/bad-jump2.c
 
 CMakeFiles/fake.dir/src/tests/userprog/bad-jump2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/bad-jump2.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/bad-jump2.c" > CMakeFiles/fake.dir/src/tests/userprog/bad-jump2.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/bad-jump2.c > CMakeFiles/fake.dir/src/tests/userprog/bad-jump2.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/bad-jump2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/bad-jump2.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/bad-jump2.c" -o CMakeFiles/fake.dir/src/tests/userprog/bad-jump2.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/bad-jump2.c -o CMakeFiles/fake.dir/src/tests/userprog/bad-jump2.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/bad-jump2.c.o.requires:
 
@@ -2459,16 +2459,16 @@ CMakeFiles/fake.dir/src/tests/userprog/bad-jump2.c.o.provides.build: CMakeFiles/
 
 CMakeFiles/fake.dir/src/tests/userprog/bad-read.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/bad-read.c.o: ../src/tests/userprog/bad-read.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/fake.dir/src/tests/userprog/bad-read.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/bad-read.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/bad-read.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/fake.dir/src/tests/userprog/bad-read.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/bad-read.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/bad-read.c
 
 CMakeFiles/fake.dir/src/tests/userprog/bad-read.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/bad-read.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/bad-read.c" > CMakeFiles/fake.dir/src/tests/userprog/bad-read.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/bad-read.c > CMakeFiles/fake.dir/src/tests/userprog/bad-read.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/bad-read.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/bad-read.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/bad-read.c" -o CMakeFiles/fake.dir/src/tests/userprog/bad-read.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/bad-read.c -o CMakeFiles/fake.dir/src/tests/userprog/bad-read.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/bad-read.c.o.requires:
 
@@ -2483,16 +2483,16 @@ CMakeFiles/fake.dir/src/tests/userprog/bad-read.c.o.provides.build: CMakeFiles/f
 
 CMakeFiles/fake.dir/src/tests/userprog/bad-read2.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/bad-read2.c.o: ../src/tests/userprog/bad-read2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/fake.dir/src/tests/userprog/bad-read2.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/bad-read2.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/bad-read2.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/fake.dir/src/tests/userprog/bad-read2.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/bad-read2.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/bad-read2.c
 
 CMakeFiles/fake.dir/src/tests/userprog/bad-read2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/bad-read2.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/bad-read2.c" > CMakeFiles/fake.dir/src/tests/userprog/bad-read2.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/bad-read2.c > CMakeFiles/fake.dir/src/tests/userprog/bad-read2.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/bad-read2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/bad-read2.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/bad-read2.c" -o CMakeFiles/fake.dir/src/tests/userprog/bad-read2.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/bad-read2.c -o CMakeFiles/fake.dir/src/tests/userprog/bad-read2.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/bad-read2.c.o.requires:
 
@@ -2507,16 +2507,16 @@ CMakeFiles/fake.dir/src/tests/userprog/bad-read2.c.o.provides.build: CMakeFiles/
 
 CMakeFiles/fake.dir/src/tests/userprog/bad-write.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/bad-write.c.o: ../src/tests/userprog/bad-write.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/fake.dir/src/tests/userprog/bad-write.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/bad-write.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/bad-write.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/fake.dir/src/tests/userprog/bad-write.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/bad-write.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/bad-write.c
 
 CMakeFiles/fake.dir/src/tests/userprog/bad-write.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/bad-write.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/bad-write.c" > CMakeFiles/fake.dir/src/tests/userprog/bad-write.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/bad-write.c > CMakeFiles/fake.dir/src/tests/userprog/bad-write.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/bad-write.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/bad-write.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/bad-write.c" -o CMakeFiles/fake.dir/src/tests/userprog/bad-write.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/bad-write.c -o CMakeFiles/fake.dir/src/tests/userprog/bad-write.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/bad-write.c.o.requires:
 
@@ -2531,16 +2531,16 @@ CMakeFiles/fake.dir/src/tests/userprog/bad-write.c.o.provides.build: CMakeFiles/
 
 CMakeFiles/fake.dir/src/tests/userprog/bad-write2.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/bad-write2.c.o: ../src/tests/userprog/bad-write2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/fake.dir/src/tests/userprog/bad-write2.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/bad-write2.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/bad-write2.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/fake.dir/src/tests/userprog/bad-write2.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/bad-write2.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/bad-write2.c
 
 CMakeFiles/fake.dir/src/tests/userprog/bad-write2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/bad-write2.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/bad-write2.c" > CMakeFiles/fake.dir/src/tests/userprog/bad-write2.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/bad-write2.c > CMakeFiles/fake.dir/src/tests/userprog/bad-write2.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/bad-write2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/bad-write2.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/bad-write2.c" -o CMakeFiles/fake.dir/src/tests/userprog/bad-write2.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/bad-write2.c -o CMakeFiles/fake.dir/src/tests/userprog/bad-write2.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/bad-write2.c.o.requires:
 
@@ -2555,16 +2555,16 @@ CMakeFiles/fake.dir/src/tests/userprog/bad-write2.c.o.provides.build: CMakeFiles
 
 CMakeFiles/fake.dir/src/tests/userprog/boundary.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/boundary.c.o: ../src/tests/userprog/boundary.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/fake.dir/src/tests/userprog/boundary.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/boundary.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/boundary.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/fake.dir/src/tests/userprog/boundary.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/boundary.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/boundary.c
 
 CMakeFiles/fake.dir/src/tests/userprog/boundary.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/boundary.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/boundary.c" > CMakeFiles/fake.dir/src/tests/userprog/boundary.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/boundary.c > CMakeFiles/fake.dir/src/tests/userprog/boundary.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/boundary.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/boundary.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/boundary.c" -o CMakeFiles/fake.dir/src/tests/userprog/boundary.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/boundary.c -o CMakeFiles/fake.dir/src/tests/userprog/boundary.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/boundary.c.o.requires:
 
@@ -2579,16 +2579,16 @@ CMakeFiles/fake.dir/src/tests/userprog/boundary.c.o.provides.build: CMakeFiles/f
 
 CMakeFiles/fake.dir/src/tests/userprog/child-bad.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/child-bad.c.o: ../src/tests/userprog/child-bad.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/fake.dir/src/tests/userprog/child-bad.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/child-bad.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/child-bad.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Building C object CMakeFiles/fake.dir/src/tests/userprog/child-bad.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/child-bad.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/child-bad.c
 
 CMakeFiles/fake.dir/src/tests/userprog/child-bad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/child-bad.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/child-bad.c" > CMakeFiles/fake.dir/src/tests/userprog/child-bad.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/child-bad.c > CMakeFiles/fake.dir/src/tests/userprog/child-bad.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/child-bad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/child-bad.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/child-bad.c" -o CMakeFiles/fake.dir/src/tests/userprog/child-bad.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/child-bad.c -o CMakeFiles/fake.dir/src/tests/userprog/child-bad.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/child-bad.c.o.requires:
 
@@ -2603,16 +2603,16 @@ CMakeFiles/fake.dir/src/tests/userprog/child-bad.c.o.provides.build: CMakeFiles/
 
 CMakeFiles/fake.dir/src/tests/userprog/child-close.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/child-close.c.o: ../src/tests/userprog/child-close.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/fake.dir/src/tests/userprog/child-close.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/child-close.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/child-close.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_107) "Building C object CMakeFiles/fake.dir/src/tests/userprog/child-close.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/child-close.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/child-close.c
 
 CMakeFiles/fake.dir/src/tests/userprog/child-close.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/child-close.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/child-close.c" > CMakeFiles/fake.dir/src/tests/userprog/child-close.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/child-close.c > CMakeFiles/fake.dir/src/tests/userprog/child-close.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/child-close.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/child-close.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/child-close.c" -o CMakeFiles/fake.dir/src/tests/userprog/child-close.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/child-close.c -o CMakeFiles/fake.dir/src/tests/userprog/child-close.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/child-close.c.o.requires:
 
@@ -2627,16 +2627,16 @@ CMakeFiles/fake.dir/src/tests/userprog/child-close.c.o.provides.build: CMakeFile
 
 CMakeFiles/fake.dir/src/tests/userprog/child-rox.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/child-rox.c.o: ../src/tests/userprog/child-rox.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/fake.dir/src/tests/userprog/child-rox.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/child-rox.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/child-rox.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_108) "Building C object CMakeFiles/fake.dir/src/tests/userprog/child-rox.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/child-rox.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/child-rox.c
 
 CMakeFiles/fake.dir/src/tests/userprog/child-rox.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/child-rox.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/child-rox.c" > CMakeFiles/fake.dir/src/tests/userprog/child-rox.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/child-rox.c > CMakeFiles/fake.dir/src/tests/userprog/child-rox.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/child-rox.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/child-rox.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/child-rox.c" -o CMakeFiles/fake.dir/src/tests/userprog/child-rox.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/child-rox.c -o CMakeFiles/fake.dir/src/tests/userprog/child-rox.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/child-rox.c.o.requires:
 
@@ -2651,16 +2651,16 @@ CMakeFiles/fake.dir/src/tests/userprog/child-rox.c.o.provides.build: CMakeFiles/
 
 CMakeFiles/fake.dir/src/tests/userprog/child-simple.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/child-simple.c.o: ../src/tests/userprog/child-simple.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/fake.dir/src/tests/userprog/child-simple.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/child-simple.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/child-simple.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_109) "Building C object CMakeFiles/fake.dir/src/tests/userprog/child-simple.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/child-simple.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/child-simple.c
 
 CMakeFiles/fake.dir/src/tests/userprog/child-simple.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/child-simple.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/child-simple.c" > CMakeFiles/fake.dir/src/tests/userprog/child-simple.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/child-simple.c > CMakeFiles/fake.dir/src/tests/userprog/child-simple.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/child-simple.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/child-simple.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/child-simple.c" -o CMakeFiles/fake.dir/src/tests/userprog/child-simple.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/child-simple.c -o CMakeFiles/fake.dir/src/tests/userprog/child-simple.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/child-simple.c.o.requires:
 
@@ -2675,16 +2675,16 @@ CMakeFiles/fake.dir/src/tests/userprog/child-simple.c.o.provides.build: CMakeFil
 
 CMakeFiles/fake.dir/src/tests/userprog/close-bad-fd.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/close-bad-fd.c.o: ../src/tests/userprog/close-bad-fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/fake.dir/src/tests/userprog/close-bad-fd.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/close-bad-fd.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/close-bad-fd.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_110) "Building C object CMakeFiles/fake.dir/src/tests/userprog/close-bad-fd.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/close-bad-fd.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/close-bad-fd.c
 
 CMakeFiles/fake.dir/src/tests/userprog/close-bad-fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/close-bad-fd.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/close-bad-fd.c" > CMakeFiles/fake.dir/src/tests/userprog/close-bad-fd.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/close-bad-fd.c > CMakeFiles/fake.dir/src/tests/userprog/close-bad-fd.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/close-bad-fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/close-bad-fd.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/close-bad-fd.c" -o CMakeFiles/fake.dir/src/tests/userprog/close-bad-fd.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/close-bad-fd.c -o CMakeFiles/fake.dir/src/tests/userprog/close-bad-fd.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/close-bad-fd.c.o.requires:
 
@@ -2699,16 +2699,16 @@ CMakeFiles/fake.dir/src/tests/userprog/close-bad-fd.c.o.provides.build: CMakeFil
 
 CMakeFiles/fake.dir/src/tests/userprog/close-normal.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/close-normal.c.o: ../src/tests/userprog/close-normal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/fake.dir/src/tests/userprog/close-normal.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/close-normal.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/close-normal.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_111) "Building C object CMakeFiles/fake.dir/src/tests/userprog/close-normal.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/close-normal.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/close-normal.c
 
 CMakeFiles/fake.dir/src/tests/userprog/close-normal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/close-normal.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/close-normal.c" > CMakeFiles/fake.dir/src/tests/userprog/close-normal.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/close-normal.c > CMakeFiles/fake.dir/src/tests/userprog/close-normal.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/close-normal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/close-normal.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/close-normal.c" -o CMakeFiles/fake.dir/src/tests/userprog/close-normal.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/close-normal.c -o CMakeFiles/fake.dir/src/tests/userprog/close-normal.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/close-normal.c.o.requires:
 
@@ -2723,16 +2723,16 @@ CMakeFiles/fake.dir/src/tests/userprog/close-normal.c.o.provides.build: CMakeFil
 
 CMakeFiles/fake.dir/src/tests/userprog/close-stdin.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/close-stdin.c.o: ../src/tests/userprog/close-stdin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/fake.dir/src/tests/userprog/close-stdin.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/close-stdin.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/close-stdin.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_112) "Building C object CMakeFiles/fake.dir/src/tests/userprog/close-stdin.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/close-stdin.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/close-stdin.c
 
 CMakeFiles/fake.dir/src/tests/userprog/close-stdin.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/close-stdin.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/close-stdin.c" > CMakeFiles/fake.dir/src/tests/userprog/close-stdin.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/close-stdin.c > CMakeFiles/fake.dir/src/tests/userprog/close-stdin.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/close-stdin.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/close-stdin.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/close-stdin.c" -o CMakeFiles/fake.dir/src/tests/userprog/close-stdin.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/close-stdin.c -o CMakeFiles/fake.dir/src/tests/userprog/close-stdin.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/close-stdin.c.o.requires:
 
@@ -2747,16 +2747,16 @@ CMakeFiles/fake.dir/src/tests/userprog/close-stdin.c.o.provides.build: CMakeFile
 
 CMakeFiles/fake.dir/src/tests/userprog/close-stdout.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/close-stdout.c.o: ../src/tests/userprog/close-stdout.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/fake.dir/src/tests/userprog/close-stdout.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/close-stdout.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/close-stdout.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_113) "Building C object CMakeFiles/fake.dir/src/tests/userprog/close-stdout.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/close-stdout.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/close-stdout.c
 
 CMakeFiles/fake.dir/src/tests/userprog/close-stdout.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/close-stdout.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/close-stdout.c" > CMakeFiles/fake.dir/src/tests/userprog/close-stdout.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/close-stdout.c > CMakeFiles/fake.dir/src/tests/userprog/close-stdout.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/close-stdout.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/close-stdout.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/close-stdout.c" -o CMakeFiles/fake.dir/src/tests/userprog/close-stdout.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/close-stdout.c -o CMakeFiles/fake.dir/src/tests/userprog/close-stdout.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/close-stdout.c.o.requires:
 
@@ -2771,16 +2771,16 @@ CMakeFiles/fake.dir/src/tests/userprog/close-stdout.c.o.provides.build: CMakeFil
 
 CMakeFiles/fake.dir/src/tests/userprog/close-twice.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/close-twice.c.o: ../src/tests/userprog/close-twice.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/fake.dir/src/tests/userprog/close-twice.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/close-twice.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/close-twice.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_114) "Building C object CMakeFiles/fake.dir/src/tests/userprog/close-twice.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/close-twice.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/close-twice.c
 
 CMakeFiles/fake.dir/src/tests/userprog/close-twice.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/close-twice.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/close-twice.c" > CMakeFiles/fake.dir/src/tests/userprog/close-twice.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/close-twice.c > CMakeFiles/fake.dir/src/tests/userprog/close-twice.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/close-twice.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/close-twice.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/close-twice.c" -o CMakeFiles/fake.dir/src/tests/userprog/close-twice.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/close-twice.c -o CMakeFiles/fake.dir/src/tests/userprog/close-twice.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/close-twice.c.o.requires:
 
@@ -2795,16 +2795,16 @@ CMakeFiles/fake.dir/src/tests/userprog/close-twice.c.o.provides.build: CMakeFile
 
 CMakeFiles/fake.dir/src/tests/userprog/create-bad-ptr.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/create-bad-ptr.c.o: ../src/tests/userprog/create-bad-ptr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/fake.dir/src/tests/userprog/create-bad-ptr.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/create-bad-ptr.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/create-bad-ptr.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_115) "Building C object CMakeFiles/fake.dir/src/tests/userprog/create-bad-ptr.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/create-bad-ptr.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/create-bad-ptr.c
 
 CMakeFiles/fake.dir/src/tests/userprog/create-bad-ptr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/create-bad-ptr.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/create-bad-ptr.c" > CMakeFiles/fake.dir/src/tests/userprog/create-bad-ptr.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/create-bad-ptr.c > CMakeFiles/fake.dir/src/tests/userprog/create-bad-ptr.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/create-bad-ptr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/create-bad-ptr.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/create-bad-ptr.c" -o CMakeFiles/fake.dir/src/tests/userprog/create-bad-ptr.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/create-bad-ptr.c -o CMakeFiles/fake.dir/src/tests/userprog/create-bad-ptr.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/create-bad-ptr.c.o.requires:
 
@@ -2819,16 +2819,16 @@ CMakeFiles/fake.dir/src/tests/userprog/create-bad-ptr.c.o.provides.build: CMakeF
 
 CMakeFiles/fake.dir/src/tests/userprog/create-bound.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/create-bound.c.o: ../src/tests/userprog/create-bound.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/fake.dir/src/tests/userprog/create-bound.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/create-bound.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/create-bound.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_116) "Building C object CMakeFiles/fake.dir/src/tests/userprog/create-bound.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/create-bound.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/create-bound.c
 
 CMakeFiles/fake.dir/src/tests/userprog/create-bound.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/create-bound.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/create-bound.c" > CMakeFiles/fake.dir/src/tests/userprog/create-bound.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/create-bound.c > CMakeFiles/fake.dir/src/tests/userprog/create-bound.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/create-bound.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/create-bound.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/create-bound.c" -o CMakeFiles/fake.dir/src/tests/userprog/create-bound.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/create-bound.c -o CMakeFiles/fake.dir/src/tests/userprog/create-bound.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/create-bound.c.o.requires:
 
@@ -2843,16 +2843,16 @@ CMakeFiles/fake.dir/src/tests/userprog/create-bound.c.o.provides.build: CMakeFil
 
 CMakeFiles/fake.dir/src/tests/userprog/create-empty.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/create-empty.c.o: ../src/tests/userprog/create-empty.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/fake.dir/src/tests/userprog/create-empty.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/create-empty.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/create-empty.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_117) "Building C object CMakeFiles/fake.dir/src/tests/userprog/create-empty.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/create-empty.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/create-empty.c
 
 CMakeFiles/fake.dir/src/tests/userprog/create-empty.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/create-empty.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/create-empty.c" > CMakeFiles/fake.dir/src/tests/userprog/create-empty.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/create-empty.c > CMakeFiles/fake.dir/src/tests/userprog/create-empty.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/create-empty.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/create-empty.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/create-empty.c" -o CMakeFiles/fake.dir/src/tests/userprog/create-empty.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/create-empty.c -o CMakeFiles/fake.dir/src/tests/userprog/create-empty.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/create-empty.c.o.requires:
 
@@ -2867,16 +2867,16 @@ CMakeFiles/fake.dir/src/tests/userprog/create-empty.c.o.provides.build: CMakeFil
 
 CMakeFiles/fake.dir/src/tests/userprog/create-exists.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/create-exists.c.o: ../src/tests/userprog/create-exists.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/fake.dir/src/tests/userprog/create-exists.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/create-exists.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/create-exists.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_118) "Building C object CMakeFiles/fake.dir/src/tests/userprog/create-exists.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/create-exists.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/create-exists.c
 
 CMakeFiles/fake.dir/src/tests/userprog/create-exists.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/create-exists.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/create-exists.c" > CMakeFiles/fake.dir/src/tests/userprog/create-exists.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/create-exists.c > CMakeFiles/fake.dir/src/tests/userprog/create-exists.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/create-exists.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/create-exists.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/create-exists.c" -o CMakeFiles/fake.dir/src/tests/userprog/create-exists.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/create-exists.c -o CMakeFiles/fake.dir/src/tests/userprog/create-exists.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/create-exists.c.o.requires:
 
@@ -2891,16 +2891,16 @@ CMakeFiles/fake.dir/src/tests/userprog/create-exists.c.o.provides.build: CMakeFi
 
 CMakeFiles/fake.dir/src/tests/userprog/create-long.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/create-long.c.o: ../src/tests/userprog/create-long.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/fake.dir/src/tests/userprog/create-long.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/create-long.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/create-long.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_119) "Building C object CMakeFiles/fake.dir/src/tests/userprog/create-long.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/create-long.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/create-long.c
 
 CMakeFiles/fake.dir/src/tests/userprog/create-long.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/create-long.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/create-long.c" > CMakeFiles/fake.dir/src/tests/userprog/create-long.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/create-long.c > CMakeFiles/fake.dir/src/tests/userprog/create-long.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/create-long.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/create-long.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/create-long.c" -o CMakeFiles/fake.dir/src/tests/userprog/create-long.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/create-long.c -o CMakeFiles/fake.dir/src/tests/userprog/create-long.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/create-long.c.o.requires:
 
@@ -2915,16 +2915,16 @@ CMakeFiles/fake.dir/src/tests/userprog/create-long.c.o.provides.build: CMakeFile
 
 CMakeFiles/fake.dir/src/tests/userprog/create-normal.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/create-normal.c.o: ../src/tests/userprog/create-normal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/fake.dir/src/tests/userprog/create-normal.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/create-normal.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/create-normal.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_120) "Building C object CMakeFiles/fake.dir/src/tests/userprog/create-normal.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/create-normal.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/create-normal.c
 
 CMakeFiles/fake.dir/src/tests/userprog/create-normal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/create-normal.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/create-normal.c" > CMakeFiles/fake.dir/src/tests/userprog/create-normal.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/create-normal.c > CMakeFiles/fake.dir/src/tests/userprog/create-normal.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/create-normal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/create-normal.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/create-normal.c" -o CMakeFiles/fake.dir/src/tests/userprog/create-normal.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/create-normal.c -o CMakeFiles/fake.dir/src/tests/userprog/create-normal.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/create-normal.c.o.requires:
 
@@ -2939,16 +2939,16 @@ CMakeFiles/fake.dir/src/tests/userprog/create-normal.c.o.provides.build: CMakeFi
 
 CMakeFiles/fake.dir/src/tests/userprog/create-null.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/create-null.c.o: ../src/tests/userprog/create-null.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/fake.dir/src/tests/userprog/create-null.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/create-null.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/create-null.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_121) "Building C object CMakeFiles/fake.dir/src/tests/userprog/create-null.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/create-null.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/create-null.c
 
 CMakeFiles/fake.dir/src/tests/userprog/create-null.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/create-null.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/create-null.c" > CMakeFiles/fake.dir/src/tests/userprog/create-null.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/create-null.c > CMakeFiles/fake.dir/src/tests/userprog/create-null.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/create-null.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/create-null.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/create-null.c" -o CMakeFiles/fake.dir/src/tests/userprog/create-null.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/create-null.c -o CMakeFiles/fake.dir/src/tests/userprog/create-null.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/create-null.c.o.requires:
 
@@ -2963,16 +2963,16 @@ CMakeFiles/fake.dir/src/tests/userprog/create-null.c.o.provides.build: CMakeFile
 
 CMakeFiles/fake.dir/src/tests/userprog/exec-arg.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/exec-arg.c.o: ../src/tests/userprog/exec-arg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/fake.dir/src/tests/userprog/exec-arg.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/exec-arg.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/exec-arg.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_122) "Building C object CMakeFiles/fake.dir/src/tests/userprog/exec-arg.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/exec-arg.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/exec-arg.c
 
 CMakeFiles/fake.dir/src/tests/userprog/exec-arg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/exec-arg.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/exec-arg.c" > CMakeFiles/fake.dir/src/tests/userprog/exec-arg.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/exec-arg.c > CMakeFiles/fake.dir/src/tests/userprog/exec-arg.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/exec-arg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/exec-arg.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/exec-arg.c" -o CMakeFiles/fake.dir/src/tests/userprog/exec-arg.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/exec-arg.c -o CMakeFiles/fake.dir/src/tests/userprog/exec-arg.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/exec-arg.c.o.requires:
 
@@ -2987,16 +2987,16 @@ CMakeFiles/fake.dir/src/tests/userprog/exec-arg.c.o.provides.build: CMakeFiles/f
 
 CMakeFiles/fake.dir/src/tests/userprog/exec-bad-ptr.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/exec-bad-ptr.c.o: ../src/tests/userprog/exec-bad-ptr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/fake.dir/src/tests/userprog/exec-bad-ptr.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/exec-bad-ptr.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/exec-bad-ptr.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_123) "Building C object CMakeFiles/fake.dir/src/tests/userprog/exec-bad-ptr.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/exec-bad-ptr.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/exec-bad-ptr.c
 
 CMakeFiles/fake.dir/src/tests/userprog/exec-bad-ptr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/exec-bad-ptr.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/exec-bad-ptr.c" > CMakeFiles/fake.dir/src/tests/userprog/exec-bad-ptr.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/exec-bad-ptr.c > CMakeFiles/fake.dir/src/tests/userprog/exec-bad-ptr.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/exec-bad-ptr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/exec-bad-ptr.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/exec-bad-ptr.c" -o CMakeFiles/fake.dir/src/tests/userprog/exec-bad-ptr.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/exec-bad-ptr.c -o CMakeFiles/fake.dir/src/tests/userprog/exec-bad-ptr.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/exec-bad-ptr.c.o.requires:
 
@@ -3011,16 +3011,16 @@ CMakeFiles/fake.dir/src/tests/userprog/exec-bad-ptr.c.o.provides.build: CMakeFil
 
 CMakeFiles/fake.dir/src/tests/userprog/exec-missing.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/exec-missing.c.o: ../src/tests/userprog/exec-missing.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/fake.dir/src/tests/userprog/exec-missing.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/exec-missing.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/exec-missing.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_124) "Building C object CMakeFiles/fake.dir/src/tests/userprog/exec-missing.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/exec-missing.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/exec-missing.c
 
 CMakeFiles/fake.dir/src/tests/userprog/exec-missing.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/exec-missing.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/exec-missing.c" > CMakeFiles/fake.dir/src/tests/userprog/exec-missing.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/exec-missing.c > CMakeFiles/fake.dir/src/tests/userprog/exec-missing.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/exec-missing.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/exec-missing.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/exec-missing.c" -o CMakeFiles/fake.dir/src/tests/userprog/exec-missing.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/exec-missing.c -o CMakeFiles/fake.dir/src/tests/userprog/exec-missing.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/exec-missing.c.o.requires:
 
@@ -3035,16 +3035,16 @@ CMakeFiles/fake.dir/src/tests/userprog/exec-missing.c.o.provides.build: CMakeFil
 
 CMakeFiles/fake.dir/src/tests/userprog/exec-multiple.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/exec-multiple.c.o: ../src/tests/userprog/exec-multiple.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/fake.dir/src/tests/userprog/exec-multiple.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/exec-multiple.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/exec-multiple.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_125) "Building C object CMakeFiles/fake.dir/src/tests/userprog/exec-multiple.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/exec-multiple.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/exec-multiple.c
 
 CMakeFiles/fake.dir/src/tests/userprog/exec-multiple.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/exec-multiple.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/exec-multiple.c" > CMakeFiles/fake.dir/src/tests/userprog/exec-multiple.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/exec-multiple.c > CMakeFiles/fake.dir/src/tests/userprog/exec-multiple.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/exec-multiple.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/exec-multiple.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/exec-multiple.c" -o CMakeFiles/fake.dir/src/tests/userprog/exec-multiple.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/exec-multiple.c -o CMakeFiles/fake.dir/src/tests/userprog/exec-multiple.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/exec-multiple.c.o.requires:
 
@@ -3059,16 +3059,16 @@ CMakeFiles/fake.dir/src/tests/userprog/exec-multiple.c.o.provides.build: CMakeFi
 
 CMakeFiles/fake.dir/src/tests/userprog/exec-once.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/exec-once.c.o: ../src/tests/userprog/exec-once.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/fake.dir/src/tests/userprog/exec-once.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/exec-once.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/exec-once.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_126) "Building C object CMakeFiles/fake.dir/src/tests/userprog/exec-once.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/exec-once.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/exec-once.c
 
 CMakeFiles/fake.dir/src/tests/userprog/exec-once.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/exec-once.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/exec-once.c" > CMakeFiles/fake.dir/src/tests/userprog/exec-once.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/exec-once.c > CMakeFiles/fake.dir/src/tests/userprog/exec-once.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/exec-once.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/exec-once.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/exec-once.c" -o CMakeFiles/fake.dir/src/tests/userprog/exec-once.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/exec-once.c -o CMakeFiles/fake.dir/src/tests/userprog/exec-once.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/exec-once.c.o.requires:
 
@@ -3083,16 +3083,16 @@ CMakeFiles/fake.dir/src/tests/userprog/exec-once.c.o.provides.build: CMakeFiles/
 
 CMakeFiles/fake.dir/src/tests/userprog/exit.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/exit.c.o: ../src/tests/userprog/exit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/fake.dir/src/tests/userprog/exit.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/exit.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/exit.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_127) "Building C object CMakeFiles/fake.dir/src/tests/userprog/exit.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/exit.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/exit.c
 
 CMakeFiles/fake.dir/src/tests/userprog/exit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/exit.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/exit.c" > CMakeFiles/fake.dir/src/tests/userprog/exit.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/exit.c > CMakeFiles/fake.dir/src/tests/userprog/exit.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/exit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/exit.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/exit.c" -o CMakeFiles/fake.dir/src/tests/userprog/exit.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/exit.c -o CMakeFiles/fake.dir/src/tests/userprog/exit.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/exit.c.o.requires:
 
@@ -3107,16 +3107,16 @@ CMakeFiles/fake.dir/src/tests/userprog/exit.c.o.provides.build: CMakeFiles/fake.
 
 CMakeFiles/fake.dir/src/tests/userprog/halt.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/halt.c.o: ../src/tests/userprog/halt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/fake.dir/src/tests/userprog/halt.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/halt.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/halt.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_128) "Building C object CMakeFiles/fake.dir/src/tests/userprog/halt.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/halt.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/halt.c
 
 CMakeFiles/fake.dir/src/tests/userprog/halt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/halt.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/halt.c" > CMakeFiles/fake.dir/src/tests/userprog/halt.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/halt.c > CMakeFiles/fake.dir/src/tests/userprog/halt.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/halt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/halt.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/halt.c" -o CMakeFiles/fake.dir/src/tests/userprog/halt.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/halt.c -o CMakeFiles/fake.dir/src/tests/userprog/halt.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/halt.c.o.requires:
 
@@ -3131,16 +3131,16 @@ CMakeFiles/fake.dir/src/tests/userprog/halt.c.o.provides.build: CMakeFiles/fake.
 
 CMakeFiles/fake.dir/src/tests/userprog/multi-child-fd.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/multi-child-fd.c.o: ../src/tests/userprog/multi-child-fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/fake.dir/src/tests/userprog/multi-child-fd.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/multi-child-fd.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/multi-child-fd.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_129) "Building C object CMakeFiles/fake.dir/src/tests/userprog/multi-child-fd.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/multi-child-fd.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/multi-child-fd.c
 
 CMakeFiles/fake.dir/src/tests/userprog/multi-child-fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/multi-child-fd.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/multi-child-fd.c" > CMakeFiles/fake.dir/src/tests/userprog/multi-child-fd.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/multi-child-fd.c > CMakeFiles/fake.dir/src/tests/userprog/multi-child-fd.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/multi-child-fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/multi-child-fd.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/multi-child-fd.c" -o CMakeFiles/fake.dir/src/tests/userprog/multi-child-fd.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/multi-child-fd.c -o CMakeFiles/fake.dir/src/tests/userprog/multi-child-fd.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/multi-child-fd.c.o.requires:
 
@@ -3155,16 +3155,16 @@ CMakeFiles/fake.dir/src/tests/userprog/multi-child-fd.c.o.provides.build: CMakeF
 
 CMakeFiles/fake.dir/src/tests/userprog/multi-recurse.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/multi-recurse.c.o: ../src/tests/userprog/multi-recurse.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/fake.dir/src/tests/userprog/multi-recurse.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/multi-recurse.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/multi-recurse.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_130) "Building C object CMakeFiles/fake.dir/src/tests/userprog/multi-recurse.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/multi-recurse.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/multi-recurse.c
 
 CMakeFiles/fake.dir/src/tests/userprog/multi-recurse.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/multi-recurse.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/multi-recurse.c" > CMakeFiles/fake.dir/src/tests/userprog/multi-recurse.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/multi-recurse.c > CMakeFiles/fake.dir/src/tests/userprog/multi-recurse.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/multi-recurse.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/multi-recurse.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/multi-recurse.c" -o CMakeFiles/fake.dir/src/tests/userprog/multi-recurse.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/multi-recurse.c -o CMakeFiles/fake.dir/src/tests/userprog/multi-recurse.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/multi-recurse.c.o.requires:
 
@@ -3179,16 +3179,16 @@ CMakeFiles/fake.dir/src/tests/userprog/multi-recurse.c.o.provides.build: CMakeFi
 
 CMakeFiles/fake.dir/src/tests/userprog/no-vm/multi-oom.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/no-vm/multi-oom.c.o: ../src/tests/userprog/no-vm/multi-oom.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/fake.dir/src/tests/userprog/no-vm/multi-oom.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/no-vm/multi-oom.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/no-vm/multi-oom.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_131) "Building C object CMakeFiles/fake.dir/src/tests/userprog/no-vm/multi-oom.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/no-vm/multi-oom.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/no-vm/multi-oom.c
 
 CMakeFiles/fake.dir/src/tests/userprog/no-vm/multi-oom.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/no-vm/multi-oom.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/no-vm/multi-oom.c" > CMakeFiles/fake.dir/src/tests/userprog/no-vm/multi-oom.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/no-vm/multi-oom.c > CMakeFiles/fake.dir/src/tests/userprog/no-vm/multi-oom.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/no-vm/multi-oom.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/no-vm/multi-oom.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/no-vm/multi-oom.c" -o CMakeFiles/fake.dir/src/tests/userprog/no-vm/multi-oom.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/no-vm/multi-oom.c -o CMakeFiles/fake.dir/src/tests/userprog/no-vm/multi-oom.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/no-vm/multi-oom.c.o.requires:
 
@@ -3203,16 +3203,16 @@ CMakeFiles/fake.dir/src/tests/userprog/no-vm/multi-oom.c.o.provides.build: CMake
 
 CMakeFiles/fake.dir/src/tests/userprog/open-bad-ptr.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/open-bad-ptr.c.o: ../src/tests/userprog/open-bad-ptr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/fake.dir/src/tests/userprog/open-bad-ptr.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/open-bad-ptr.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/open-bad-ptr.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_132) "Building C object CMakeFiles/fake.dir/src/tests/userprog/open-bad-ptr.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/open-bad-ptr.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/open-bad-ptr.c
 
 CMakeFiles/fake.dir/src/tests/userprog/open-bad-ptr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/open-bad-ptr.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/open-bad-ptr.c" > CMakeFiles/fake.dir/src/tests/userprog/open-bad-ptr.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/open-bad-ptr.c > CMakeFiles/fake.dir/src/tests/userprog/open-bad-ptr.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/open-bad-ptr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/open-bad-ptr.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/open-bad-ptr.c" -o CMakeFiles/fake.dir/src/tests/userprog/open-bad-ptr.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/open-bad-ptr.c -o CMakeFiles/fake.dir/src/tests/userprog/open-bad-ptr.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/open-bad-ptr.c.o.requires:
 
@@ -3227,16 +3227,16 @@ CMakeFiles/fake.dir/src/tests/userprog/open-bad-ptr.c.o.provides.build: CMakeFil
 
 CMakeFiles/fake.dir/src/tests/userprog/open-boundary.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/open-boundary.c.o: ../src/tests/userprog/open-boundary.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/fake.dir/src/tests/userprog/open-boundary.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/open-boundary.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/open-boundary.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_133) "Building C object CMakeFiles/fake.dir/src/tests/userprog/open-boundary.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/open-boundary.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/open-boundary.c
 
 CMakeFiles/fake.dir/src/tests/userprog/open-boundary.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/open-boundary.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/open-boundary.c" > CMakeFiles/fake.dir/src/tests/userprog/open-boundary.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/open-boundary.c > CMakeFiles/fake.dir/src/tests/userprog/open-boundary.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/open-boundary.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/open-boundary.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/open-boundary.c" -o CMakeFiles/fake.dir/src/tests/userprog/open-boundary.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/open-boundary.c -o CMakeFiles/fake.dir/src/tests/userprog/open-boundary.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/open-boundary.c.o.requires:
 
@@ -3251,16 +3251,16 @@ CMakeFiles/fake.dir/src/tests/userprog/open-boundary.c.o.provides.build: CMakeFi
 
 CMakeFiles/fake.dir/src/tests/userprog/open-empty.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/open-empty.c.o: ../src/tests/userprog/open-empty.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/fake.dir/src/tests/userprog/open-empty.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/open-empty.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/open-empty.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_134) "Building C object CMakeFiles/fake.dir/src/tests/userprog/open-empty.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/open-empty.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/open-empty.c
 
 CMakeFiles/fake.dir/src/tests/userprog/open-empty.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/open-empty.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/open-empty.c" > CMakeFiles/fake.dir/src/tests/userprog/open-empty.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/open-empty.c > CMakeFiles/fake.dir/src/tests/userprog/open-empty.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/open-empty.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/open-empty.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/open-empty.c" -o CMakeFiles/fake.dir/src/tests/userprog/open-empty.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/open-empty.c -o CMakeFiles/fake.dir/src/tests/userprog/open-empty.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/open-empty.c.o.requires:
 
@@ -3275,16 +3275,16 @@ CMakeFiles/fake.dir/src/tests/userprog/open-empty.c.o.provides.build: CMakeFiles
 
 CMakeFiles/fake.dir/src/tests/userprog/open-missing.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/open-missing.c.o: ../src/tests/userprog/open-missing.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/fake.dir/src/tests/userprog/open-missing.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/open-missing.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/open-missing.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_135) "Building C object CMakeFiles/fake.dir/src/tests/userprog/open-missing.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/open-missing.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/open-missing.c
 
 CMakeFiles/fake.dir/src/tests/userprog/open-missing.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/open-missing.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/open-missing.c" > CMakeFiles/fake.dir/src/tests/userprog/open-missing.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/open-missing.c > CMakeFiles/fake.dir/src/tests/userprog/open-missing.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/open-missing.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/open-missing.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/open-missing.c" -o CMakeFiles/fake.dir/src/tests/userprog/open-missing.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/open-missing.c -o CMakeFiles/fake.dir/src/tests/userprog/open-missing.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/open-missing.c.o.requires:
 
@@ -3299,16 +3299,16 @@ CMakeFiles/fake.dir/src/tests/userprog/open-missing.c.o.provides.build: CMakeFil
 
 CMakeFiles/fake.dir/src/tests/userprog/open-normal.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/open-normal.c.o: ../src/tests/userprog/open-normal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/fake.dir/src/tests/userprog/open-normal.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/open-normal.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/open-normal.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_136) "Building C object CMakeFiles/fake.dir/src/tests/userprog/open-normal.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/open-normal.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/open-normal.c
 
 CMakeFiles/fake.dir/src/tests/userprog/open-normal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/open-normal.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/open-normal.c" > CMakeFiles/fake.dir/src/tests/userprog/open-normal.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/open-normal.c > CMakeFiles/fake.dir/src/tests/userprog/open-normal.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/open-normal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/open-normal.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/open-normal.c" -o CMakeFiles/fake.dir/src/tests/userprog/open-normal.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/open-normal.c -o CMakeFiles/fake.dir/src/tests/userprog/open-normal.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/open-normal.c.o.requires:
 
@@ -3323,16 +3323,16 @@ CMakeFiles/fake.dir/src/tests/userprog/open-normal.c.o.provides.build: CMakeFile
 
 CMakeFiles/fake.dir/src/tests/userprog/open-null.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/open-null.c.o: ../src/tests/userprog/open-null.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/fake.dir/src/tests/userprog/open-null.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/open-null.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/open-null.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_137) "Building C object CMakeFiles/fake.dir/src/tests/userprog/open-null.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/open-null.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/open-null.c
 
 CMakeFiles/fake.dir/src/tests/userprog/open-null.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/open-null.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/open-null.c" > CMakeFiles/fake.dir/src/tests/userprog/open-null.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/open-null.c > CMakeFiles/fake.dir/src/tests/userprog/open-null.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/open-null.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/open-null.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/open-null.c" -o CMakeFiles/fake.dir/src/tests/userprog/open-null.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/open-null.c -o CMakeFiles/fake.dir/src/tests/userprog/open-null.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/open-null.c.o.requires:
 
@@ -3347,16 +3347,16 @@ CMakeFiles/fake.dir/src/tests/userprog/open-null.c.o.provides.build: CMakeFiles/
 
 CMakeFiles/fake.dir/src/tests/userprog/open-twice.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/open-twice.c.o: ../src/tests/userprog/open-twice.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/fake.dir/src/tests/userprog/open-twice.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/open-twice.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/open-twice.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_138) "Building C object CMakeFiles/fake.dir/src/tests/userprog/open-twice.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/open-twice.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/open-twice.c
 
 CMakeFiles/fake.dir/src/tests/userprog/open-twice.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/open-twice.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/open-twice.c" > CMakeFiles/fake.dir/src/tests/userprog/open-twice.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/open-twice.c > CMakeFiles/fake.dir/src/tests/userprog/open-twice.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/open-twice.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/open-twice.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/open-twice.c" -o CMakeFiles/fake.dir/src/tests/userprog/open-twice.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/open-twice.c -o CMakeFiles/fake.dir/src/tests/userprog/open-twice.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/open-twice.c.o.requires:
 
@@ -3371,16 +3371,16 @@ CMakeFiles/fake.dir/src/tests/userprog/open-twice.c.o.provides.build: CMakeFiles
 
 CMakeFiles/fake.dir/src/tests/userprog/read-bad-fd.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/read-bad-fd.c.o: ../src/tests/userprog/read-bad-fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/fake.dir/src/tests/userprog/read-bad-fd.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/read-bad-fd.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/read-bad-fd.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_139) "Building C object CMakeFiles/fake.dir/src/tests/userprog/read-bad-fd.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/read-bad-fd.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/read-bad-fd.c
 
 CMakeFiles/fake.dir/src/tests/userprog/read-bad-fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/read-bad-fd.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/read-bad-fd.c" > CMakeFiles/fake.dir/src/tests/userprog/read-bad-fd.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/read-bad-fd.c > CMakeFiles/fake.dir/src/tests/userprog/read-bad-fd.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/read-bad-fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/read-bad-fd.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/read-bad-fd.c" -o CMakeFiles/fake.dir/src/tests/userprog/read-bad-fd.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/read-bad-fd.c -o CMakeFiles/fake.dir/src/tests/userprog/read-bad-fd.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/read-bad-fd.c.o.requires:
 
@@ -3395,16 +3395,16 @@ CMakeFiles/fake.dir/src/tests/userprog/read-bad-fd.c.o.provides.build: CMakeFile
 
 CMakeFiles/fake.dir/src/tests/userprog/read-bad-ptr.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/read-bad-ptr.c.o: ../src/tests/userprog/read-bad-ptr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/fake.dir/src/tests/userprog/read-bad-ptr.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/read-bad-ptr.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/read-bad-ptr.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_140) "Building C object CMakeFiles/fake.dir/src/tests/userprog/read-bad-ptr.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/read-bad-ptr.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/read-bad-ptr.c
 
 CMakeFiles/fake.dir/src/tests/userprog/read-bad-ptr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/read-bad-ptr.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/read-bad-ptr.c" > CMakeFiles/fake.dir/src/tests/userprog/read-bad-ptr.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/read-bad-ptr.c > CMakeFiles/fake.dir/src/tests/userprog/read-bad-ptr.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/read-bad-ptr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/read-bad-ptr.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/read-bad-ptr.c" -o CMakeFiles/fake.dir/src/tests/userprog/read-bad-ptr.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/read-bad-ptr.c -o CMakeFiles/fake.dir/src/tests/userprog/read-bad-ptr.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/read-bad-ptr.c.o.requires:
 
@@ -3419,16 +3419,16 @@ CMakeFiles/fake.dir/src/tests/userprog/read-bad-ptr.c.o.provides.build: CMakeFil
 
 CMakeFiles/fake.dir/src/tests/userprog/read-boundary.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/read-boundary.c.o: ../src/tests/userprog/read-boundary.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/fake.dir/src/tests/userprog/read-boundary.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/read-boundary.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/read-boundary.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_141) "Building C object CMakeFiles/fake.dir/src/tests/userprog/read-boundary.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/read-boundary.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/read-boundary.c
 
 CMakeFiles/fake.dir/src/tests/userprog/read-boundary.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/read-boundary.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/read-boundary.c" > CMakeFiles/fake.dir/src/tests/userprog/read-boundary.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/read-boundary.c > CMakeFiles/fake.dir/src/tests/userprog/read-boundary.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/read-boundary.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/read-boundary.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/read-boundary.c" -o CMakeFiles/fake.dir/src/tests/userprog/read-boundary.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/read-boundary.c -o CMakeFiles/fake.dir/src/tests/userprog/read-boundary.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/read-boundary.c.o.requires:
 
@@ -3443,16 +3443,16 @@ CMakeFiles/fake.dir/src/tests/userprog/read-boundary.c.o.provides.build: CMakeFi
 
 CMakeFiles/fake.dir/src/tests/userprog/read-normal.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/read-normal.c.o: ../src/tests/userprog/read-normal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/fake.dir/src/tests/userprog/read-normal.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/read-normal.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/read-normal.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_142) "Building C object CMakeFiles/fake.dir/src/tests/userprog/read-normal.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/read-normal.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/read-normal.c
 
 CMakeFiles/fake.dir/src/tests/userprog/read-normal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/read-normal.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/read-normal.c" > CMakeFiles/fake.dir/src/tests/userprog/read-normal.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/read-normal.c > CMakeFiles/fake.dir/src/tests/userprog/read-normal.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/read-normal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/read-normal.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/read-normal.c" -o CMakeFiles/fake.dir/src/tests/userprog/read-normal.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/read-normal.c -o CMakeFiles/fake.dir/src/tests/userprog/read-normal.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/read-normal.c.o.requires:
 
@@ -3467,16 +3467,16 @@ CMakeFiles/fake.dir/src/tests/userprog/read-normal.c.o.provides.build: CMakeFile
 
 CMakeFiles/fake.dir/src/tests/userprog/read-stdout.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/read-stdout.c.o: ../src/tests/userprog/read-stdout.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/fake.dir/src/tests/userprog/read-stdout.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/read-stdout.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/read-stdout.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_143) "Building C object CMakeFiles/fake.dir/src/tests/userprog/read-stdout.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/read-stdout.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/read-stdout.c
 
 CMakeFiles/fake.dir/src/tests/userprog/read-stdout.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/read-stdout.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/read-stdout.c" > CMakeFiles/fake.dir/src/tests/userprog/read-stdout.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/read-stdout.c > CMakeFiles/fake.dir/src/tests/userprog/read-stdout.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/read-stdout.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/read-stdout.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/read-stdout.c" -o CMakeFiles/fake.dir/src/tests/userprog/read-stdout.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/read-stdout.c -o CMakeFiles/fake.dir/src/tests/userprog/read-stdout.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/read-stdout.c.o.requires:
 
@@ -3491,16 +3491,16 @@ CMakeFiles/fake.dir/src/tests/userprog/read-stdout.c.o.provides.build: CMakeFile
 
 CMakeFiles/fake.dir/src/tests/userprog/read-zero.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/read-zero.c.o: ../src/tests/userprog/read-zero.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/fake.dir/src/tests/userprog/read-zero.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/read-zero.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/read-zero.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_144) "Building C object CMakeFiles/fake.dir/src/tests/userprog/read-zero.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/read-zero.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/read-zero.c
 
 CMakeFiles/fake.dir/src/tests/userprog/read-zero.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/read-zero.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/read-zero.c" > CMakeFiles/fake.dir/src/tests/userprog/read-zero.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/read-zero.c > CMakeFiles/fake.dir/src/tests/userprog/read-zero.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/read-zero.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/read-zero.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/read-zero.c" -o CMakeFiles/fake.dir/src/tests/userprog/read-zero.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/read-zero.c -o CMakeFiles/fake.dir/src/tests/userprog/read-zero.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/read-zero.c.o.requires:
 
@@ -3515,16 +3515,16 @@ CMakeFiles/fake.dir/src/tests/userprog/read-zero.c.o.provides.build: CMakeFiles/
 
 CMakeFiles/fake.dir/src/tests/userprog/rox-child.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/rox-child.c.o: ../src/tests/userprog/rox-child.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/fake.dir/src/tests/userprog/rox-child.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/rox-child.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/rox-child.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_145) "Building C object CMakeFiles/fake.dir/src/tests/userprog/rox-child.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/rox-child.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/rox-child.c
 
 CMakeFiles/fake.dir/src/tests/userprog/rox-child.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/rox-child.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/rox-child.c" > CMakeFiles/fake.dir/src/tests/userprog/rox-child.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/rox-child.c > CMakeFiles/fake.dir/src/tests/userprog/rox-child.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/rox-child.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/rox-child.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/rox-child.c" -o CMakeFiles/fake.dir/src/tests/userprog/rox-child.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/rox-child.c -o CMakeFiles/fake.dir/src/tests/userprog/rox-child.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/rox-child.c.o.requires:
 
@@ -3539,16 +3539,16 @@ CMakeFiles/fake.dir/src/tests/userprog/rox-child.c.o.provides.build: CMakeFiles/
 
 CMakeFiles/fake.dir/src/tests/userprog/rox-multichild.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/rox-multichild.c.o: ../src/tests/userprog/rox-multichild.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/fake.dir/src/tests/userprog/rox-multichild.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/rox-multichild.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/rox-multichild.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_146) "Building C object CMakeFiles/fake.dir/src/tests/userprog/rox-multichild.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/rox-multichild.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/rox-multichild.c
 
 CMakeFiles/fake.dir/src/tests/userprog/rox-multichild.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/rox-multichild.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/rox-multichild.c" > CMakeFiles/fake.dir/src/tests/userprog/rox-multichild.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/rox-multichild.c > CMakeFiles/fake.dir/src/tests/userprog/rox-multichild.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/rox-multichild.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/rox-multichild.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/rox-multichild.c" -o CMakeFiles/fake.dir/src/tests/userprog/rox-multichild.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/rox-multichild.c -o CMakeFiles/fake.dir/src/tests/userprog/rox-multichild.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/rox-multichild.c.o.requires:
 
@@ -3563,16 +3563,16 @@ CMakeFiles/fake.dir/src/tests/userprog/rox-multichild.c.o.provides.build: CMakeF
 
 CMakeFiles/fake.dir/src/tests/userprog/rox-simple.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/rox-simple.c.o: ../src/tests/userprog/rox-simple.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/fake.dir/src/tests/userprog/rox-simple.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/rox-simple.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/rox-simple.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_147) "Building C object CMakeFiles/fake.dir/src/tests/userprog/rox-simple.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/rox-simple.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/rox-simple.c
 
 CMakeFiles/fake.dir/src/tests/userprog/rox-simple.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/rox-simple.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/rox-simple.c" > CMakeFiles/fake.dir/src/tests/userprog/rox-simple.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/rox-simple.c > CMakeFiles/fake.dir/src/tests/userprog/rox-simple.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/rox-simple.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/rox-simple.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/rox-simple.c" -o CMakeFiles/fake.dir/src/tests/userprog/rox-simple.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/rox-simple.c -o CMakeFiles/fake.dir/src/tests/userprog/rox-simple.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/rox-simple.c.o.requires:
 
@@ -3587,16 +3587,16 @@ CMakeFiles/fake.dir/src/tests/userprog/rox-simple.c.o.provides.build: CMakeFiles
 
 CMakeFiles/fake.dir/src/tests/userprog/sc-bad-arg.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/sc-bad-arg.c.o: ../src/tests/userprog/sc-bad-arg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/fake.dir/src/tests/userprog/sc-bad-arg.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/sc-bad-arg.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/sc-bad-arg.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_148) "Building C object CMakeFiles/fake.dir/src/tests/userprog/sc-bad-arg.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/sc-bad-arg.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/sc-bad-arg.c
 
 CMakeFiles/fake.dir/src/tests/userprog/sc-bad-arg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/sc-bad-arg.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/sc-bad-arg.c" > CMakeFiles/fake.dir/src/tests/userprog/sc-bad-arg.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/sc-bad-arg.c > CMakeFiles/fake.dir/src/tests/userprog/sc-bad-arg.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/sc-bad-arg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/sc-bad-arg.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/sc-bad-arg.c" -o CMakeFiles/fake.dir/src/tests/userprog/sc-bad-arg.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/sc-bad-arg.c -o CMakeFiles/fake.dir/src/tests/userprog/sc-bad-arg.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/sc-bad-arg.c.o.requires:
 
@@ -3611,16 +3611,16 @@ CMakeFiles/fake.dir/src/tests/userprog/sc-bad-arg.c.o.provides.build: CMakeFiles
 
 CMakeFiles/fake.dir/src/tests/userprog/sc-bad-sp.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/sc-bad-sp.c.o: ../src/tests/userprog/sc-bad-sp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/fake.dir/src/tests/userprog/sc-bad-sp.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/sc-bad-sp.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/sc-bad-sp.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_149) "Building C object CMakeFiles/fake.dir/src/tests/userprog/sc-bad-sp.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/sc-bad-sp.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/sc-bad-sp.c
 
 CMakeFiles/fake.dir/src/tests/userprog/sc-bad-sp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/sc-bad-sp.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/sc-bad-sp.c" > CMakeFiles/fake.dir/src/tests/userprog/sc-bad-sp.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/sc-bad-sp.c > CMakeFiles/fake.dir/src/tests/userprog/sc-bad-sp.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/sc-bad-sp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/sc-bad-sp.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/sc-bad-sp.c" -o CMakeFiles/fake.dir/src/tests/userprog/sc-bad-sp.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/sc-bad-sp.c -o CMakeFiles/fake.dir/src/tests/userprog/sc-bad-sp.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/sc-bad-sp.c.o.requires:
 
@@ -3635,16 +3635,16 @@ CMakeFiles/fake.dir/src/tests/userprog/sc-bad-sp.c.o.provides.build: CMakeFiles/
 
 CMakeFiles/fake.dir/src/tests/userprog/sc-boundary-2.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/sc-boundary-2.c.o: ../src/tests/userprog/sc-boundary-2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/fake.dir/src/tests/userprog/sc-boundary-2.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/sc-boundary-2.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/sc-boundary-2.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_150) "Building C object CMakeFiles/fake.dir/src/tests/userprog/sc-boundary-2.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/sc-boundary-2.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/sc-boundary-2.c
 
 CMakeFiles/fake.dir/src/tests/userprog/sc-boundary-2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/sc-boundary-2.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/sc-boundary-2.c" > CMakeFiles/fake.dir/src/tests/userprog/sc-boundary-2.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/sc-boundary-2.c > CMakeFiles/fake.dir/src/tests/userprog/sc-boundary-2.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/sc-boundary-2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/sc-boundary-2.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/sc-boundary-2.c" -o CMakeFiles/fake.dir/src/tests/userprog/sc-boundary-2.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/sc-boundary-2.c -o CMakeFiles/fake.dir/src/tests/userprog/sc-boundary-2.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/sc-boundary-2.c.o.requires:
 
@@ -3659,16 +3659,16 @@ CMakeFiles/fake.dir/src/tests/userprog/sc-boundary-2.c.o.provides.build: CMakeFi
 
 CMakeFiles/fake.dir/src/tests/userprog/sc-boundary.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/sc-boundary.c.o: ../src/tests/userprog/sc-boundary.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/fake.dir/src/tests/userprog/sc-boundary.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/sc-boundary.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/sc-boundary.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_151) "Building C object CMakeFiles/fake.dir/src/tests/userprog/sc-boundary.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/sc-boundary.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/sc-boundary.c
 
 CMakeFiles/fake.dir/src/tests/userprog/sc-boundary.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/sc-boundary.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/sc-boundary.c" > CMakeFiles/fake.dir/src/tests/userprog/sc-boundary.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/sc-boundary.c > CMakeFiles/fake.dir/src/tests/userprog/sc-boundary.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/sc-boundary.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/sc-boundary.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/sc-boundary.c" -o CMakeFiles/fake.dir/src/tests/userprog/sc-boundary.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/sc-boundary.c -o CMakeFiles/fake.dir/src/tests/userprog/sc-boundary.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/sc-boundary.c.o.requires:
 
@@ -3683,16 +3683,16 @@ CMakeFiles/fake.dir/src/tests/userprog/sc-boundary.c.o.provides.build: CMakeFile
 
 CMakeFiles/fake.dir/src/tests/userprog/wait-bad-pid.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/wait-bad-pid.c.o: ../src/tests/userprog/wait-bad-pid.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/fake.dir/src/tests/userprog/wait-bad-pid.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/wait-bad-pid.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/wait-bad-pid.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_152) "Building C object CMakeFiles/fake.dir/src/tests/userprog/wait-bad-pid.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/wait-bad-pid.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/wait-bad-pid.c
 
 CMakeFiles/fake.dir/src/tests/userprog/wait-bad-pid.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/wait-bad-pid.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/wait-bad-pid.c" > CMakeFiles/fake.dir/src/tests/userprog/wait-bad-pid.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/wait-bad-pid.c > CMakeFiles/fake.dir/src/tests/userprog/wait-bad-pid.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/wait-bad-pid.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/wait-bad-pid.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/wait-bad-pid.c" -o CMakeFiles/fake.dir/src/tests/userprog/wait-bad-pid.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/wait-bad-pid.c -o CMakeFiles/fake.dir/src/tests/userprog/wait-bad-pid.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/wait-bad-pid.c.o.requires:
 
@@ -3707,16 +3707,16 @@ CMakeFiles/fake.dir/src/tests/userprog/wait-bad-pid.c.o.provides.build: CMakeFil
 
 CMakeFiles/fake.dir/src/tests/userprog/wait-killed.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/wait-killed.c.o: ../src/tests/userprog/wait-killed.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/fake.dir/src/tests/userprog/wait-killed.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/wait-killed.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/wait-killed.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_153) "Building C object CMakeFiles/fake.dir/src/tests/userprog/wait-killed.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/wait-killed.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/wait-killed.c
 
 CMakeFiles/fake.dir/src/tests/userprog/wait-killed.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/wait-killed.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/wait-killed.c" > CMakeFiles/fake.dir/src/tests/userprog/wait-killed.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/wait-killed.c > CMakeFiles/fake.dir/src/tests/userprog/wait-killed.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/wait-killed.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/wait-killed.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/wait-killed.c" -o CMakeFiles/fake.dir/src/tests/userprog/wait-killed.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/wait-killed.c -o CMakeFiles/fake.dir/src/tests/userprog/wait-killed.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/wait-killed.c.o.requires:
 
@@ -3731,16 +3731,16 @@ CMakeFiles/fake.dir/src/tests/userprog/wait-killed.c.o.provides.build: CMakeFile
 
 CMakeFiles/fake.dir/src/tests/userprog/wait-simple.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/wait-simple.c.o: ../src/tests/userprog/wait-simple.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/fake.dir/src/tests/userprog/wait-simple.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/wait-simple.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/wait-simple.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_154) "Building C object CMakeFiles/fake.dir/src/tests/userprog/wait-simple.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/wait-simple.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/wait-simple.c
 
 CMakeFiles/fake.dir/src/tests/userprog/wait-simple.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/wait-simple.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/wait-simple.c" > CMakeFiles/fake.dir/src/tests/userprog/wait-simple.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/wait-simple.c > CMakeFiles/fake.dir/src/tests/userprog/wait-simple.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/wait-simple.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/wait-simple.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/wait-simple.c" -o CMakeFiles/fake.dir/src/tests/userprog/wait-simple.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/wait-simple.c -o CMakeFiles/fake.dir/src/tests/userprog/wait-simple.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/wait-simple.c.o.requires:
 
@@ -3755,16 +3755,16 @@ CMakeFiles/fake.dir/src/tests/userprog/wait-simple.c.o.provides.build: CMakeFile
 
 CMakeFiles/fake.dir/src/tests/userprog/wait-twice.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/wait-twice.c.o: ../src/tests/userprog/wait-twice.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/fake.dir/src/tests/userprog/wait-twice.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/wait-twice.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/wait-twice.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_155) "Building C object CMakeFiles/fake.dir/src/tests/userprog/wait-twice.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/wait-twice.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/wait-twice.c
 
 CMakeFiles/fake.dir/src/tests/userprog/wait-twice.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/wait-twice.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/wait-twice.c" > CMakeFiles/fake.dir/src/tests/userprog/wait-twice.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/wait-twice.c > CMakeFiles/fake.dir/src/tests/userprog/wait-twice.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/wait-twice.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/wait-twice.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/wait-twice.c" -o CMakeFiles/fake.dir/src/tests/userprog/wait-twice.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/wait-twice.c -o CMakeFiles/fake.dir/src/tests/userprog/wait-twice.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/wait-twice.c.o.requires:
 
@@ -3779,16 +3779,16 @@ CMakeFiles/fake.dir/src/tests/userprog/wait-twice.c.o.provides.build: CMakeFiles
 
 CMakeFiles/fake.dir/src/tests/userprog/write-bad-fd.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/write-bad-fd.c.o: ../src/tests/userprog/write-bad-fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/fake.dir/src/tests/userprog/write-bad-fd.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/write-bad-fd.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/write-bad-fd.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_156) "Building C object CMakeFiles/fake.dir/src/tests/userprog/write-bad-fd.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/write-bad-fd.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/write-bad-fd.c
 
 CMakeFiles/fake.dir/src/tests/userprog/write-bad-fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/write-bad-fd.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/write-bad-fd.c" > CMakeFiles/fake.dir/src/tests/userprog/write-bad-fd.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/write-bad-fd.c > CMakeFiles/fake.dir/src/tests/userprog/write-bad-fd.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/write-bad-fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/write-bad-fd.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/write-bad-fd.c" -o CMakeFiles/fake.dir/src/tests/userprog/write-bad-fd.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/write-bad-fd.c -o CMakeFiles/fake.dir/src/tests/userprog/write-bad-fd.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/write-bad-fd.c.o.requires:
 
@@ -3803,16 +3803,16 @@ CMakeFiles/fake.dir/src/tests/userprog/write-bad-fd.c.o.provides.build: CMakeFil
 
 CMakeFiles/fake.dir/src/tests/userprog/write-bad-ptr.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/write-bad-ptr.c.o: ../src/tests/userprog/write-bad-ptr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/fake.dir/src/tests/userprog/write-bad-ptr.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/write-bad-ptr.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/write-bad-ptr.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_157) "Building C object CMakeFiles/fake.dir/src/tests/userprog/write-bad-ptr.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/write-bad-ptr.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/write-bad-ptr.c
 
 CMakeFiles/fake.dir/src/tests/userprog/write-bad-ptr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/write-bad-ptr.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/write-bad-ptr.c" > CMakeFiles/fake.dir/src/tests/userprog/write-bad-ptr.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/write-bad-ptr.c > CMakeFiles/fake.dir/src/tests/userprog/write-bad-ptr.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/write-bad-ptr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/write-bad-ptr.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/write-bad-ptr.c" -o CMakeFiles/fake.dir/src/tests/userprog/write-bad-ptr.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/write-bad-ptr.c -o CMakeFiles/fake.dir/src/tests/userprog/write-bad-ptr.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/write-bad-ptr.c.o.requires:
 
@@ -3827,16 +3827,16 @@ CMakeFiles/fake.dir/src/tests/userprog/write-bad-ptr.c.o.provides.build: CMakeFi
 
 CMakeFiles/fake.dir/src/tests/userprog/write-boundary.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/write-boundary.c.o: ../src/tests/userprog/write-boundary.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/fake.dir/src/tests/userprog/write-boundary.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/write-boundary.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/write-boundary.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_158) "Building C object CMakeFiles/fake.dir/src/tests/userprog/write-boundary.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/write-boundary.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/write-boundary.c
 
 CMakeFiles/fake.dir/src/tests/userprog/write-boundary.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/write-boundary.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/write-boundary.c" > CMakeFiles/fake.dir/src/tests/userprog/write-boundary.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/write-boundary.c > CMakeFiles/fake.dir/src/tests/userprog/write-boundary.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/write-boundary.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/write-boundary.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/write-boundary.c" -o CMakeFiles/fake.dir/src/tests/userprog/write-boundary.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/write-boundary.c -o CMakeFiles/fake.dir/src/tests/userprog/write-boundary.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/write-boundary.c.o.requires:
 
@@ -3851,16 +3851,16 @@ CMakeFiles/fake.dir/src/tests/userprog/write-boundary.c.o.provides.build: CMakeF
 
 CMakeFiles/fake.dir/src/tests/userprog/write-normal.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/write-normal.c.o: ../src/tests/userprog/write-normal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/fake.dir/src/tests/userprog/write-normal.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/write-normal.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/write-normal.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_159) "Building C object CMakeFiles/fake.dir/src/tests/userprog/write-normal.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/write-normal.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/write-normal.c
 
 CMakeFiles/fake.dir/src/tests/userprog/write-normal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/write-normal.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/write-normal.c" > CMakeFiles/fake.dir/src/tests/userprog/write-normal.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/write-normal.c > CMakeFiles/fake.dir/src/tests/userprog/write-normal.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/write-normal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/write-normal.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/write-normal.c" -o CMakeFiles/fake.dir/src/tests/userprog/write-normal.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/write-normal.c -o CMakeFiles/fake.dir/src/tests/userprog/write-normal.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/write-normal.c.o.requires:
 
@@ -3875,16 +3875,16 @@ CMakeFiles/fake.dir/src/tests/userprog/write-normal.c.o.provides.build: CMakeFil
 
 CMakeFiles/fake.dir/src/tests/userprog/write-stdin.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/write-stdin.c.o: ../src/tests/userprog/write-stdin.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/fake.dir/src/tests/userprog/write-stdin.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/write-stdin.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/write-stdin.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_160) "Building C object CMakeFiles/fake.dir/src/tests/userprog/write-stdin.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/write-stdin.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/write-stdin.c
 
 CMakeFiles/fake.dir/src/tests/userprog/write-stdin.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/write-stdin.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/write-stdin.c" > CMakeFiles/fake.dir/src/tests/userprog/write-stdin.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/write-stdin.c > CMakeFiles/fake.dir/src/tests/userprog/write-stdin.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/write-stdin.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/write-stdin.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/write-stdin.c" -o CMakeFiles/fake.dir/src/tests/userprog/write-stdin.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/write-stdin.c -o CMakeFiles/fake.dir/src/tests/userprog/write-stdin.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/write-stdin.c.o.requires:
 
@@ -3899,16 +3899,16 @@ CMakeFiles/fake.dir/src/tests/userprog/write-stdin.c.o.provides.build: CMakeFile
 
 CMakeFiles/fake.dir/src/tests/userprog/write-zero.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/userprog/write-zero.c.o: ../src/tests/userprog/write-zero.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/fake.dir/src/tests/userprog/write-zero.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/write-zero.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/write-zero.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_161) "Building C object CMakeFiles/fake.dir/src/tests/userprog/write-zero.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/userprog/write-zero.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/write-zero.c
 
 CMakeFiles/fake.dir/src/tests/userprog/write-zero.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/userprog/write-zero.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/write-zero.c" > CMakeFiles/fake.dir/src/tests/userprog/write-zero.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/write-zero.c > CMakeFiles/fake.dir/src/tests/userprog/write-zero.c.i
 
 CMakeFiles/fake.dir/src/tests/userprog/write-zero.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/userprog/write-zero.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/userprog/write-zero.c" -o CMakeFiles/fake.dir/src/tests/userprog/write-zero.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/userprog/write-zero.c -o CMakeFiles/fake.dir/src/tests/userprog/write-zero.c.s
 
 CMakeFiles/fake.dir/src/tests/userprog/write-zero.c.o.requires:
 
@@ -3923,16 +3923,16 @@ CMakeFiles/fake.dir/src/tests/userprog/write-zero.c.o.provides.build: CMakeFiles
 
 CMakeFiles/fake.dir/src/tests/vm/child-inherit.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/vm/child-inherit.c.o: ../src/tests/vm/child-inherit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/fake.dir/src/tests/vm/child-inherit.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/child-inherit.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/child-inherit.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_162) "Building C object CMakeFiles/fake.dir/src/tests/vm/child-inherit.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/child-inherit.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/child-inherit.c
 
 CMakeFiles/fake.dir/src/tests/vm/child-inherit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/vm/child-inherit.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/child-inherit.c" > CMakeFiles/fake.dir/src/tests/vm/child-inherit.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/child-inherit.c > CMakeFiles/fake.dir/src/tests/vm/child-inherit.c.i
 
 CMakeFiles/fake.dir/src/tests/vm/child-inherit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/vm/child-inherit.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/child-inherit.c" -o CMakeFiles/fake.dir/src/tests/vm/child-inherit.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/child-inherit.c -o CMakeFiles/fake.dir/src/tests/vm/child-inherit.c.s
 
 CMakeFiles/fake.dir/src/tests/vm/child-inherit.c.o.requires:
 
@@ -3947,16 +3947,16 @@ CMakeFiles/fake.dir/src/tests/vm/child-inherit.c.o.provides.build: CMakeFiles/fa
 
 CMakeFiles/fake.dir/src/tests/vm/child-linear.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/vm/child-linear.c.o: ../src/tests/vm/child-linear.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/fake.dir/src/tests/vm/child-linear.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/child-linear.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/child-linear.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_163) "Building C object CMakeFiles/fake.dir/src/tests/vm/child-linear.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/child-linear.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/child-linear.c
 
 CMakeFiles/fake.dir/src/tests/vm/child-linear.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/vm/child-linear.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/child-linear.c" > CMakeFiles/fake.dir/src/tests/vm/child-linear.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/child-linear.c > CMakeFiles/fake.dir/src/tests/vm/child-linear.c.i
 
 CMakeFiles/fake.dir/src/tests/vm/child-linear.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/vm/child-linear.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/child-linear.c" -o CMakeFiles/fake.dir/src/tests/vm/child-linear.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/child-linear.c -o CMakeFiles/fake.dir/src/tests/vm/child-linear.c.s
 
 CMakeFiles/fake.dir/src/tests/vm/child-linear.c.o.requires:
 
@@ -3971,16 +3971,16 @@ CMakeFiles/fake.dir/src/tests/vm/child-linear.c.o.provides.build: CMakeFiles/fak
 
 CMakeFiles/fake.dir/src/tests/vm/child-mm-wrt.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/vm/child-mm-wrt.c.o: ../src/tests/vm/child-mm-wrt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/fake.dir/src/tests/vm/child-mm-wrt.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/child-mm-wrt.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/child-mm-wrt.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_164) "Building C object CMakeFiles/fake.dir/src/tests/vm/child-mm-wrt.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/child-mm-wrt.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/child-mm-wrt.c
 
 CMakeFiles/fake.dir/src/tests/vm/child-mm-wrt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/vm/child-mm-wrt.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/child-mm-wrt.c" > CMakeFiles/fake.dir/src/tests/vm/child-mm-wrt.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/child-mm-wrt.c > CMakeFiles/fake.dir/src/tests/vm/child-mm-wrt.c.i
 
 CMakeFiles/fake.dir/src/tests/vm/child-mm-wrt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/vm/child-mm-wrt.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/child-mm-wrt.c" -o CMakeFiles/fake.dir/src/tests/vm/child-mm-wrt.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/child-mm-wrt.c -o CMakeFiles/fake.dir/src/tests/vm/child-mm-wrt.c.s
 
 CMakeFiles/fake.dir/src/tests/vm/child-mm-wrt.c.o.requires:
 
@@ -3995,16 +3995,16 @@ CMakeFiles/fake.dir/src/tests/vm/child-mm-wrt.c.o.provides.build: CMakeFiles/fak
 
 CMakeFiles/fake.dir/src/tests/vm/child-qsort-mm.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/vm/child-qsort-mm.c.o: ../src/tests/vm/child-qsort-mm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/fake.dir/src/tests/vm/child-qsort-mm.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/child-qsort-mm.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/child-qsort-mm.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_165) "Building C object CMakeFiles/fake.dir/src/tests/vm/child-qsort-mm.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/child-qsort-mm.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/child-qsort-mm.c
 
 CMakeFiles/fake.dir/src/tests/vm/child-qsort-mm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/vm/child-qsort-mm.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/child-qsort-mm.c" > CMakeFiles/fake.dir/src/tests/vm/child-qsort-mm.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/child-qsort-mm.c > CMakeFiles/fake.dir/src/tests/vm/child-qsort-mm.c.i
 
 CMakeFiles/fake.dir/src/tests/vm/child-qsort-mm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/vm/child-qsort-mm.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/child-qsort-mm.c" -o CMakeFiles/fake.dir/src/tests/vm/child-qsort-mm.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/child-qsort-mm.c -o CMakeFiles/fake.dir/src/tests/vm/child-qsort-mm.c.s
 
 CMakeFiles/fake.dir/src/tests/vm/child-qsort-mm.c.o.requires:
 
@@ -4019,16 +4019,16 @@ CMakeFiles/fake.dir/src/tests/vm/child-qsort-mm.c.o.provides.build: CMakeFiles/f
 
 CMakeFiles/fake.dir/src/tests/vm/child-qsort.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/vm/child-qsort.c.o: ../src/tests/vm/child-qsort.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/fake.dir/src/tests/vm/child-qsort.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/child-qsort.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/child-qsort.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_166) "Building C object CMakeFiles/fake.dir/src/tests/vm/child-qsort.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/child-qsort.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/child-qsort.c
 
 CMakeFiles/fake.dir/src/tests/vm/child-qsort.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/vm/child-qsort.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/child-qsort.c" > CMakeFiles/fake.dir/src/tests/vm/child-qsort.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/child-qsort.c > CMakeFiles/fake.dir/src/tests/vm/child-qsort.c.i
 
 CMakeFiles/fake.dir/src/tests/vm/child-qsort.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/vm/child-qsort.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/child-qsort.c" -o CMakeFiles/fake.dir/src/tests/vm/child-qsort.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/child-qsort.c -o CMakeFiles/fake.dir/src/tests/vm/child-qsort.c.s
 
 CMakeFiles/fake.dir/src/tests/vm/child-qsort.c.o.requires:
 
@@ -4043,16 +4043,16 @@ CMakeFiles/fake.dir/src/tests/vm/child-qsort.c.o.provides.build: CMakeFiles/fake
 
 CMakeFiles/fake.dir/src/tests/vm/child-sort.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/vm/child-sort.c.o: ../src/tests/vm/child-sort.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_167) "Building C object CMakeFiles/fake.dir/src/tests/vm/child-sort.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/child-sort.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/child-sort.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_167) "Building C object CMakeFiles/fake.dir/src/tests/vm/child-sort.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/child-sort.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/child-sort.c
 
 CMakeFiles/fake.dir/src/tests/vm/child-sort.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/vm/child-sort.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/child-sort.c" > CMakeFiles/fake.dir/src/tests/vm/child-sort.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/child-sort.c > CMakeFiles/fake.dir/src/tests/vm/child-sort.c.i
 
 CMakeFiles/fake.dir/src/tests/vm/child-sort.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/vm/child-sort.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/child-sort.c" -o CMakeFiles/fake.dir/src/tests/vm/child-sort.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/child-sort.c -o CMakeFiles/fake.dir/src/tests/vm/child-sort.c.s
 
 CMakeFiles/fake.dir/src/tests/vm/child-sort.c.o.requires:
 
@@ -4067,16 +4067,16 @@ CMakeFiles/fake.dir/src/tests/vm/child-sort.c.o.provides.build: CMakeFiles/fake.
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-bad-fd.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/vm/mmap-bad-fd.c.o: ../src/tests/vm/mmap-bad-fd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_168) "Building C object CMakeFiles/fake.dir/src/tests/vm/mmap-bad-fd.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/mmap-bad-fd.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/mmap-bad-fd.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_168) "Building C object CMakeFiles/fake.dir/src/tests/vm/mmap-bad-fd.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/mmap-bad-fd.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/mmap-bad-fd.c
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-bad-fd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/vm/mmap-bad-fd.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/mmap-bad-fd.c" > CMakeFiles/fake.dir/src/tests/vm/mmap-bad-fd.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/mmap-bad-fd.c > CMakeFiles/fake.dir/src/tests/vm/mmap-bad-fd.c.i
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-bad-fd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/vm/mmap-bad-fd.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/mmap-bad-fd.c" -o CMakeFiles/fake.dir/src/tests/vm/mmap-bad-fd.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/mmap-bad-fd.c -o CMakeFiles/fake.dir/src/tests/vm/mmap-bad-fd.c.s
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-bad-fd.c.o.requires:
 
@@ -4091,16 +4091,16 @@ CMakeFiles/fake.dir/src/tests/vm/mmap-bad-fd.c.o.provides.build: CMakeFiles/fake
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-clean.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/vm/mmap-clean.c.o: ../src/tests/vm/mmap-clean.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_169) "Building C object CMakeFiles/fake.dir/src/tests/vm/mmap-clean.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/mmap-clean.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/mmap-clean.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_169) "Building C object CMakeFiles/fake.dir/src/tests/vm/mmap-clean.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/mmap-clean.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/mmap-clean.c
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-clean.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/vm/mmap-clean.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/mmap-clean.c" > CMakeFiles/fake.dir/src/tests/vm/mmap-clean.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/mmap-clean.c > CMakeFiles/fake.dir/src/tests/vm/mmap-clean.c.i
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-clean.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/vm/mmap-clean.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/mmap-clean.c" -o CMakeFiles/fake.dir/src/tests/vm/mmap-clean.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/mmap-clean.c -o CMakeFiles/fake.dir/src/tests/vm/mmap-clean.c.s
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-clean.c.o.requires:
 
@@ -4115,16 +4115,16 @@ CMakeFiles/fake.dir/src/tests/vm/mmap-clean.c.o.provides.build: CMakeFiles/fake.
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-close.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/vm/mmap-close.c.o: ../src/tests/vm/mmap-close.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_170) "Building C object CMakeFiles/fake.dir/src/tests/vm/mmap-close.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/mmap-close.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/mmap-close.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_170) "Building C object CMakeFiles/fake.dir/src/tests/vm/mmap-close.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/mmap-close.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/mmap-close.c
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-close.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/vm/mmap-close.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/mmap-close.c" > CMakeFiles/fake.dir/src/tests/vm/mmap-close.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/mmap-close.c > CMakeFiles/fake.dir/src/tests/vm/mmap-close.c.i
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-close.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/vm/mmap-close.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/mmap-close.c" -o CMakeFiles/fake.dir/src/tests/vm/mmap-close.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/mmap-close.c -o CMakeFiles/fake.dir/src/tests/vm/mmap-close.c.s
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-close.c.o.requires:
 
@@ -4139,16 +4139,16 @@ CMakeFiles/fake.dir/src/tests/vm/mmap-close.c.o.provides.build: CMakeFiles/fake.
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-exit.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/vm/mmap-exit.c.o: ../src/tests/vm/mmap-exit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_171) "Building C object CMakeFiles/fake.dir/src/tests/vm/mmap-exit.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/mmap-exit.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/mmap-exit.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_171) "Building C object CMakeFiles/fake.dir/src/tests/vm/mmap-exit.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/mmap-exit.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/mmap-exit.c
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-exit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/vm/mmap-exit.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/mmap-exit.c" > CMakeFiles/fake.dir/src/tests/vm/mmap-exit.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/mmap-exit.c > CMakeFiles/fake.dir/src/tests/vm/mmap-exit.c.i
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-exit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/vm/mmap-exit.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/mmap-exit.c" -o CMakeFiles/fake.dir/src/tests/vm/mmap-exit.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/mmap-exit.c -o CMakeFiles/fake.dir/src/tests/vm/mmap-exit.c.s
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-exit.c.o.requires:
 
@@ -4163,16 +4163,16 @@ CMakeFiles/fake.dir/src/tests/vm/mmap-exit.c.o.provides.build: CMakeFiles/fake.d
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-inherit.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/vm/mmap-inherit.c.o: ../src/tests/vm/mmap-inherit.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_172) "Building C object CMakeFiles/fake.dir/src/tests/vm/mmap-inherit.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/mmap-inherit.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/mmap-inherit.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_172) "Building C object CMakeFiles/fake.dir/src/tests/vm/mmap-inherit.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/mmap-inherit.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/mmap-inherit.c
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-inherit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/vm/mmap-inherit.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/mmap-inherit.c" > CMakeFiles/fake.dir/src/tests/vm/mmap-inherit.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/mmap-inherit.c > CMakeFiles/fake.dir/src/tests/vm/mmap-inherit.c.i
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-inherit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/vm/mmap-inherit.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/mmap-inherit.c" -o CMakeFiles/fake.dir/src/tests/vm/mmap-inherit.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/mmap-inherit.c -o CMakeFiles/fake.dir/src/tests/vm/mmap-inherit.c.s
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-inherit.c.o.requires:
 
@@ -4187,16 +4187,16 @@ CMakeFiles/fake.dir/src/tests/vm/mmap-inherit.c.o.provides.build: CMakeFiles/fak
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-misalign.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/vm/mmap-misalign.c.o: ../src/tests/vm/mmap-misalign.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_173) "Building C object CMakeFiles/fake.dir/src/tests/vm/mmap-misalign.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/mmap-misalign.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/mmap-misalign.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_173) "Building C object CMakeFiles/fake.dir/src/tests/vm/mmap-misalign.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/mmap-misalign.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/mmap-misalign.c
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-misalign.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/vm/mmap-misalign.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/mmap-misalign.c" > CMakeFiles/fake.dir/src/tests/vm/mmap-misalign.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/mmap-misalign.c > CMakeFiles/fake.dir/src/tests/vm/mmap-misalign.c.i
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-misalign.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/vm/mmap-misalign.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/mmap-misalign.c" -o CMakeFiles/fake.dir/src/tests/vm/mmap-misalign.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/mmap-misalign.c -o CMakeFiles/fake.dir/src/tests/vm/mmap-misalign.c.s
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-misalign.c.o.requires:
 
@@ -4211,16 +4211,16 @@ CMakeFiles/fake.dir/src/tests/vm/mmap-misalign.c.o.provides.build: CMakeFiles/fa
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-null.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/vm/mmap-null.c.o: ../src/tests/vm/mmap-null.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_174) "Building C object CMakeFiles/fake.dir/src/tests/vm/mmap-null.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/mmap-null.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/mmap-null.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_174) "Building C object CMakeFiles/fake.dir/src/tests/vm/mmap-null.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/mmap-null.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/mmap-null.c
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-null.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/vm/mmap-null.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/mmap-null.c" > CMakeFiles/fake.dir/src/tests/vm/mmap-null.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/mmap-null.c > CMakeFiles/fake.dir/src/tests/vm/mmap-null.c.i
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-null.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/vm/mmap-null.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/mmap-null.c" -o CMakeFiles/fake.dir/src/tests/vm/mmap-null.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/mmap-null.c -o CMakeFiles/fake.dir/src/tests/vm/mmap-null.c.s
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-null.c.o.requires:
 
@@ -4235,16 +4235,16 @@ CMakeFiles/fake.dir/src/tests/vm/mmap-null.c.o.provides.build: CMakeFiles/fake.d
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-over-code.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/vm/mmap-over-code.c.o: ../src/tests/vm/mmap-over-code.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_175) "Building C object CMakeFiles/fake.dir/src/tests/vm/mmap-over-code.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/mmap-over-code.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/mmap-over-code.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_175) "Building C object CMakeFiles/fake.dir/src/tests/vm/mmap-over-code.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/mmap-over-code.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/mmap-over-code.c
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-over-code.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/vm/mmap-over-code.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/mmap-over-code.c" > CMakeFiles/fake.dir/src/tests/vm/mmap-over-code.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/mmap-over-code.c > CMakeFiles/fake.dir/src/tests/vm/mmap-over-code.c.i
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-over-code.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/vm/mmap-over-code.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/mmap-over-code.c" -o CMakeFiles/fake.dir/src/tests/vm/mmap-over-code.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/mmap-over-code.c -o CMakeFiles/fake.dir/src/tests/vm/mmap-over-code.c.s
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-over-code.c.o.requires:
 
@@ -4259,16 +4259,16 @@ CMakeFiles/fake.dir/src/tests/vm/mmap-over-code.c.o.provides.build: CMakeFiles/f
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-over-data.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/vm/mmap-over-data.c.o: ../src/tests/vm/mmap-over-data.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_176) "Building C object CMakeFiles/fake.dir/src/tests/vm/mmap-over-data.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/mmap-over-data.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/mmap-over-data.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_176) "Building C object CMakeFiles/fake.dir/src/tests/vm/mmap-over-data.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/mmap-over-data.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/mmap-over-data.c
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-over-data.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/vm/mmap-over-data.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/mmap-over-data.c" > CMakeFiles/fake.dir/src/tests/vm/mmap-over-data.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/mmap-over-data.c > CMakeFiles/fake.dir/src/tests/vm/mmap-over-data.c.i
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-over-data.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/vm/mmap-over-data.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/mmap-over-data.c" -o CMakeFiles/fake.dir/src/tests/vm/mmap-over-data.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/mmap-over-data.c -o CMakeFiles/fake.dir/src/tests/vm/mmap-over-data.c.s
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-over-data.c.o.requires:
 
@@ -4283,16 +4283,16 @@ CMakeFiles/fake.dir/src/tests/vm/mmap-over-data.c.o.provides.build: CMakeFiles/f
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-over-stk.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/vm/mmap-over-stk.c.o: ../src/tests/vm/mmap-over-stk.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_177) "Building C object CMakeFiles/fake.dir/src/tests/vm/mmap-over-stk.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/mmap-over-stk.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/mmap-over-stk.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_177) "Building C object CMakeFiles/fake.dir/src/tests/vm/mmap-over-stk.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/mmap-over-stk.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/mmap-over-stk.c
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-over-stk.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/vm/mmap-over-stk.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/mmap-over-stk.c" > CMakeFiles/fake.dir/src/tests/vm/mmap-over-stk.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/mmap-over-stk.c > CMakeFiles/fake.dir/src/tests/vm/mmap-over-stk.c.i
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-over-stk.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/vm/mmap-over-stk.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/mmap-over-stk.c" -o CMakeFiles/fake.dir/src/tests/vm/mmap-over-stk.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/mmap-over-stk.c -o CMakeFiles/fake.dir/src/tests/vm/mmap-over-stk.c.s
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-over-stk.c.o.requires:
 
@@ -4307,16 +4307,16 @@ CMakeFiles/fake.dir/src/tests/vm/mmap-over-stk.c.o.provides.build: CMakeFiles/fa
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-overlap.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/vm/mmap-overlap.c.o: ../src/tests/vm/mmap-overlap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_178) "Building C object CMakeFiles/fake.dir/src/tests/vm/mmap-overlap.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/mmap-overlap.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/mmap-overlap.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_178) "Building C object CMakeFiles/fake.dir/src/tests/vm/mmap-overlap.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/mmap-overlap.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/mmap-overlap.c
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-overlap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/vm/mmap-overlap.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/mmap-overlap.c" > CMakeFiles/fake.dir/src/tests/vm/mmap-overlap.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/mmap-overlap.c > CMakeFiles/fake.dir/src/tests/vm/mmap-overlap.c.i
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-overlap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/vm/mmap-overlap.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/mmap-overlap.c" -o CMakeFiles/fake.dir/src/tests/vm/mmap-overlap.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/mmap-overlap.c -o CMakeFiles/fake.dir/src/tests/vm/mmap-overlap.c.s
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-overlap.c.o.requires:
 
@@ -4331,16 +4331,16 @@ CMakeFiles/fake.dir/src/tests/vm/mmap-overlap.c.o.provides.build: CMakeFiles/fak
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-read.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/vm/mmap-read.c.o: ../src/tests/vm/mmap-read.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_179) "Building C object CMakeFiles/fake.dir/src/tests/vm/mmap-read.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/mmap-read.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/mmap-read.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_179) "Building C object CMakeFiles/fake.dir/src/tests/vm/mmap-read.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/mmap-read.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/mmap-read.c
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-read.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/vm/mmap-read.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/mmap-read.c" > CMakeFiles/fake.dir/src/tests/vm/mmap-read.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/mmap-read.c > CMakeFiles/fake.dir/src/tests/vm/mmap-read.c.i
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-read.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/vm/mmap-read.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/mmap-read.c" -o CMakeFiles/fake.dir/src/tests/vm/mmap-read.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/mmap-read.c -o CMakeFiles/fake.dir/src/tests/vm/mmap-read.c.s
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-read.c.o.requires:
 
@@ -4355,16 +4355,16 @@ CMakeFiles/fake.dir/src/tests/vm/mmap-read.c.o.provides.build: CMakeFiles/fake.d
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-remove.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/vm/mmap-remove.c.o: ../src/tests/vm/mmap-remove.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_180) "Building C object CMakeFiles/fake.dir/src/tests/vm/mmap-remove.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/mmap-remove.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/mmap-remove.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_180) "Building C object CMakeFiles/fake.dir/src/tests/vm/mmap-remove.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/mmap-remove.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/mmap-remove.c
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-remove.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/vm/mmap-remove.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/mmap-remove.c" > CMakeFiles/fake.dir/src/tests/vm/mmap-remove.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/mmap-remove.c > CMakeFiles/fake.dir/src/tests/vm/mmap-remove.c.i
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-remove.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/vm/mmap-remove.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/mmap-remove.c" -o CMakeFiles/fake.dir/src/tests/vm/mmap-remove.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/mmap-remove.c -o CMakeFiles/fake.dir/src/tests/vm/mmap-remove.c.s
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-remove.c.o.requires:
 
@@ -4379,16 +4379,16 @@ CMakeFiles/fake.dir/src/tests/vm/mmap-remove.c.o.provides.build: CMakeFiles/fake
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-shuffle.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/vm/mmap-shuffle.c.o: ../src/tests/vm/mmap-shuffle.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_181) "Building C object CMakeFiles/fake.dir/src/tests/vm/mmap-shuffle.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/mmap-shuffle.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/mmap-shuffle.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_181) "Building C object CMakeFiles/fake.dir/src/tests/vm/mmap-shuffle.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/mmap-shuffle.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/mmap-shuffle.c
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-shuffle.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/vm/mmap-shuffle.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/mmap-shuffle.c" > CMakeFiles/fake.dir/src/tests/vm/mmap-shuffle.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/mmap-shuffle.c > CMakeFiles/fake.dir/src/tests/vm/mmap-shuffle.c.i
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-shuffle.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/vm/mmap-shuffle.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/mmap-shuffle.c" -o CMakeFiles/fake.dir/src/tests/vm/mmap-shuffle.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/mmap-shuffle.c -o CMakeFiles/fake.dir/src/tests/vm/mmap-shuffle.c.s
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-shuffle.c.o.requires:
 
@@ -4403,16 +4403,16 @@ CMakeFiles/fake.dir/src/tests/vm/mmap-shuffle.c.o.provides.build: CMakeFiles/fak
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-twice.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/vm/mmap-twice.c.o: ../src/tests/vm/mmap-twice.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_182) "Building C object CMakeFiles/fake.dir/src/tests/vm/mmap-twice.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/mmap-twice.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/mmap-twice.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_182) "Building C object CMakeFiles/fake.dir/src/tests/vm/mmap-twice.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/mmap-twice.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/mmap-twice.c
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-twice.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/vm/mmap-twice.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/mmap-twice.c" > CMakeFiles/fake.dir/src/tests/vm/mmap-twice.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/mmap-twice.c > CMakeFiles/fake.dir/src/tests/vm/mmap-twice.c.i
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-twice.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/vm/mmap-twice.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/mmap-twice.c" -o CMakeFiles/fake.dir/src/tests/vm/mmap-twice.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/mmap-twice.c -o CMakeFiles/fake.dir/src/tests/vm/mmap-twice.c.s
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-twice.c.o.requires:
 
@@ -4427,16 +4427,16 @@ CMakeFiles/fake.dir/src/tests/vm/mmap-twice.c.o.provides.build: CMakeFiles/fake.
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-unmap.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/vm/mmap-unmap.c.o: ../src/tests/vm/mmap-unmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_183) "Building C object CMakeFiles/fake.dir/src/tests/vm/mmap-unmap.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/mmap-unmap.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/mmap-unmap.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_183) "Building C object CMakeFiles/fake.dir/src/tests/vm/mmap-unmap.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/mmap-unmap.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/mmap-unmap.c
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-unmap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/vm/mmap-unmap.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/mmap-unmap.c" > CMakeFiles/fake.dir/src/tests/vm/mmap-unmap.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/mmap-unmap.c > CMakeFiles/fake.dir/src/tests/vm/mmap-unmap.c.i
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-unmap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/vm/mmap-unmap.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/mmap-unmap.c" -o CMakeFiles/fake.dir/src/tests/vm/mmap-unmap.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/mmap-unmap.c -o CMakeFiles/fake.dir/src/tests/vm/mmap-unmap.c.s
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-unmap.c.o.requires:
 
@@ -4451,16 +4451,16 @@ CMakeFiles/fake.dir/src/tests/vm/mmap-unmap.c.o.provides.build: CMakeFiles/fake.
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-write.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/vm/mmap-write.c.o: ../src/tests/vm/mmap-write.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_184) "Building C object CMakeFiles/fake.dir/src/tests/vm/mmap-write.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/mmap-write.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/mmap-write.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_184) "Building C object CMakeFiles/fake.dir/src/tests/vm/mmap-write.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/mmap-write.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/mmap-write.c
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-write.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/vm/mmap-write.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/mmap-write.c" > CMakeFiles/fake.dir/src/tests/vm/mmap-write.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/mmap-write.c > CMakeFiles/fake.dir/src/tests/vm/mmap-write.c.i
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-write.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/vm/mmap-write.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/mmap-write.c" -o CMakeFiles/fake.dir/src/tests/vm/mmap-write.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/mmap-write.c -o CMakeFiles/fake.dir/src/tests/vm/mmap-write.c.s
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-write.c.o.requires:
 
@@ -4475,16 +4475,16 @@ CMakeFiles/fake.dir/src/tests/vm/mmap-write.c.o.provides.build: CMakeFiles/fake.
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-zero.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/vm/mmap-zero.c.o: ../src/tests/vm/mmap-zero.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_185) "Building C object CMakeFiles/fake.dir/src/tests/vm/mmap-zero.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/mmap-zero.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/mmap-zero.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_185) "Building C object CMakeFiles/fake.dir/src/tests/vm/mmap-zero.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/mmap-zero.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/mmap-zero.c
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-zero.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/vm/mmap-zero.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/mmap-zero.c" > CMakeFiles/fake.dir/src/tests/vm/mmap-zero.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/mmap-zero.c > CMakeFiles/fake.dir/src/tests/vm/mmap-zero.c.i
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-zero.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/vm/mmap-zero.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/mmap-zero.c" -o CMakeFiles/fake.dir/src/tests/vm/mmap-zero.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/mmap-zero.c -o CMakeFiles/fake.dir/src/tests/vm/mmap-zero.c.s
 
 CMakeFiles/fake.dir/src/tests/vm/mmap-zero.c.o.requires:
 
@@ -4499,16 +4499,16 @@ CMakeFiles/fake.dir/src/tests/vm/mmap-zero.c.o.provides.build: CMakeFiles/fake.d
 
 CMakeFiles/fake.dir/src/tests/vm/page-linear.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/vm/page-linear.c.o: ../src/tests/vm/page-linear.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_186) "Building C object CMakeFiles/fake.dir/src/tests/vm/page-linear.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/page-linear.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/page-linear.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_186) "Building C object CMakeFiles/fake.dir/src/tests/vm/page-linear.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/page-linear.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/page-linear.c
 
 CMakeFiles/fake.dir/src/tests/vm/page-linear.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/vm/page-linear.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/page-linear.c" > CMakeFiles/fake.dir/src/tests/vm/page-linear.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/page-linear.c > CMakeFiles/fake.dir/src/tests/vm/page-linear.c.i
 
 CMakeFiles/fake.dir/src/tests/vm/page-linear.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/vm/page-linear.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/page-linear.c" -o CMakeFiles/fake.dir/src/tests/vm/page-linear.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/page-linear.c -o CMakeFiles/fake.dir/src/tests/vm/page-linear.c.s
 
 CMakeFiles/fake.dir/src/tests/vm/page-linear.c.o.requires:
 
@@ -4523,16 +4523,16 @@ CMakeFiles/fake.dir/src/tests/vm/page-linear.c.o.provides.build: CMakeFiles/fake
 
 CMakeFiles/fake.dir/src/tests/vm/page-merge-mm.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/vm/page-merge-mm.c.o: ../src/tests/vm/page-merge-mm.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_187) "Building C object CMakeFiles/fake.dir/src/tests/vm/page-merge-mm.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/page-merge-mm.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/page-merge-mm.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_187) "Building C object CMakeFiles/fake.dir/src/tests/vm/page-merge-mm.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/page-merge-mm.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/page-merge-mm.c
 
 CMakeFiles/fake.dir/src/tests/vm/page-merge-mm.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/vm/page-merge-mm.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/page-merge-mm.c" > CMakeFiles/fake.dir/src/tests/vm/page-merge-mm.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/page-merge-mm.c > CMakeFiles/fake.dir/src/tests/vm/page-merge-mm.c.i
 
 CMakeFiles/fake.dir/src/tests/vm/page-merge-mm.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/vm/page-merge-mm.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/page-merge-mm.c" -o CMakeFiles/fake.dir/src/tests/vm/page-merge-mm.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/page-merge-mm.c -o CMakeFiles/fake.dir/src/tests/vm/page-merge-mm.c.s
 
 CMakeFiles/fake.dir/src/tests/vm/page-merge-mm.c.o.requires:
 
@@ -4547,16 +4547,16 @@ CMakeFiles/fake.dir/src/tests/vm/page-merge-mm.c.o.provides.build: CMakeFiles/fa
 
 CMakeFiles/fake.dir/src/tests/vm/page-merge-par.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/vm/page-merge-par.c.o: ../src/tests/vm/page-merge-par.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_188) "Building C object CMakeFiles/fake.dir/src/tests/vm/page-merge-par.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/page-merge-par.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/page-merge-par.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_188) "Building C object CMakeFiles/fake.dir/src/tests/vm/page-merge-par.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/page-merge-par.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/page-merge-par.c
 
 CMakeFiles/fake.dir/src/tests/vm/page-merge-par.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/vm/page-merge-par.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/page-merge-par.c" > CMakeFiles/fake.dir/src/tests/vm/page-merge-par.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/page-merge-par.c > CMakeFiles/fake.dir/src/tests/vm/page-merge-par.c.i
 
 CMakeFiles/fake.dir/src/tests/vm/page-merge-par.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/vm/page-merge-par.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/page-merge-par.c" -o CMakeFiles/fake.dir/src/tests/vm/page-merge-par.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/page-merge-par.c -o CMakeFiles/fake.dir/src/tests/vm/page-merge-par.c.s
 
 CMakeFiles/fake.dir/src/tests/vm/page-merge-par.c.o.requires:
 
@@ -4571,16 +4571,16 @@ CMakeFiles/fake.dir/src/tests/vm/page-merge-par.c.o.provides.build: CMakeFiles/f
 
 CMakeFiles/fake.dir/src/tests/vm/page-merge-seq.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/vm/page-merge-seq.c.o: ../src/tests/vm/page-merge-seq.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_189) "Building C object CMakeFiles/fake.dir/src/tests/vm/page-merge-seq.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/page-merge-seq.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/page-merge-seq.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_189) "Building C object CMakeFiles/fake.dir/src/tests/vm/page-merge-seq.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/page-merge-seq.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/page-merge-seq.c
 
 CMakeFiles/fake.dir/src/tests/vm/page-merge-seq.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/vm/page-merge-seq.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/page-merge-seq.c" > CMakeFiles/fake.dir/src/tests/vm/page-merge-seq.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/page-merge-seq.c > CMakeFiles/fake.dir/src/tests/vm/page-merge-seq.c.i
 
 CMakeFiles/fake.dir/src/tests/vm/page-merge-seq.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/vm/page-merge-seq.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/page-merge-seq.c" -o CMakeFiles/fake.dir/src/tests/vm/page-merge-seq.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/page-merge-seq.c -o CMakeFiles/fake.dir/src/tests/vm/page-merge-seq.c.s
 
 CMakeFiles/fake.dir/src/tests/vm/page-merge-seq.c.o.requires:
 
@@ -4595,16 +4595,16 @@ CMakeFiles/fake.dir/src/tests/vm/page-merge-seq.c.o.provides.build: CMakeFiles/f
 
 CMakeFiles/fake.dir/src/tests/vm/page-merge-stk.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/vm/page-merge-stk.c.o: ../src/tests/vm/page-merge-stk.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_190) "Building C object CMakeFiles/fake.dir/src/tests/vm/page-merge-stk.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/page-merge-stk.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/page-merge-stk.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_190) "Building C object CMakeFiles/fake.dir/src/tests/vm/page-merge-stk.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/page-merge-stk.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/page-merge-stk.c
 
 CMakeFiles/fake.dir/src/tests/vm/page-merge-stk.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/vm/page-merge-stk.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/page-merge-stk.c" > CMakeFiles/fake.dir/src/tests/vm/page-merge-stk.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/page-merge-stk.c > CMakeFiles/fake.dir/src/tests/vm/page-merge-stk.c.i
 
 CMakeFiles/fake.dir/src/tests/vm/page-merge-stk.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/vm/page-merge-stk.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/page-merge-stk.c" -o CMakeFiles/fake.dir/src/tests/vm/page-merge-stk.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/page-merge-stk.c -o CMakeFiles/fake.dir/src/tests/vm/page-merge-stk.c.s
 
 CMakeFiles/fake.dir/src/tests/vm/page-merge-stk.c.o.requires:
 
@@ -4619,16 +4619,16 @@ CMakeFiles/fake.dir/src/tests/vm/page-merge-stk.c.o.provides.build: CMakeFiles/f
 
 CMakeFiles/fake.dir/src/tests/vm/page-parallel.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/vm/page-parallel.c.o: ../src/tests/vm/page-parallel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_191) "Building C object CMakeFiles/fake.dir/src/tests/vm/page-parallel.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/page-parallel.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/page-parallel.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_191) "Building C object CMakeFiles/fake.dir/src/tests/vm/page-parallel.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/page-parallel.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/page-parallel.c
 
 CMakeFiles/fake.dir/src/tests/vm/page-parallel.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/vm/page-parallel.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/page-parallel.c" > CMakeFiles/fake.dir/src/tests/vm/page-parallel.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/page-parallel.c > CMakeFiles/fake.dir/src/tests/vm/page-parallel.c.i
 
 CMakeFiles/fake.dir/src/tests/vm/page-parallel.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/vm/page-parallel.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/page-parallel.c" -o CMakeFiles/fake.dir/src/tests/vm/page-parallel.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/page-parallel.c -o CMakeFiles/fake.dir/src/tests/vm/page-parallel.c.s
 
 CMakeFiles/fake.dir/src/tests/vm/page-parallel.c.o.requires:
 
@@ -4643,16 +4643,16 @@ CMakeFiles/fake.dir/src/tests/vm/page-parallel.c.o.provides.build: CMakeFiles/fa
 
 CMakeFiles/fake.dir/src/tests/vm/page-shuffle.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/vm/page-shuffle.c.o: ../src/tests/vm/page-shuffle.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_192) "Building C object CMakeFiles/fake.dir/src/tests/vm/page-shuffle.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/page-shuffle.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/page-shuffle.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_192) "Building C object CMakeFiles/fake.dir/src/tests/vm/page-shuffle.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/page-shuffle.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/page-shuffle.c
 
 CMakeFiles/fake.dir/src/tests/vm/page-shuffle.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/vm/page-shuffle.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/page-shuffle.c" > CMakeFiles/fake.dir/src/tests/vm/page-shuffle.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/page-shuffle.c > CMakeFiles/fake.dir/src/tests/vm/page-shuffle.c.i
 
 CMakeFiles/fake.dir/src/tests/vm/page-shuffle.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/vm/page-shuffle.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/page-shuffle.c" -o CMakeFiles/fake.dir/src/tests/vm/page-shuffle.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/page-shuffle.c -o CMakeFiles/fake.dir/src/tests/vm/page-shuffle.c.s
 
 CMakeFiles/fake.dir/src/tests/vm/page-shuffle.c.o.requires:
 
@@ -4667,16 +4667,16 @@ CMakeFiles/fake.dir/src/tests/vm/page-shuffle.c.o.provides.build: CMakeFiles/fak
 
 CMakeFiles/fake.dir/src/tests/vm/parallel-merge.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/vm/parallel-merge.c.o: ../src/tests/vm/parallel-merge.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_193) "Building C object CMakeFiles/fake.dir/src/tests/vm/parallel-merge.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/parallel-merge.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/parallel-merge.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_193) "Building C object CMakeFiles/fake.dir/src/tests/vm/parallel-merge.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/parallel-merge.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/parallel-merge.c
 
 CMakeFiles/fake.dir/src/tests/vm/parallel-merge.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/vm/parallel-merge.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/parallel-merge.c" > CMakeFiles/fake.dir/src/tests/vm/parallel-merge.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/parallel-merge.c > CMakeFiles/fake.dir/src/tests/vm/parallel-merge.c.i
 
 CMakeFiles/fake.dir/src/tests/vm/parallel-merge.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/vm/parallel-merge.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/parallel-merge.c" -o CMakeFiles/fake.dir/src/tests/vm/parallel-merge.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/parallel-merge.c -o CMakeFiles/fake.dir/src/tests/vm/parallel-merge.c.s
 
 CMakeFiles/fake.dir/src/tests/vm/parallel-merge.c.o.requires:
 
@@ -4691,16 +4691,16 @@ CMakeFiles/fake.dir/src/tests/vm/parallel-merge.c.o.provides.build: CMakeFiles/f
 
 CMakeFiles/fake.dir/src/tests/vm/pt-bad-addr.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/vm/pt-bad-addr.c.o: ../src/tests/vm/pt-bad-addr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_194) "Building C object CMakeFiles/fake.dir/src/tests/vm/pt-bad-addr.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/pt-bad-addr.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/pt-bad-addr.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_194) "Building C object CMakeFiles/fake.dir/src/tests/vm/pt-bad-addr.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/pt-bad-addr.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/pt-bad-addr.c
 
 CMakeFiles/fake.dir/src/tests/vm/pt-bad-addr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/vm/pt-bad-addr.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/pt-bad-addr.c" > CMakeFiles/fake.dir/src/tests/vm/pt-bad-addr.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/pt-bad-addr.c > CMakeFiles/fake.dir/src/tests/vm/pt-bad-addr.c.i
 
 CMakeFiles/fake.dir/src/tests/vm/pt-bad-addr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/vm/pt-bad-addr.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/pt-bad-addr.c" -o CMakeFiles/fake.dir/src/tests/vm/pt-bad-addr.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/pt-bad-addr.c -o CMakeFiles/fake.dir/src/tests/vm/pt-bad-addr.c.s
 
 CMakeFiles/fake.dir/src/tests/vm/pt-bad-addr.c.o.requires:
 
@@ -4715,16 +4715,16 @@ CMakeFiles/fake.dir/src/tests/vm/pt-bad-addr.c.o.provides.build: CMakeFiles/fake
 
 CMakeFiles/fake.dir/src/tests/vm/pt-bad-read.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/vm/pt-bad-read.c.o: ../src/tests/vm/pt-bad-read.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_195) "Building C object CMakeFiles/fake.dir/src/tests/vm/pt-bad-read.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/pt-bad-read.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/pt-bad-read.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_195) "Building C object CMakeFiles/fake.dir/src/tests/vm/pt-bad-read.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/pt-bad-read.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/pt-bad-read.c
 
 CMakeFiles/fake.dir/src/tests/vm/pt-bad-read.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/vm/pt-bad-read.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/pt-bad-read.c" > CMakeFiles/fake.dir/src/tests/vm/pt-bad-read.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/pt-bad-read.c > CMakeFiles/fake.dir/src/tests/vm/pt-bad-read.c.i
 
 CMakeFiles/fake.dir/src/tests/vm/pt-bad-read.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/vm/pt-bad-read.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/pt-bad-read.c" -o CMakeFiles/fake.dir/src/tests/vm/pt-bad-read.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/pt-bad-read.c -o CMakeFiles/fake.dir/src/tests/vm/pt-bad-read.c.s
 
 CMakeFiles/fake.dir/src/tests/vm/pt-bad-read.c.o.requires:
 
@@ -4739,16 +4739,16 @@ CMakeFiles/fake.dir/src/tests/vm/pt-bad-read.c.o.provides.build: CMakeFiles/fake
 
 CMakeFiles/fake.dir/src/tests/vm/pt-big-stk-obj.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/vm/pt-big-stk-obj.c.o: ../src/tests/vm/pt-big-stk-obj.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_196) "Building C object CMakeFiles/fake.dir/src/tests/vm/pt-big-stk-obj.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/pt-big-stk-obj.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/pt-big-stk-obj.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_196) "Building C object CMakeFiles/fake.dir/src/tests/vm/pt-big-stk-obj.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/pt-big-stk-obj.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/pt-big-stk-obj.c
 
 CMakeFiles/fake.dir/src/tests/vm/pt-big-stk-obj.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/vm/pt-big-stk-obj.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/pt-big-stk-obj.c" > CMakeFiles/fake.dir/src/tests/vm/pt-big-stk-obj.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/pt-big-stk-obj.c > CMakeFiles/fake.dir/src/tests/vm/pt-big-stk-obj.c.i
 
 CMakeFiles/fake.dir/src/tests/vm/pt-big-stk-obj.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/vm/pt-big-stk-obj.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/pt-big-stk-obj.c" -o CMakeFiles/fake.dir/src/tests/vm/pt-big-stk-obj.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/pt-big-stk-obj.c -o CMakeFiles/fake.dir/src/tests/vm/pt-big-stk-obj.c.s
 
 CMakeFiles/fake.dir/src/tests/vm/pt-big-stk-obj.c.o.requires:
 
@@ -4763,16 +4763,16 @@ CMakeFiles/fake.dir/src/tests/vm/pt-big-stk-obj.c.o.provides.build: CMakeFiles/f
 
 CMakeFiles/fake.dir/src/tests/vm/pt-grow-bad.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/vm/pt-grow-bad.c.o: ../src/tests/vm/pt-grow-bad.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_197) "Building C object CMakeFiles/fake.dir/src/tests/vm/pt-grow-bad.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/pt-grow-bad.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/pt-grow-bad.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_197) "Building C object CMakeFiles/fake.dir/src/tests/vm/pt-grow-bad.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/pt-grow-bad.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/pt-grow-bad.c
 
 CMakeFiles/fake.dir/src/tests/vm/pt-grow-bad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/vm/pt-grow-bad.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/pt-grow-bad.c" > CMakeFiles/fake.dir/src/tests/vm/pt-grow-bad.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/pt-grow-bad.c > CMakeFiles/fake.dir/src/tests/vm/pt-grow-bad.c.i
 
 CMakeFiles/fake.dir/src/tests/vm/pt-grow-bad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/vm/pt-grow-bad.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/pt-grow-bad.c" -o CMakeFiles/fake.dir/src/tests/vm/pt-grow-bad.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/pt-grow-bad.c -o CMakeFiles/fake.dir/src/tests/vm/pt-grow-bad.c.s
 
 CMakeFiles/fake.dir/src/tests/vm/pt-grow-bad.c.o.requires:
 
@@ -4787,16 +4787,16 @@ CMakeFiles/fake.dir/src/tests/vm/pt-grow-bad.c.o.provides.build: CMakeFiles/fake
 
 CMakeFiles/fake.dir/src/tests/vm/pt-grow-pusha.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/vm/pt-grow-pusha.c.o: ../src/tests/vm/pt-grow-pusha.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_198) "Building C object CMakeFiles/fake.dir/src/tests/vm/pt-grow-pusha.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/pt-grow-pusha.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/pt-grow-pusha.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_198) "Building C object CMakeFiles/fake.dir/src/tests/vm/pt-grow-pusha.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/pt-grow-pusha.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/pt-grow-pusha.c
 
 CMakeFiles/fake.dir/src/tests/vm/pt-grow-pusha.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/vm/pt-grow-pusha.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/pt-grow-pusha.c" > CMakeFiles/fake.dir/src/tests/vm/pt-grow-pusha.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/pt-grow-pusha.c > CMakeFiles/fake.dir/src/tests/vm/pt-grow-pusha.c.i
 
 CMakeFiles/fake.dir/src/tests/vm/pt-grow-pusha.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/vm/pt-grow-pusha.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/pt-grow-pusha.c" -o CMakeFiles/fake.dir/src/tests/vm/pt-grow-pusha.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/pt-grow-pusha.c -o CMakeFiles/fake.dir/src/tests/vm/pt-grow-pusha.c.s
 
 CMakeFiles/fake.dir/src/tests/vm/pt-grow-pusha.c.o.requires:
 
@@ -4811,16 +4811,16 @@ CMakeFiles/fake.dir/src/tests/vm/pt-grow-pusha.c.o.provides.build: CMakeFiles/fa
 
 CMakeFiles/fake.dir/src/tests/vm/pt-grow-stack.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/vm/pt-grow-stack.c.o: ../src/tests/vm/pt-grow-stack.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_199) "Building C object CMakeFiles/fake.dir/src/tests/vm/pt-grow-stack.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/pt-grow-stack.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/pt-grow-stack.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_199) "Building C object CMakeFiles/fake.dir/src/tests/vm/pt-grow-stack.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/pt-grow-stack.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/pt-grow-stack.c
 
 CMakeFiles/fake.dir/src/tests/vm/pt-grow-stack.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/vm/pt-grow-stack.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/pt-grow-stack.c" > CMakeFiles/fake.dir/src/tests/vm/pt-grow-stack.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/pt-grow-stack.c > CMakeFiles/fake.dir/src/tests/vm/pt-grow-stack.c.i
 
 CMakeFiles/fake.dir/src/tests/vm/pt-grow-stack.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/vm/pt-grow-stack.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/pt-grow-stack.c" -o CMakeFiles/fake.dir/src/tests/vm/pt-grow-stack.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/pt-grow-stack.c -o CMakeFiles/fake.dir/src/tests/vm/pt-grow-stack.c.s
 
 CMakeFiles/fake.dir/src/tests/vm/pt-grow-stack.c.o.requires:
 
@@ -4835,16 +4835,16 @@ CMakeFiles/fake.dir/src/tests/vm/pt-grow-stack.c.o.provides.build: CMakeFiles/fa
 
 CMakeFiles/fake.dir/src/tests/vm/pt-grow-stk-sc.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/vm/pt-grow-stk-sc.c.o: ../src/tests/vm/pt-grow-stk-sc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_200) "Building C object CMakeFiles/fake.dir/src/tests/vm/pt-grow-stk-sc.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/pt-grow-stk-sc.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/pt-grow-stk-sc.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_200) "Building C object CMakeFiles/fake.dir/src/tests/vm/pt-grow-stk-sc.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/pt-grow-stk-sc.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/pt-grow-stk-sc.c
 
 CMakeFiles/fake.dir/src/tests/vm/pt-grow-stk-sc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/vm/pt-grow-stk-sc.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/pt-grow-stk-sc.c" > CMakeFiles/fake.dir/src/tests/vm/pt-grow-stk-sc.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/pt-grow-stk-sc.c > CMakeFiles/fake.dir/src/tests/vm/pt-grow-stk-sc.c.i
 
 CMakeFiles/fake.dir/src/tests/vm/pt-grow-stk-sc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/vm/pt-grow-stk-sc.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/pt-grow-stk-sc.c" -o CMakeFiles/fake.dir/src/tests/vm/pt-grow-stk-sc.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/pt-grow-stk-sc.c -o CMakeFiles/fake.dir/src/tests/vm/pt-grow-stk-sc.c.s
 
 CMakeFiles/fake.dir/src/tests/vm/pt-grow-stk-sc.c.o.requires:
 
@@ -4859,16 +4859,16 @@ CMakeFiles/fake.dir/src/tests/vm/pt-grow-stk-sc.c.o.provides.build: CMakeFiles/f
 
 CMakeFiles/fake.dir/src/tests/vm/pt-write-code-2.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/vm/pt-write-code-2.c.o: ../src/tests/vm/pt-write-code-2.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_201) "Building C object CMakeFiles/fake.dir/src/tests/vm/pt-write-code-2.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/pt-write-code-2.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/pt-write-code-2.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_201) "Building C object CMakeFiles/fake.dir/src/tests/vm/pt-write-code-2.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/pt-write-code-2.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/pt-write-code-2.c
 
 CMakeFiles/fake.dir/src/tests/vm/pt-write-code-2.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/vm/pt-write-code-2.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/pt-write-code-2.c" > CMakeFiles/fake.dir/src/tests/vm/pt-write-code-2.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/pt-write-code-2.c > CMakeFiles/fake.dir/src/tests/vm/pt-write-code-2.c.i
 
 CMakeFiles/fake.dir/src/tests/vm/pt-write-code-2.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/vm/pt-write-code-2.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/pt-write-code-2.c" -o CMakeFiles/fake.dir/src/tests/vm/pt-write-code-2.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/pt-write-code-2.c -o CMakeFiles/fake.dir/src/tests/vm/pt-write-code-2.c.s
 
 CMakeFiles/fake.dir/src/tests/vm/pt-write-code-2.c.o.requires:
 
@@ -4883,16 +4883,16 @@ CMakeFiles/fake.dir/src/tests/vm/pt-write-code-2.c.o.provides.build: CMakeFiles/
 
 CMakeFiles/fake.dir/src/tests/vm/pt-write-code.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/vm/pt-write-code.c.o: ../src/tests/vm/pt-write-code.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_202) "Building C object CMakeFiles/fake.dir/src/tests/vm/pt-write-code.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/pt-write-code.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/pt-write-code.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_202) "Building C object CMakeFiles/fake.dir/src/tests/vm/pt-write-code.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/pt-write-code.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/pt-write-code.c
 
 CMakeFiles/fake.dir/src/tests/vm/pt-write-code.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/vm/pt-write-code.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/pt-write-code.c" > CMakeFiles/fake.dir/src/tests/vm/pt-write-code.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/pt-write-code.c > CMakeFiles/fake.dir/src/tests/vm/pt-write-code.c.i
 
 CMakeFiles/fake.dir/src/tests/vm/pt-write-code.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/vm/pt-write-code.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/pt-write-code.c" -o CMakeFiles/fake.dir/src/tests/vm/pt-write-code.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/pt-write-code.c -o CMakeFiles/fake.dir/src/tests/vm/pt-write-code.c.s
 
 CMakeFiles/fake.dir/src/tests/vm/pt-write-code.c.o.requires:
 
@@ -4907,16 +4907,16 @@ CMakeFiles/fake.dir/src/tests/vm/pt-write-code.c.o.provides.build: CMakeFiles/fa
 
 CMakeFiles/fake.dir/src/tests/vm/qsort.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/tests/vm/qsort.c.o: ../src/tests/vm/qsort.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_203) "Building C object CMakeFiles/fake.dir/src/tests/vm/qsort.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/qsort.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/qsort.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_203) "Building C object CMakeFiles/fake.dir/src/tests/vm/qsort.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/tests/vm/qsort.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/qsort.c
 
 CMakeFiles/fake.dir/src/tests/vm/qsort.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/tests/vm/qsort.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/qsort.c" > CMakeFiles/fake.dir/src/tests/vm/qsort.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/qsort.c > CMakeFiles/fake.dir/src/tests/vm/qsort.c.i
 
 CMakeFiles/fake.dir/src/tests/vm/qsort.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/tests/vm/qsort.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/tests/vm/qsort.c" -o CMakeFiles/fake.dir/src/tests/vm/qsort.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/tests/vm/qsort.c -o CMakeFiles/fake.dir/src/tests/vm/qsort.c.s
 
 CMakeFiles/fake.dir/src/tests/vm/qsort.c.o.requires:
 
@@ -4931,16 +4931,16 @@ CMakeFiles/fake.dir/src/tests/vm/qsort.c.o.provides.build: CMakeFiles/fake.dir/s
 
 CMakeFiles/fake.dir/src/threads/init.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/threads/init.c.o: ../src/threads/init.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_204) "Building C object CMakeFiles/fake.dir/src/threads/init.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/threads/init.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/threads/init.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_204) "Building C object CMakeFiles/fake.dir/src/threads/init.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/threads/init.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/threads/init.c
 
 CMakeFiles/fake.dir/src/threads/init.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/threads/init.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/threads/init.c" > CMakeFiles/fake.dir/src/threads/init.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/threads/init.c > CMakeFiles/fake.dir/src/threads/init.c.i
 
 CMakeFiles/fake.dir/src/threads/init.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/threads/init.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/threads/init.c" -o CMakeFiles/fake.dir/src/threads/init.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/threads/init.c -o CMakeFiles/fake.dir/src/threads/init.c.s
 
 CMakeFiles/fake.dir/src/threads/init.c.o.requires:
 
@@ -4955,16 +4955,16 @@ CMakeFiles/fake.dir/src/threads/init.c.o.provides.build: CMakeFiles/fake.dir/src
 
 CMakeFiles/fake.dir/src/threads/interrupt.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/threads/interrupt.c.o: ../src/threads/interrupt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_205) "Building C object CMakeFiles/fake.dir/src/threads/interrupt.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/threads/interrupt.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/threads/interrupt.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_205) "Building C object CMakeFiles/fake.dir/src/threads/interrupt.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/threads/interrupt.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/threads/interrupt.c
 
 CMakeFiles/fake.dir/src/threads/interrupt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/threads/interrupt.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/threads/interrupt.c" > CMakeFiles/fake.dir/src/threads/interrupt.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/threads/interrupt.c > CMakeFiles/fake.dir/src/threads/interrupt.c.i
 
 CMakeFiles/fake.dir/src/threads/interrupt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/threads/interrupt.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/threads/interrupt.c" -o CMakeFiles/fake.dir/src/threads/interrupt.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/threads/interrupt.c -o CMakeFiles/fake.dir/src/threads/interrupt.c.s
 
 CMakeFiles/fake.dir/src/threads/interrupt.c.o.requires:
 
@@ -4979,16 +4979,16 @@ CMakeFiles/fake.dir/src/threads/interrupt.c.o.provides.build: CMakeFiles/fake.di
 
 CMakeFiles/fake.dir/src/threads/malloc.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/threads/malloc.c.o: ../src/threads/malloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_206) "Building C object CMakeFiles/fake.dir/src/threads/malloc.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/threads/malloc.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/threads/malloc.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_206) "Building C object CMakeFiles/fake.dir/src/threads/malloc.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/threads/malloc.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/threads/malloc.c
 
 CMakeFiles/fake.dir/src/threads/malloc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/threads/malloc.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/threads/malloc.c" > CMakeFiles/fake.dir/src/threads/malloc.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/threads/malloc.c > CMakeFiles/fake.dir/src/threads/malloc.c.i
 
 CMakeFiles/fake.dir/src/threads/malloc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/threads/malloc.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/threads/malloc.c" -o CMakeFiles/fake.dir/src/threads/malloc.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/threads/malloc.c -o CMakeFiles/fake.dir/src/threads/malloc.c.s
 
 CMakeFiles/fake.dir/src/threads/malloc.c.o.requires:
 
@@ -5003,16 +5003,16 @@ CMakeFiles/fake.dir/src/threads/malloc.c.o.provides.build: CMakeFiles/fake.dir/s
 
 CMakeFiles/fake.dir/src/threads/palloc.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/threads/palloc.c.o: ../src/threads/palloc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_207) "Building C object CMakeFiles/fake.dir/src/threads/palloc.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/threads/palloc.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/threads/palloc.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_207) "Building C object CMakeFiles/fake.dir/src/threads/palloc.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/threads/palloc.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/threads/palloc.c
 
 CMakeFiles/fake.dir/src/threads/palloc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/threads/palloc.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/threads/palloc.c" > CMakeFiles/fake.dir/src/threads/palloc.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/threads/palloc.c > CMakeFiles/fake.dir/src/threads/palloc.c.i
 
 CMakeFiles/fake.dir/src/threads/palloc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/threads/palloc.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/threads/palloc.c" -o CMakeFiles/fake.dir/src/threads/palloc.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/threads/palloc.c -o CMakeFiles/fake.dir/src/threads/palloc.c.s
 
 CMakeFiles/fake.dir/src/threads/palloc.c.o.requires:
 
@@ -5027,16 +5027,16 @@ CMakeFiles/fake.dir/src/threads/palloc.c.o.provides.build: CMakeFiles/fake.dir/s
 
 CMakeFiles/fake.dir/src/threads/ready-lists.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/threads/ready-lists.c.o: ../src/threads/ready-lists.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_208) "Building C object CMakeFiles/fake.dir/src/threads/ready-lists.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/threads/ready-lists.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/threads/ready-lists.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_208) "Building C object CMakeFiles/fake.dir/src/threads/ready-lists.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/threads/ready-lists.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/threads/ready-lists.c
 
 CMakeFiles/fake.dir/src/threads/ready-lists.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/threads/ready-lists.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/threads/ready-lists.c" > CMakeFiles/fake.dir/src/threads/ready-lists.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/threads/ready-lists.c > CMakeFiles/fake.dir/src/threads/ready-lists.c.i
 
 CMakeFiles/fake.dir/src/threads/ready-lists.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/threads/ready-lists.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/threads/ready-lists.c" -o CMakeFiles/fake.dir/src/threads/ready-lists.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/threads/ready-lists.c -o CMakeFiles/fake.dir/src/threads/ready-lists.c.s
 
 CMakeFiles/fake.dir/src/threads/ready-lists.c.o.requires:
 
@@ -5051,16 +5051,16 @@ CMakeFiles/fake.dir/src/threads/ready-lists.c.o.provides.build: CMakeFiles/fake.
 
 CMakeFiles/fake.dir/src/threads/synch.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/threads/synch.c.o: ../src/threads/synch.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_209) "Building C object CMakeFiles/fake.dir/src/threads/synch.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/threads/synch.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/threads/synch.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_209) "Building C object CMakeFiles/fake.dir/src/threads/synch.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/threads/synch.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/threads/synch.c
 
 CMakeFiles/fake.dir/src/threads/synch.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/threads/synch.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/threads/synch.c" > CMakeFiles/fake.dir/src/threads/synch.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/threads/synch.c > CMakeFiles/fake.dir/src/threads/synch.c.i
 
 CMakeFiles/fake.dir/src/threads/synch.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/threads/synch.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/threads/synch.c" -o CMakeFiles/fake.dir/src/threads/synch.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/threads/synch.c -o CMakeFiles/fake.dir/src/threads/synch.c.s
 
 CMakeFiles/fake.dir/src/threads/synch.c.o.requires:
 
@@ -5075,16 +5075,16 @@ CMakeFiles/fake.dir/src/threads/synch.c.o.provides.build: CMakeFiles/fake.dir/sr
 
 CMakeFiles/fake.dir/src/threads/thread.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/threads/thread.c.o: ../src/threads/thread.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_210) "Building C object CMakeFiles/fake.dir/src/threads/thread.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/threads/thread.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/threads/thread.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_210) "Building C object CMakeFiles/fake.dir/src/threads/thread.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/threads/thread.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/threads/thread.c
 
 CMakeFiles/fake.dir/src/threads/thread.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/threads/thread.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/threads/thread.c" > CMakeFiles/fake.dir/src/threads/thread.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/threads/thread.c > CMakeFiles/fake.dir/src/threads/thread.c.i
 
 CMakeFiles/fake.dir/src/threads/thread.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/threads/thread.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/threads/thread.c" -o CMakeFiles/fake.dir/src/threads/thread.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/threads/thread.c -o CMakeFiles/fake.dir/src/threads/thread.c.s
 
 CMakeFiles/fake.dir/src/threads/thread.c.o.requires:
 
@@ -5099,16 +5099,16 @@ CMakeFiles/fake.dir/src/threads/thread.c.o.provides.build: CMakeFiles/fake.dir/s
 
 CMakeFiles/fake.dir/src/userprog/avltree.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/userprog/avltree.c.o: ../src/userprog/avltree.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_211) "Building C object CMakeFiles/fake.dir/src/userprog/avltree.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/userprog/avltree.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/userprog/avltree.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_211) "Building C object CMakeFiles/fake.dir/src/userprog/avltree.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/userprog/avltree.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/userprog/avltree.c
 
 CMakeFiles/fake.dir/src/userprog/avltree.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/userprog/avltree.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/userprog/avltree.c" > CMakeFiles/fake.dir/src/userprog/avltree.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/userprog/avltree.c > CMakeFiles/fake.dir/src/userprog/avltree.c.i
 
 CMakeFiles/fake.dir/src/userprog/avltree.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/userprog/avltree.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/userprog/avltree.c" -o CMakeFiles/fake.dir/src/userprog/avltree.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/userprog/avltree.c -o CMakeFiles/fake.dir/src/userprog/avltree.c.s
 
 CMakeFiles/fake.dir/src/userprog/avltree.c.o.requires:
 
@@ -5123,16 +5123,16 @@ CMakeFiles/fake.dir/src/userprog/avltree.c.o.provides.build: CMakeFiles/fake.dir
 
 CMakeFiles/fake.dir/src/userprog/exception.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/userprog/exception.c.o: ../src/userprog/exception.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_212) "Building C object CMakeFiles/fake.dir/src/userprog/exception.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/userprog/exception.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/userprog/exception.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_212) "Building C object CMakeFiles/fake.dir/src/userprog/exception.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/userprog/exception.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/userprog/exception.c
 
 CMakeFiles/fake.dir/src/userprog/exception.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/userprog/exception.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/userprog/exception.c" > CMakeFiles/fake.dir/src/userprog/exception.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/userprog/exception.c > CMakeFiles/fake.dir/src/userprog/exception.c.i
 
 CMakeFiles/fake.dir/src/userprog/exception.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/userprog/exception.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/userprog/exception.c" -o CMakeFiles/fake.dir/src/userprog/exception.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/userprog/exception.c -o CMakeFiles/fake.dir/src/userprog/exception.c.s
 
 CMakeFiles/fake.dir/src/userprog/exception.c.o.requires:
 
@@ -5147,16 +5147,16 @@ CMakeFiles/fake.dir/src/userprog/exception.c.o.provides.build: CMakeFiles/fake.d
 
 CMakeFiles/fake.dir/src/userprog/gdt.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/userprog/gdt.c.o: ../src/userprog/gdt.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_213) "Building C object CMakeFiles/fake.dir/src/userprog/gdt.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/userprog/gdt.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/userprog/gdt.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_213) "Building C object CMakeFiles/fake.dir/src/userprog/gdt.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/userprog/gdt.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/userprog/gdt.c
 
 CMakeFiles/fake.dir/src/userprog/gdt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/userprog/gdt.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/userprog/gdt.c" > CMakeFiles/fake.dir/src/userprog/gdt.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/userprog/gdt.c > CMakeFiles/fake.dir/src/userprog/gdt.c.i
 
 CMakeFiles/fake.dir/src/userprog/gdt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/userprog/gdt.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/userprog/gdt.c" -o CMakeFiles/fake.dir/src/userprog/gdt.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/userprog/gdt.c -o CMakeFiles/fake.dir/src/userprog/gdt.c.s
 
 CMakeFiles/fake.dir/src/userprog/gdt.c.o.requires:
 
@@ -5171,16 +5171,16 @@ CMakeFiles/fake.dir/src/userprog/gdt.c.o.provides.build: CMakeFiles/fake.dir/src
 
 CMakeFiles/fake.dir/src/userprog/pagedir.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/userprog/pagedir.c.o: ../src/userprog/pagedir.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_214) "Building C object CMakeFiles/fake.dir/src/userprog/pagedir.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/userprog/pagedir.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/userprog/pagedir.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_214) "Building C object CMakeFiles/fake.dir/src/userprog/pagedir.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/userprog/pagedir.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/userprog/pagedir.c
 
 CMakeFiles/fake.dir/src/userprog/pagedir.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/userprog/pagedir.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/userprog/pagedir.c" > CMakeFiles/fake.dir/src/userprog/pagedir.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/userprog/pagedir.c > CMakeFiles/fake.dir/src/userprog/pagedir.c.i
 
 CMakeFiles/fake.dir/src/userprog/pagedir.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/userprog/pagedir.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/userprog/pagedir.c" -o CMakeFiles/fake.dir/src/userprog/pagedir.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/userprog/pagedir.c -o CMakeFiles/fake.dir/src/userprog/pagedir.c.s
 
 CMakeFiles/fake.dir/src/userprog/pagedir.c.o.requires:
 
@@ -5195,16 +5195,16 @@ CMakeFiles/fake.dir/src/userprog/pagedir.c.o.provides.build: CMakeFiles/fake.dir
 
 CMakeFiles/fake.dir/src/userprog/process.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/userprog/process.c.o: ../src/userprog/process.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_215) "Building C object CMakeFiles/fake.dir/src/userprog/process.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/userprog/process.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/userprog/process.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_215) "Building C object CMakeFiles/fake.dir/src/userprog/process.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/userprog/process.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/userprog/process.c
 
 CMakeFiles/fake.dir/src/userprog/process.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/userprog/process.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/userprog/process.c" > CMakeFiles/fake.dir/src/userprog/process.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/userprog/process.c > CMakeFiles/fake.dir/src/userprog/process.c.i
 
 CMakeFiles/fake.dir/src/userprog/process.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/userprog/process.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/userprog/process.c" -o CMakeFiles/fake.dir/src/userprog/process.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/userprog/process.c -o CMakeFiles/fake.dir/src/userprog/process.c.s
 
 CMakeFiles/fake.dir/src/userprog/process.c.o.requires:
 
@@ -5219,16 +5219,16 @@ CMakeFiles/fake.dir/src/userprog/process.c.o.provides.build: CMakeFiles/fake.dir
 
 CMakeFiles/fake.dir/src/userprog/syscall.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/userprog/syscall.c.o: ../src/userprog/syscall.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_216) "Building C object CMakeFiles/fake.dir/src/userprog/syscall.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/userprog/syscall.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/userprog/syscall.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_216) "Building C object CMakeFiles/fake.dir/src/userprog/syscall.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/userprog/syscall.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/userprog/syscall.c
 
 CMakeFiles/fake.dir/src/userprog/syscall.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/userprog/syscall.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/userprog/syscall.c" > CMakeFiles/fake.dir/src/userprog/syscall.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/userprog/syscall.c > CMakeFiles/fake.dir/src/userprog/syscall.c.i
 
 CMakeFiles/fake.dir/src/userprog/syscall.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/userprog/syscall.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/userprog/syscall.c" -o CMakeFiles/fake.dir/src/userprog/syscall.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/userprog/syscall.c -o CMakeFiles/fake.dir/src/userprog/syscall.c.s
 
 CMakeFiles/fake.dir/src/userprog/syscall.c.o.requires:
 
@@ -5243,16 +5243,16 @@ CMakeFiles/fake.dir/src/userprog/syscall.c.o.provides.build: CMakeFiles/fake.dir
 
 CMakeFiles/fake.dir/src/userprog/tss.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/userprog/tss.c.o: ../src/userprog/tss.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_217) "Building C object CMakeFiles/fake.dir/src/userprog/tss.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/userprog/tss.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/userprog/tss.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_217) "Building C object CMakeFiles/fake.dir/src/userprog/tss.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/userprog/tss.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/userprog/tss.c
 
 CMakeFiles/fake.dir/src/userprog/tss.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/userprog/tss.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/userprog/tss.c" > CMakeFiles/fake.dir/src/userprog/tss.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/userprog/tss.c > CMakeFiles/fake.dir/src/userprog/tss.c.i
 
 CMakeFiles/fake.dir/src/userprog/tss.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/userprog/tss.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/userprog/tss.c" -o CMakeFiles/fake.dir/src/userprog/tss.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/userprog/tss.c -o CMakeFiles/fake.dir/src/userprog/tss.c.s
 
 CMakeFiles/fake.dir/src/userprog/tss.c.o.requires:
 
@@ -5267,16 +5267,16 @@ CMakeFiles/fake.dir/src/userprog/tss.c.o.provides.build: CMakeFiles/fake.dir/src
 
 CMakeFiles/fake.dir/src/utils/setitimer-helper.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/utils/setitimer-helper.c.o: ../src/utils/setitimer-helper.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_218) "Building C object CMakeFiles/fake.dir/src/utils/setitimer-helper.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/utils/setitimer-helper.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/utils/setitimer-helper.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_218) "Building C object CMakeFiles/fake.dir/src/utils/setitimer-helper.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/utils/setitimer-helper.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/utils/setitimer-helper.c
 
 CMakeFiles/fake.dir/src/utils/setitimer-helper.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/utils/setitimer-helper.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/utils/setitimer-helper.c" > CMakeFiles/fake.dir/src/utils/setitimer-helper.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/utils/setitimer-helper.c > CMakeFiles/fake.dir/src/utils/setitimer-helper.c.i
 
 CMakeFiles/fake.dir/src/utils/setitimer-helper.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/utils/setitimer-helper.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/utils/setitimer-helper.c" -o CMakeFiles/fake.dir/src/utils/setitimer-helper.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/utils/setitimer-helper.c -o CMakeFiles/fake.dir/src/utils/setitimer-helper.c.s
 
 CMakeFiles/fake.dir/src/utils/setitimer-helper.c.o.requires:
 
@@ -5291,16 +5291,16 @@ CMakeFiles/fake.dir/src/utils/setitimer-helper.c.o.provides.build: CMakeFiles/fa
 
 CMakeFiles/fake.dir/src/utils/squish-pty.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/utils/squish-pty.c.o: ../src/utils/squish-pty.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_219) "Building C object CMakeFiles/fake.dir/src/utils/squish-pty.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/utils/squish-pty.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/utils/squish-pty.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_219) "Building C object CMakeFiles/fake.dir/src/utils/squish-pty.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/utils/squish-pty.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/utils/squish-pty.c
 
 CMakeFiles/fake.dir/src/utils/squish-pty.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/utils/squish-pty.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/utils/squish-pty.c" > CMakeFiles/fake.dir/src/utils/squish-pty.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/utils/squish-pty.c > CMakeFiles/fake.dir/src/utils/squish-pty.c.i
 
 CMakeFiles/fake.dir/src/utils/squish-pty.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/utils/squish-pty.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/utils/squish-pty.c" -o CMakeFiles/fake.dir/src/utils/squish-pty.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/utils/squish-pty.c -o CMakeFiles/fake.dir/src/utils/squish-pty.c.s
 
 CMakeFiles/fake.dir/src/utils/squish-pty.c.o.requires:
 
@@ -5315,16 +5315,16 @@ CMakeFiles/fake.dir/src/utils/squish-pty.c.o.provides.build: CMakeFiles/fake.dir
 
 CMakeFiles/fake.dir/src/utils/squish-unix.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/utils/squish-unix.c.o: ../src/utils/squish-unix.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_220) "Building C object CMakeFiles/fake.dir/src/utils/squish-unix.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/utils/squish-unix.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/utils/squish-unix.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_220) "Building C object CMakeFiles/fake.dir/src/utils/squish-unix.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/utils/squish-unix.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/utils/squish-unix.c
 
 CMakeFiles/fake.dir/src/utils/squish-unix.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/utils/squish-unix.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/utils/squish-unix.c" > CMakeFiles/fake.dir/src/utils/squish-unix.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/utils/squish-unix.c > CMakeFiles/fake.dir/src/utils/squish-unix.c.i
 
 CMakeFiles/fake.dir/src/utils/squish-unix.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/utils/squish-unix.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/utils/squish-unix.c" -o CMakeFiles/fake.dir/src/utils/squish-unix.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/utils/squish-unix.c -o CMakeFiles/fake.dir/src/utils/squish-unix.c.s
 
 CMakeFiles/fake.dir/src/utils/squish-unix.c.o.requires:
 
@@ -5339,16 +5339,16 @@ CMakeFiles/fake.dir/src/utils/squish-unix.c.o.provides.build: CMakeFiles/fake.di
 
 CMakeFiles/fake.dir/src/vm/frame.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/vm/frame.c.o: ../src/vm/frame.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_221) "Building C object CMakeFiles/fake.dir/src/vm/frame.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/vm/frame.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/vm/frame.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_221) "Building C object CMakeFiles/fake.dir/src/vm/frame.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/vm/frame.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/vm/frame.c
 
 CMakeFiles/fake.dir/src/vm/frame.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/vm/frame.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/vm/frame.c" > CMakeFiles/fake.dir/src/vm/frame.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/vm/frame.c > CMakeFiles/fake.dir/src/vm/frame.c.i
 
 CMakeFiles/fake.dir/src/vm/frame.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/vm/frame.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/vm/frame.c" -o CMakeFiles/fake.dir/src/vm/frame.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/vm/frame.c -o CMakeFiles/fake.dir/src/vm/frame.c.s
 
 CMakeFiles/fake.dir/src/vm/frame.c.o.requires:
 
@@ -5363,16 +5363,16 @@ CMakeFiles/fake.dir/src/vm/frame.c.o.provides.build: CMakeFiles/fake.dir/src/vm/
 
 CMakeFiles/fake.dir/src/vm/mmap.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/vm/mmap.c.o: ../src/vm/mmap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_222) "Building C object CMakeFiles/fake.dir/src/vm/mmap.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/vm/mmap.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/vm/mmap.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_222) "Building C object CMakeFiles/fake.dir/src/vm/mmap.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/vm/mmap.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/vm/mmap.c
 
 CMakeFiles/fake.dir/src/vm/mmap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/vm/mmap.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/vm/mmap.c" > CMakeFiles/fake.dir/src/vm/mmap.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/vm/mmap.c > CMakeFiles/fake.dir/src/vm/mmap.c.i
 
 CMakeFiles/fake.dir/src/vm/mmap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/vm/mmap.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/vm/mmap.c" -o CMakeFiles/fake.dir/src/vm/mmap.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/vm/mmap.c -o CMakeFiles/fake.dir/src/vm/mmap.c.s
 
 CMakeFiles/fake.dir/src/vm/mmap.c.o.requires:
 
@@ -5387,16 +5387,16 @@ CMakeFiles/fake.dir/src/vm/mmap.c.o.provides.build: CMakeFiles/fake.dir/src/vm/m
 
 CMakeFiles/fake.dir/src/vm/page.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/vm/page.c.o: ../src/vm/page.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_223) "Building C object CMakeFiles/fake.dir/src/vm/page.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/vm/page.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/vm/page.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_223) "Building C object CMakeFiles/fake.dir/src/vm/page.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/vm/page.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/vm/page.c
 
 CMakeFiles/fake.dir/src/vm/page.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/vm/page.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/vm/page.c" > CMakeFiles/fake.dir/src/vm/page.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/vm/page.c > CMakeFiles/fake.dir/src/vm/page.c.i
 
 CMakeFiles/fake.dir/src/vm/page.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/vm/page.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/vm/page.c" -o CMakeFiles/fake.dir/src/vm/page.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/vm/page.c -o CMakeFiles/fake.dir/src/vm/page.c.s
 
 CMakeFiles/fake.dir/src/vm/page.c.o.requires:
 
@@ -5411,16 +5411,16 @@ CMakeFiles/fake.dir/src/vm/page.c.o.provides.build: CMakeFiles/fake.dir/src/vm/p
 
 CMakeFiles/fake.dir/src/vm/swap.c.o: CMakeFiles/fake.dir/flags.make
 CMakeFiles/fake.dir/src/vm/swap.c.o: ../src/vm/swap.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_224) "Building C object CMakeFiles/fake.dir/src/vm/swap.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/vm/swap.c.o   -c "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/vm/swap.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_224) "Building C object CMakeFiles/fake.dir/src/vm/swap.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/fake.dir/src/vm/swap.c.o   -c /Users/shashwatdalal/Documents/ci-testing/pintos/src/vm/swap.c
 
 CMakeFiles/fake.dir/src/vm/swap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fake.dir/src/vm/swap.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/vm/swap.c" > CMakeFiles/fake.dir/src/vm/swap.c.i
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/shashwatdalal/Documents/ci-testing/pintos/src/vm/swap.c > CMakeFiles/fake.dir/src/vm/swap.c.i
 
 CMakeFiles/fake.dir/src/vm/swap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fake.dir/src/vm/swap.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/vm/swap.c" -o CMakeFiles/fake.dir/src/vm/swap.c.s
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/shashwatdalal/Documents/ci-testing/pintos/src/vm/swap.c -o CMakeFiles/fake.dir/src/vm/swap.c.s
 
 CMakeFiles/fake.dir/src/vm/swap.c.o.requires:
 
@@ -5889,7 +5889,7 @@ fake: CMakeFiles/fake.dir/src/vm/page.c.o
 fake: CMakeFiles/fake.dir/src/vm/swap.c.o
 fake: CMakeFiles/fake.dir/build.make
 fake: CMakeFiles/fake.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_225) "Linking C executable fake"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_225) "Linking C executable fake"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/fake.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -6129,6 +6129,6 @@ CMakeFiles/fake.dir/clean:
 .PHONY : CMakeFiles/fake.dir/clean
 
 CMakeFiles/fake.dir/depend:
-	cd "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39" "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39" "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug" "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug" "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles/fake.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/shashwatdalal/Documents/ci-testing/pintos /Users/shashwatdalal/Documents/ci-testing/pintos /Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug /Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug /Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles/fake.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/fake.dir/depend
 

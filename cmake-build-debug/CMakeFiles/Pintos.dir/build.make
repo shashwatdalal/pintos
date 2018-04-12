@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39"
+CMAKE_SOURCE_DIR = /Users/shashwatdalal/Documents/ci-testing/pintos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug"
+CMAKE_BINARY_DIR = /Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug
 
 # Utility rule file for Pintos.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos
 include CMakeFiles/Pintos.dir/progress.make
 
 CMakeFiles/Pintos:
-	cd "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/devices" && make
-	cd "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/src/devices" && make
+	cd /Users/shashwatdalal/Documents/ci-testing/pintos/src/devices && make
+	cd /Users/shashwatdalal/Documents/ci-testing/pintos/src/devices && make
 
 Pintos: CMakeFiles/Pintos
 Pintos: CMakeFiles/Pintos.dir/build.make
@@ -72,6 +72,6 @@ CMakeFiles/Pintos.dir/clean:
 .PHONY : CMakeFiles/Pintos.dir/clean
 
 CMakeFiles/Pintos.dir/depend:
-	cd "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39" "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39" "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug" "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug" "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles/Pintos.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/shashwatdalal/Documents/ci-testing/pintos /Users/shashwatdalal/Documents/ci-testing/pintos /Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug /Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug /Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles/Pintos.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Pintos.dir/depend
 

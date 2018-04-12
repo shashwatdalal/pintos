@@ -151,7 +151,7 @@ thread_init(void) {
 
   list_init(&all_list);
   lock_init(&all_list_lock);
-
+  
   process_init();
   /* Initialize load_avg to 0 on thread_start */
   load_avg = 0;
@@ -443,7 +443,9 @@ thread_exit(void) {
   }
 
   // Close all files that this thread has open for lazy loading.
+#ifdef USERPROG
   file_close(thread_current()->loaded_file);
+#endif
 
   thread_current()->status = THREAD_DYING;
   schedule();
@@ -678,7 +680,9 @@ init_thread(struct thread *t, const char *name, int priority, int niceness,
   t->status = THREAD_BLOCKED;
   strlcpy(t->name, name, sizeof t->name);
   t->stack = (uint8_t *) t + PGSIZE;
+#ifdef USERPROG
   t->highest_fd = DEFAULT_FD;
+#endif
   t->highest_mmap_id = 1;
   t->magic = THREAD_MAGIC;
   t->num_stack_pages = 1;
@@ -797,6 +801,7 @@ schedule(void) {
   thread_schedule_tail(prev);
 }
 
+#ifdef USERPROG
 /**
  *
  * @param t - thread to put file to
@@ -804,9 +809,11 @@ schedule(void) {
  * @return file-descriptor associated with the added file
  */
 int thread_put_file(struct thread *t, struct file *_file) {
+
   t->fds[t->highest_fd - DEFAULT_FD] = _file;
   return t->highest_fd++;
 }
+
 
 /**
  *
@@ -846,6 +853,7 @@ void thread_close_all_files() {
     }
   }
 }
+#endif
 
 /* Returns a tid to use for a new thread. */
 static tid_t

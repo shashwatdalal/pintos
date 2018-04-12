@@ -2,13 +2,16 @@ pipeline {
   agent { 
     dockerfile {
       filename 'Dockerfile'
-      additionalBuildArgs '-v /pintos:$PWD'
+      additionalBuildArgs '-v $PWD:/pintos'
     }
   }
   stages {
-    stage('Example') {
+    stage('Build') {
       steps {
-        echo 'Hello World'
+        bash '''#!/bin/bash
+                 cd src/vm/
+                 make
+         '''
       }
     }
   }

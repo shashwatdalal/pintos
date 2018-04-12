@@ -1,4 +1,4 @@
-/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles/fake.dir
-/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles/Pintos.dir
+/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles/fake.dir
+/Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles/Pintos.dir

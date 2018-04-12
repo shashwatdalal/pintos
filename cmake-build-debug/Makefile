@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39"
+CMAKE_SOURCE_DIR = /Users/shashwatdalal/Documents/ci-testing/pintos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug"
+CMAKE_BINARY_DIR = /Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles /Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/shashwatdalal/Documents/Sophmore Year Projects/pintos_39/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/shashwatdalal/Documents/ci-testing/pintos/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
