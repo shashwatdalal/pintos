@@ -151,7 +151,7 @@ thread_init(void) {
 
   list_init(&all_list);
   lock_init(&all_list_lock);
-  
+
   process_init();
   /* Initialize load_avg to 0 on thread_start */
   load_avg = 0;

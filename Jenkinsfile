@@ -5,10 +5,7 @@ pipeline {
   stages {
     stage('Build') {
       steps {
-        bash '''#!/bin/bash
-                 cd src/vm/
-                 make
-         '''
+        sh 'make clean'
       }
     }
   }
