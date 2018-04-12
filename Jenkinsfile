@@ -1,7 +1,8 @@
 pipeline {
   agent { 
     dockerfile {
-      args: '-v /pintos:$PWD'
+      filename 'Dockerfile'
+      additionalBuildArgs '-v /pintos:$PWD'
     }
   }
   stages {
