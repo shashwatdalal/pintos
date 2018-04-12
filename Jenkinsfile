@@ -1,9 +1,6 @@
 pipeline {
   agent { 
-    dockerfile {
-      filename 'Dockerfile'
-      additionalBuildArgs '-v $PWD:/pintos'
-    }
+    dockerfile true 
   }
   stages {
     stage('Build') {
