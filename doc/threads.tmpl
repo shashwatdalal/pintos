@@ -1,0 +1,299 @@
+            +----------------------+
+            |        OS 211        |
+            |  TASK 1: SCHEDULING  |
+            |    DESIGN DOCUMENT   |
+            +----------------------+
+
+---- GROUP ----
+
+>> Fill in the names and email addresses of your group members.
+
+Shashwat Dalal <spd16@ic.ac.uk>
+Marcel Kenlay <mk4316@ic.ac.uk>
+Andy Li <al4616@ic.ac.uk>
+Thomas Yung <ty516@ic.ac.uk>
+
+---- PRELIMINARIES ----
+
+>> If you have any preliminary comments on your submission, or notes for the
+>> markers, please give them here.
+
+>> Please cite any offline or online sources you consulted while
+>> preparing your submission, other than the Pintos documentation, course
+>> text, lecture notes, and course staff.
+
+             PRIORITY SCHEDULING
+             ===================
+
+---- DATA STRUCTURES ----
+
+>> A1: (2 marks)
+>> Copy here the declaration of each new or changed `struct' or
+>> `struct' member, global or static variable, `typedef', or
+>> enumeration.  Identify the purpose of each in roughly 25 words.
+
+Addition 1: new member of pre-existing thread struct
+        struct list donations;
+        struct lock dntns_lock;
+Each thread maintains a list of priority donations made to it which also has a
+lock to control access to it.
+
+Addition 2: donation struct
+        struct donation {
+          struct thread *from_thread;
+          struct lock *lock;
+
+          struct list_elem elem;
+        };
+Donations are recorded in a struct holding information regarding the lock which
+triggered its creation and the thread from which the donation came to make
+donation refunding easier
+
+>> A2: (4 marks)
+>> Draw a diagram that illustrates a nested donation in your
+>> structure and briefly explain how this works.
+
+---- ALGORITHMS ----
+
+>> A3: (3 marks)
+>> How do you ensure that the highest priority waiting thread wakes up
+>> first for a (i) lock, (ii) semaphore, or (iii) condition variable?
+(i)   Upon the release of a lock, the releasing thread attempts to refund any
+      donations it may have received for that lock (identifiable by its
+      pointer). After it has refunded it's donations, it checks to see whether
+      its priority has reduced and if so, it yields to allow the higher
+      priority donator to be scheduled again.
+(ii)  Whilst an argument could be made for maintaining an ordered list of waiting
+      threads for a semaphore, there is a large overhead associated with a
+      threads changing priority and having to resort the list to reflect the
+      change. Whilst the linked-list implementation of the waiters helps to
+      reduce this problem, there is still potential for two near passes of the
+      list (one for removal and one for re-insertion). To avoid this cause of
+      inefficiency, the list of waiters is unordered (meaning constant time
+      insertion) and simply iterating the whole list of waiters when searching
+      for the maximum priority thread.
+(iii) Similarly to the semaphore's approach to finding the highest priority
+      waiting thread, the highest priority condition variable waiter is found
+      by iterating once through an entire unordered list of waiters.
+
+>> A4: (3 marks)
+>> Describe the sequence of events when a call to lock_acquire()
+>> causes a priority donation. How is nested donation handled?
+During lock_acquire(), before the current thread attempts to call sema_down()
+(and risk being blocked) it first checks to see if the lock it intends on
+acquiring has a semaphore value of 0 (meaning it has been already acquired by
+a different thread) and if so (assuming the current priority scheduling scheme
+is priority donation) calls donate_priority() with a reference to itself and the
+lock it wishes to acquire.
+The call to donate_priority() sets the priority of the thread holding the lock
+to that of the current thread and records the donation in the form of a struct
+which the donated-to thread holds inside a list pointed to in the thread struct.
+The donate_priority() method then returns and the current thread proceeds to
+call sema_down() on the lock's semaphore. As this is a scenario in which the
+lock has already been acquired, the current thread blocks allowing the
+donated-to thread to be scheduled and run.
+
+>> A5: (3 marks)
+>> Describe the sequence of events when lock_release() is called
+>> on a lock that a higher-priority thread is waiting for.
+On every call to lock_release(), the current thread first increases the lock's
+semaphore value, releasing the lock, and calls refund_donation() if the current
+priority scheduling scheme is priority donation.
+The method, refund_donation(), checks through all the current thread's donations
+to find donation records that are triggered by the lock which has been released.
+For each successful match, the thread deletes the record from its list of
+donations. After the deletions, if the thread's priority has decreased and is
+lower that the ready list's highest priority thread, the thread yields as it is
+no longer the highest priority thread.
+
+---- SYNCHRONIZATION ----
+
+>> A6: (2 marks)
+>> How do you avoid a race condition in thread_set_priority() when a
+>> thread needs to recompute its effective priority, but the donated
+>> priorities potentially change during the computation?
+>> Can you use a lock to avoid the race?
+To avoid inconsistencies from multiple simultaneous calls to
+thread_set_priority(), rather than a thread struct having single member for
+its donated priority it instead maintains a list of donation records (structs)
+that implements the inbuilt linked-list.
+Using a semaphore or lock to control access to this list would call the methods
+in which the list is accessed leading to an infinite chain of method calls. It
+is for this reason that interrupts have beem disabled during the donations list
+accesses to enforce consistency and prevent race conditions.
+
+---- RATIONALE ----
+
+>> A7: (2 marks)
+>> Why did you choose this design?
+>> In what ways is it superior to another design you considered?
+One alternative approach to priority donation would be to add a member to the
+thread struct which holds the value of any donated priority to it. However,
+this design is inferior to the current implementation using a list of donation
+records as it would be much harder to refund multiple donations of equal size
+to a single thread.
+Furthermore, whilst maintaining a list introduces a memory overhead for a
+donation, the alternative approach would entail some tracking mechanism to
+overcome the multiple donation scenario as mentioned previously.
+
+              ADVANCED SCHEDULER
+              ==================
+
+---- DATA STRUCTURES ----
+
+>> B1: (2 marks)
+>> Copy here the declaration of each new or changed `struct' or
+>> `struct' member, global or static variable, `typedef', or
+>> enumeration.  Identify the purpose of each in roughly 25 words.
+
+(1) struct ready_list:
+
+struct ready_list {
+    struct list queues[64]; //array of queues of elements
+    int size; //sum of elements in each queue
+    int highest_priority; //index of highest priority currently in the list
+};
+
+This data-structure was created to encapsulate a multi-level feedback queue with 64
+different levels of priorities. Additionally for higher-efficiency, the struct
+contains the index of the current highest priority, and the number of threads in the
+ready-list. 
+
+(2) struct thread:
+
+struct thread {
+    /* Owned by thread.c. */
+    tid_t tid;                          /* Thread identifier. */
+    enum thread_status status;          /* Thread state. */
+    char name[16];                      /* Name (for debugging purposes). */
+    uint8_t *stack;                     /* Saved stack pointer. */
+    int priority;                       /* Priority. */
+    struct list_elem allelem;           /* List element for all threads list. */
+
+    /* Used in timer.c */
+    int64_t wake_time;                  /* Used to sleep threads. */
+    struct semaphore sema;              /* Blocks threads. */
+    struct list_elem sleepelem;         /* List element for all threads list. */
+
+    /* Used by advanced scheduler when thread_mlfqs is enabled */
+    int niceness;                       /* Niceness of thread */
+    fp_t recent_cpu;                    /* Moving average of recent allocated cpu time */
+
+    /* Shared between thread.c and synch.c. */
+    struct list_elem elem;              /* List element. */
+
+    struct list donations;              /* List of donations applied to this thread.  */
+
+#ifdef USERPROG
+    /* Owned by userprog/process.c. */
+    uint32_t *pagedir;                  /* Page directory. */
+#endif
+
+    /* Owned by thread.c. */
+    unsigned magic;                     /* Detects stack overflow. */
+};
+
+Changes to the thread struct include: 'int niceness' and 'fp_t recent_cpu' which are both used 
+for the advance scheduler. Niceness [-20,20] determines how likely a thread is to yield to another thread. 
+Rescent_cpu stores the heuristic for how much time a gien thread has been given cpu resrouces. 
+
+---- ALGORITHMS ----
+
+>> B2: (3 marks)
+>> Suppose threads A, B, and C have nice values 0, 1, and 2.  Each
+>> has a recent_cpu value of 0.  Fill in the table below showing the
+>> scheduling decision and the priority and recent_cpu values for each
+>> thread after each given number of timer ticks:
+
+timer  recent_cpu    priority   thread
+ticks   A   B   C   A   B   C   to run
+-----  --  --  --  --  --  --   ------
+ 0      0   0   0   63  61  59    A
+ 4      4   0   0   62  61  59    A
+ 8      8   0   0   61  61  59    B
+12      8   4   0   61  60  59    A
+16      12  4   0   60  60  59    B
+20      12  8   0   60  59  59    A
+24      16  8   0   59  59  59    B
+28      16  12  0   59  58  59    A
+32      20  12  0   58  58  59    C
+36      20  12  4   58  58  58    A
+
+>> B3: (2 marks)
+>> Did any ambiguities in the scheduler specification make values in
+>> the table uncertain? If so, what rule did you use to resolve them?
+
+(1) Round-Robin Donation 
+	When the priority for each thread is updated every 4 ticks, if a 
+thread is in the ready-list, the piority bucket the thread is in needs to 
+be updated as well. However, following four seconds, if there exists a thread 
+that has the same as the priority of the running thread, the running thread 
+must yield to other thread, effective creating a round-robin like effect. 
+The specification, however, does not explicitly state which thread, given 
+there exists more than one thread in the ready list with the same priority 
+as the running thread, should be scheduled.
+	Our update rule, removes and inserts every thread in the ready-list every 
+priority update to update priority buckets, which leiviates the need to check if
+the priority at all has changed. As such the thread that gets scheduled depends on the ordering of the all-list as we 
+use the thread_foreach() method to iterate through each thread. Thus the thread 
+that appears first in the all-list is scheduled if there is more than more 
+thread with the same priority as the running-thread in the ready-list. 
+
+(2) 'Squeezing' Priority 
+    The specification made it clear that the values of priority should range between [0,20] inclusive, however
+using the given equtions may yield values outside this range. Hence it was up to decide how to ensure priority was
+within this range. Our approach was to use the equation: priority'(x) = if (0<=x<=20) x else (if x > 20 20 else 0).
+We contemplated using a logisitc function, but realized the overhead of that calculation would very much outweight its 
+marginal benefit. 
+
+>> B4: (2 marks)
+>> How is the way you divided the cost of scheduling between code
+>> inside and outside interrupt context likely to affect performance?
+
+Realizing how and when the 'house-keeping' variables load-avg, recent_cpu, priority are updated, we understood  
+these changes need to be done during calls to timer_interrupt (i.e. an interrupt context) as that was the only way to trigger
+changes on consistent time-intervals. Hence perforamance was correlated to the extent to which the code for 
+updating these 'house-keeping' variables was optimized. The following highlight our optimizations. 
+
+(1) Optimizing Floating Point Calculations
+By writing our floating-point library using macros over c functions improved the performance of the arithmetic 
+opperations. Additionally we factored out common calculations (e.g. double_load_avg) to further optimize 
+calculations. Lastly all constants were defined as their floating point values rather than a macro which once 
+again leviated some calculations. 
+  
+(2) Only updating current thread's priority every time-slice:
+Even though the spec says the every thread's priority needs to be updated every time-slice (i.e. every four ticks),
+we are only updating the running thread's priority every time-slice. This is because load-average and recent-cpu
+are updated for every non-running thread is only updated every second. Thus the priority for all non-running threads
+would only change every second. As a result to optimize the execution of timer_interrupt, only the running thread's
+priority is updated every time-slice.  
+
+(3) Array implementation of Multi-level feedback queue. 
+Dicussed in Rationale, but helped optimize our variable-updates. 
+
+---- RATIONALE ----
+
+>> B5: (2 marks)
+>> Briefly critique your design, pointing out advantages and
+>> disadvantages in your design choices.
+
+(1) Multi-level feedback queue as an array of 64 queues vs Linked List of 64 Queues: 
+The evident disadvantage of an array approach is the additional space required. The subtle 
+advantage of a list approach is that you would always have the pointer to the queue of the 
+highest priority while in an array, everytime the top queue is made empty, the next highest
+priority needs to be recalculated. The advantage of the array approach is constant time
+insertions and removals as inserts and removals are from the front and end of the 
+queue respectively. Given our updating rules, this occurs often and as such we thought 
+optimizing the insertions and removals were more important than the over-head of recalculating 
+the top queue. In order to minimize the described recalculation, we kept an index of the top 
+queue so that a top-queue calcualtion does not need to be made at every removal of top-priority
+thread. 
+
+(2) Round Robin Rule:
+The disadvantage of the described implementation of the round-robin rule is that there is a higher
+probability of thread starvation. This is because if a thread is inserted at the end of the all-list
+and has the lowest priority, it will only be scheduled if and when all threads have a priority less than
+itself. Thus if the last thread has prioity zero, and any other thread has priority zero, and the prioirty 
+does not change, the last thread will only get scheduled when the thread before it has finished executing.
+The advantage however is that we do not need to check if the priority has changed at all and the execution 
+of the update priority step is faster.
