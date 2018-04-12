@@ -7,7 +7,7 @@ pipeline {
       steps {
         sh 'make clean'
         sh 'cd src/vm/'
-        sh 'make'
+        sh 'echo $PWD'
       }
     }
   }
