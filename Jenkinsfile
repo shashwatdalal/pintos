@@ -13,5 +13,9 @@ pipeline {
        sh 'cd src/vm/ && make'
      }
    }
+   stages('Test')
+    steps {
+      sh 'tree'
+    }
   }
 }
