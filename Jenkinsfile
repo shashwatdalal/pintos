@@ -5,7 +5,7 @@ pipeline {
   stages {
    stage('Build') {
      steps{
-       sh 'ls'
+       sh 'cd src/vm/ && make'
      }
    }
   }
