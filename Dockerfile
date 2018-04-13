@@ -18,7 +18,8 @@ RUN apt-get update && \
             gcc \
             gdb ddd \
             qemu \
-            tmux
+            tmux \
+            tree
 
 # Prepare the Pintos directory
 RUN mkdir pintos
