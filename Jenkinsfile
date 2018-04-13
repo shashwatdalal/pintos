@@ -8,7 +8,6 @@ pipeline {
   }
   stages {
    stage('Build') {
-     :wq
     sh 'pwd'
    }
   }
