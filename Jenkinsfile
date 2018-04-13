@@ -1,14 +1,15 @@
 pipeline {
-  agent { 
-    dockerfile true 
+  agent {
+    // Equivalent to "docker build -f Dockerfile.build --build-arg version=1.0.2 ./build/
+    dockerfile {
+        filename 'pintos'
+        additionalBuildArgs  '-t'
+    }
   }
   stages {
    stage('Build') {
-     def customImage = docker.build("my-image:${env.BUILD_ID}")
-     customImage.inside {
-        sh 'cd src/vm/'
-        sh 'echo $PWD'
-      }
-    }
+     :wq
+    sh 'pwd'
+   }
   }
 }
