@@ -3,7 +3,7 @@ pipeline {
     dockerfile true
   }
   stages {
-   stages('Docker Tests') {
+   stage('Docker Tests') {
      steps {
        sh 'gdb'
      }
