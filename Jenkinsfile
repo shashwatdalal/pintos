@@ -1,22 +1,17 @@
 pipeline {
-  agent {
-    dockerfile true
-  }
+  agent none
   stages {
-   stage('Docker Tests') {
-     steps {
-       sh 'gdb'
-     }
-   }
-   stage('Build') {
-     steps{
-       sh 'cd src/vm/ && make'
-     }
-   }
-   stage('Test') {
-    steps {
-      sh 'tree'
+    stage('Build Dockerfile') {
+      agent any
+      steps { sh 'docker build -t pintos .' }
     }
-   }
+    stage('Build Source') {
+      agent { docker { image 'pintos:latest'}
+      steps { sh 'cd src/vm/ && make' }
+    }
+    stage('Test') {
+     agent { docker { image 'pintos:latest'}
+     steps { sh 'tree'}
+    }
   }
 }
